@@ -1,12 +1,1 @@
-{
-  "__resolveType": "site/apps/deco/vnda.ts",
-  "account": "troiahair",
-  "publicUrl": "www.troiahair.com.br",
-  "authToken": {
-    "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "baf6df3b512f82fe367bb7546bd3a053febd267f86420fa57c793fa064491b35",
-    "name": "VNDA_TOKEN"
-  },
-  "platform": "vnda",
-  "sandbox": false
-}
+{"__resolveType":"site/apps/deco/vnda.ts","account":"troiahair","publicUrl":"www.troiahair.com.br","authToken":{"__resolveType":"website/loaders/secret.ts","encrypted":"d8165d10041253b31ba62be485c41a46e2ac86ca948d53e7ad140b192e364b66","name":"VNDA_TOKEN"},"platform":"vnda","sandbox":false}
