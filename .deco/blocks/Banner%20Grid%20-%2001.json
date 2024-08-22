@@ -1,0 +1,25 @@
+{
+  "banners": [
+    {
+      "alt": "a",
+      "href": "a",
+      "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72",
+      "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72"
+    },
+    {
+      "alt": "a",
+      "href": "a",
+      "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54",
+      "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54"
+    }
+  ],
+  "borderRadius": {
+    "mobile": "3xl",
+    "desktop": "none"
+  },
+  "itemsPerLine": {
+    "mobile": 2,
+    "desktop": 2
+  },
+  "__resolveType": "site/sections/Images/BannerGrid.tsx"
+}

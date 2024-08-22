@@ -1,0 +1,84 @@
+{
+  "__resolveType": "site/sections/Categories.tsx",
+  "categories": [
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie01",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    },
+    {
+      "content": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "categorieName": "categorie",
+        "alt": "teste",
+        "href": "/"
+      }
+    }
+  ],
+  "layout": {
+    "numberOfCategories": {
+      "mobile": 3,
+      "desktop": 7
+    },
+    "showArrows": false
+  }
+}

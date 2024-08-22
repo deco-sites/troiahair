@@ -1,0 +1,653 @@
+{
+  "name": "Home",
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "dots": true,
+      "arrows": true,
+      "images": [
+        {
+          "alt": "Feminino",
+          "action": {
+            "href": "/feminino",
+            "label": "Explore collection",
+            "title": "VTEX Store",
+            "subTitle": "Visit our site and start building now:"
+          },
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d489736-321c-4794-b789-2de57f66131f",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1af76ea3-1a79-494e-a56f-5f7dd508ad76"
+        },
+        {
+          "alt": "Masculino",
+          "action": {
+            "href": "/masculino",
+            "label": "Explore collection",
+            "title": "VTEX Store",
+            "subTitle": "Visit our site and start building now:"
+          },
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+        },
+        {
+          "alt": "Vestidos",
+          "action": {
+            "href": "/feminino/roupas/vestidos",
+            "label": "Explore collection",
+            "title": "VTEX Store",
+            "subTitle": "Visit our site and start building now:"
+          },
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+        }
+      ],
+      "preload": true,
+      "interval": 5
+    },
+    {
+      "__resolveType": "site/sections/InformationBar.tsx",
+      "informationBar": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "title": "Frete Grátis",
+          "subtitle": "Em compras acima de R$200,00"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "title": "Frete Grátis",
+          "subtitle": "Em compras acima de R$200,00"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "title": "Frete Grátis",
+          "subtitle": "Em compras acima de R$200,00"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "title": "Frete Grátis",
+          "subtitle": "Em compras acima de R$200,00"
+        }
+      ],
+      "content": [
+        {
+          "title": "Lorem ipsum dolor ",
+          "subtitle": "sit amet consectetur",
+          "label": "Lorem Ipsum 01",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+        },
+        {
+          "title": "Lorem ipsum dolor ",
+          "subtitle": "sit amet consectetur",
+          "label": "Lorem Ipsum 02",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+        },
+        {
+          "title": "Lorem ipsum dolor ",
+          "subtitle": "sit amet consectetur",
+          "label": "Lorem Ipsum 03",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+        },
+        {
+          "title": "Lorem ipsum dolor ",
+          "subtitle": "sit amet consectetur",
+          "label": "Lorem Ipsum 04",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+        },
+        {
+          "title": "Lorem ipsum dolor ",
+          "subtitle": "sit amet consectetur",
+          "label": "Lorem Ipsum 05",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Categories.tsx",
+      "categories": [
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        }
+      ],
+      "layout": {
+        "numberOfCategories": {
+          "mobile": 3,
+          "desktop": 7
+        },
+        "showArrows": false
+      },
+      "title": "Nossas Categorias"
+    },
+    {
+      "__resolveType": "site/sections/SquareBanners.tsx",
+      "bannerList": [
+        {
+          "href": "/",
+          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/cd2f30f9-b6b3-4d3e-ad00-61f9bea14ba2"
+        },
+        {
+          "href": "/",
+          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0f2fc985-7692-4d64-93a8-e9ed0992a2fe"
+        },
+        {
+          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/b03196e7-4179-4b2a-a12a-80138f360b0e",
+          "href": "/"
+        },
+        {
+          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/efba4e5a-42d7-48ee-bdf6-018da4bfec5f",
+          "href": "/",
+          "label": "04"
+        }
+      ],
+      "bannerType": "Lista de banners"
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "desktop": 5
+        }
+      },
+      "products": {
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 7,
+        "wildcard": false
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "title": "BESTSELLERS DO BRASIL!",
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      }
+    },
+    {
+      "__resolveType": "site/sections/LongBanner.tsx",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1af76ea3-1a79-494e-a56f-5f7dd508ad76",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/93159794-1ffe-4d62-819d-c62c74278331"
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BESTSELLERS DO BRASIL!",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "desktop": 5
+        }
+      },
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 5
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      }
+    },
+    {
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 2
+      },
+      "borderRadius": {
+        "mobile": "sm",
+        "desktop": "none"
+      },
+      "banners": [
+        {
+          "alt": "a",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72"
+        },
+        {
+          "alt": "a",
+          "href": "a",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Categories.tsx",
+      "categories": [
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+          "categorieName": "Loren Ipsum",
+          "alt": "a",
+          "href": "/"
+        }
+      ],
+      "layout": {
+        "numberOfCategories": {
+          "mobile": 3,
+          "desktop": 7
+        },
+        "showArrows": false
+      },
+      "title": "Nossas Marcas"
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BESTSELLERS DO BRASIL!",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "mobile": 4,
+          "desktop": 5
+        }
+      },
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 5
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      }
+    },
+    {
+      "__resolveType": "site/sections/Content/BlogPosts.tsx",
+      "title": "NOSSOS CLIENTES RECOMENDAM A TRÓIA HAIR",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "desktop": 3,
+          "mobile": 5
+        }
+      },
+      "posts": [
+        {
+          "alt": "Item of the Summer",
+          "date": "January 15, 2024",
+          "href": "/",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
+          "label": "Item of the Summer",
+          "author": "deco.cx",
+          "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
+        },
+        {
+          "alt": "Item of the Summer",
+          "date": "January 15, 2024",
+          "href": "/",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/a3f329d8-795c-4c3b-8049-ede939d599ef",
+          "label": "Item of the Summer",
+          "author": "deco.cx",
+          "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
+        },
+        {
+          "alt": "Item of the Summer",
+          "date": "January 15, 2024",
+          "href": "/",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
+          "label": "Item of the Summer",
+          "author": "deco.cx",
+          "description": "Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
+        }
+      ],
+      "subtitle": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+      "testimonials": [
+        {
+          "content": {
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
+            "alt": "imagem",
+            "name": "Larissa Andrade",
+            "position": "Consultora de Vendas",
+            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+          }
+        },
+        {
+          "content": {
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
+            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+            "alt": "imagem",
+            "name": "Larissa Andrade",
+            "position": "Consultora de Vendas",
+            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+          }
+        },
+        {
+          "content": {
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
+            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+            "alt": "imagem",
+            "name": "Larissa Andrade",
+            "position": "Consultora de Vendas",
+            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+          }
+        },
+        {
+          "content": {
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
+            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+            "alt": "imagem",
+            "name": "Larissa Andrade",
+            "position": "Consultora de Vendas",
+            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+          }
+        },
+        {
+          "content": {
+            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
+            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+            "alt": "imagem",
+            "name": "Larissa Andrade",
+            "position": "Consultora de Vendas",
+            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer - 05"
+    },
+    {
+      "__resolveType": "whatsapp"
+    }
+  ]
+}

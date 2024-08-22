@@ -1,0 +1,13 @@
+1- Criar uma conta em https://www.emailjs.com/
+2- Conectar ao serviço de e-mail que irá receber os e-mails
+3-Crie um template neste formato
+<h2>E-mail do Cliente enviado pelo site</h2>
+<p>Nome: {{nome}}</p>
+<p>Empresa: {{empresa}}</p>
+<p>Email: {{email}}</p>
+<p>Telefone: {{telefone}}</p>
+<p>Assunto: {{assunto}}</p>
+<p>Mensagem: {{mensagem}}</p>
+4-Nao esquecer em Account/security de Habilitar em
+API Settings
+Allow EmailJS API for non-browser applications.

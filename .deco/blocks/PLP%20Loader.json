@@ -1,0 +1,11 @@
+{
+  "data": {
+    "__resolveType": "PLP Loader"
+  },
+  "extensions": [
+    {
+      "__resolveType": "vtex/loaders/product/extensions/listingPage.ts"
+    }
+  ],
+  "__resolveType": "commerce/loaders/product/extensions/listingPage.ts"
+}

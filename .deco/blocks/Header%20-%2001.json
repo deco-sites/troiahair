@@ -1,0 +1,49 @@
+{
+  "cart": {
+    "freeShippingObjectiveQuantity": 600
+  },
+  "logo": {
+    "alt": "Troia Hair Cosmetics",
+    "width": 137,
+    "height": 58,
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/77f49f8d-11dd-4894-9853-505443dedcbf"
+  },
+  "alerts": [],
+  "navItems": {
+    "__resolveType": "navbar"
+  },
+  "products": [],
+  "searchbar": {
+    "name": "q",
+    "action": "/s",
+    "loader": {
+      "data": {
+        "__resolveType": "commerce/loaders/product/extensions/suggestions.ts",
+        "searches": [],
+        "products": [],
+        "extensions": []
+      },
+      "__resolveType": "resolved"
+    },
+    "placeholder": "O que está buscando?"
+  },
+  "suggestions": {
+    "products": [],
+    "searches": []
+  },
+  "logoPosition": "left",
+  "__resolveType": "site/sections/Header/Header.tsx",
+  "buttons": {
+    "hideSearchButton": false
+  },
+  "linksTopBar": [
+    {
+      "label": "atacado",
+      "href": "/"
+    },
+    {
+      "label": "varejo",
+      "href": "/"
+    }
+  ]
+}

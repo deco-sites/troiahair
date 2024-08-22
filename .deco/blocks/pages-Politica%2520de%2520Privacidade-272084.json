@@ -1,0 +1,21 @@
+{
+  "name": "Politica de Privacidade",
+  "path": "/politica-de-privacidade",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/LongTextContent.tsx",
+      "title": "Política de Privacidade",
+      "text": "<div class=\"container  is-custom-page \"><div class=\"board_htm description\"><p>Política de Privacidade - Troia Hair Cosméticos Online</p><p>A Troia Hair Cosméticos Online está comprometida em proteger a sua privacidade e garantir a segurança das informações pessoais coletadas durante sua visita ao nosso site. Esta política de privacidade descreve como coletamos, usamos, armazenamos e protegemos suas informações. Ao utilizar nosso site, você concorda com as práticas descritas nesta política.</p><p>Informações Coletadas:</p><p>Coletamos informações pessoais fornecidas por você durante o processo de compra, como nome, endereço, e-mail, número de telefone e informações de pagamento.</p><p>Podemos coletar automaticamente informações técnicas, como endereço IP, tipo de navegador, sistema operacional e páginas visitadas, para melhorar a experiência do usuário.</p><p>Uso das Informações:</p><p>Utilizamos as informações coletadas para processar suas compras, fornecer suporte ao cliente, enviar atualizações sobre pedidos e melhorar nossos produtos e serviços.</p><p>Se você optar por receber nossos e-mails de marketing, utilizaremos seu endereço de e-mail para enviar informações sobre promoções, novos produtos e ofertas especiais.</p><p>Compartilhamento de Informações:</p><p>Não compartilhamos suas informações pessoais com terceiros, exceto quando necessário para processar transações ou fornecer serviços solicitados por você.</p><p>Reservamo-nos o direito de divulgar informações pessoais se exigido por lei ou se acreditarmos que a divulgação é necessária para proteger nossos direitos legais.</p><p>Segurança:</p><p>Implementamos medidas de segurança para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição.</p><p>Utilizamos tecnologias de criptografia para garantir a segurança das transações financeiras.</p><p>Cookies:</p><p>Utilizamos cookies para personalizar sua experiência no site, analisar padrões de tráfego e melhorar nossos serviços. Você pode ajustar as configurações do navegador para recusar cookies, mas isso pode impactar a funcionalidade do site.</p><p>Atualização de Informações:</p><p>Recomendamos que você mantenha suas informações de conta atualizadas. Caso haja alterações, atualize-as através da sua conta no site ou entre em contato conosco.</p><p>Menores de Idade:</p><p>Este site não se destina a menores de 18 anos, e não coletamos intencionalmente informações pessoais de menores. Se tomarmos conhecimento de que coletamos inadvertidamente informações de um menor, tomaremos as medidas necessárias para excluir essas informações.</p><p>Alterações na Política de Privacidade:</p><p>Reservamo-nos o direito de modificar esta política de privacidade a qualquer momento. As alterações serão publicadas no site, e a data de entrada em vigor será atualizada.<span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">﻿</span></span></p><p>Ao continuar a utilizar o site da Troia Hair Cosméticos Online, você concorda com os termos desta política de privacidade. Se tiver dúvidas ou preocupações, entre em contato conosco através do E-mail Troiahair@troiahair.com.br.</p></div></div><div class=\"container\"><div class=\"banners-footer flex justify-between\"><br data-mce-bogus=\"1\"></div></div>"
+    },
+    {
+      "__resolveType": "Footer - 05"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

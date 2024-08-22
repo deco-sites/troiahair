@@ -1,0 +1,40 @@
+{
+  "name": "Search",
+  "path": "/s",
+  "sections": [
+    {
+      "type": "website",
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "titleTemplate": "%s | Deco.cx",
+      "descriptionTemplate": "%s | Deco.cx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "page": {
+        "__resolveType": "vnda/loaders/productListingPage.ts",
+        "tags": [],
+        "count": 12,
+        "filterOperator": {
+          "type_tags": "and",
+          "property1": "and",
+          "property2": "and",
+          "property3": "and"
+        }
+      },
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      },
+      "__resolveType": "site/sections/Product/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

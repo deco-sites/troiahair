@@ -1,0 +1,57 @@
+{
+  "name": "Product Page",
+  "path": "/produto/:slug",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": [
+    {
+      "jsonLD": {
+        "__resolveType": "vnda/loaders/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "jsonLDs": [
+        {}
+      ],
+      "__resolveType": "commerce/sections/Seo/SeoPDP.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "page": {
+        "__resolveType": "vnda/loaders/productDetailsPage.ts",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        },
+        "priceIntl": false
+      },
+      "__resolveType": "site/sections/Product/ProductDetails.tsx"
+    },
+    {
+      "title": "You may also like",
+      "products": {
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 5
+      },
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 5
+        }
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
