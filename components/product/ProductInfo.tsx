@@ -33,7 +33,7 @@ function ProductInfo({ page, layout }: Props) {
   const id = useId();
 
   if (page === null) {
-    throw new Error("Missing Product Details Page Info");
+    throw new Error("Detalhes do produto não encontrado");
   }
 
   const { breadcrumbList, product } = page;
@@ -68,13 +68,12 @@ function ProductInfo({ page, layout }: Props) {
   });
 
   console.log("product info", product);
-  
 
   return (
     <div class="flex flex-col  max-w-[1300px]" id={id}>
       {/* Code and name */}
 
-      <div class=" bg-primary flex items-center justify-center">
+      {/* <div class=" bg-primary h-3 mx-auto md:w-[1300px] w-screen pt-12 md:pt-0">
         <span class="font-bold text-2xl uppercase text-accent text-center block py-8 mx-auto my-auto md:w-[1300px] w-screen mt-8 lg:mt-0">
           {layout?.name === "concat"
             ? `${isVariantOf?.name} ${name}`
@@ -82,7 +81,7 @@ function ProductInfo({ page, layout }: Props) {
             ? isVariantOf?.name
             : name}
         </span>
-      </div>
+      </div> */}
 
       <div class="flex md:mx-6 mt-8 sm:mt-8 flex-col lg:flex-row ">
         <ImageGallerySlider page={page} />
@@ -103,7 +102,7 @@ function ProductInfo({ page, layout }: Props) {
 
           {/* Avaliador */}
 
-          <div class="flex gap-[15px] pt-3">
+          {/* <div class="flex gap-[15px] pt-3">
             {Array.from({ length: 5 }).map((_, index) => (
               <Image
                 key={index}
@@ -113,13 +112,22 @@ function ProductInfo({ page, layout }: Props) {
                 height={18}
               />
             ))}
-          </div>
+          </div> */}
+
+          {/* Product Name */}
+          <span class="font-bold text-xl uppercase text-secondary pt-2">
+            {layout?.name === "concat"
+              ? `${isVariantOf?.name} ${name}`
+              : layout?.name === "productGroup"
+              ? isVariantOf?.name
+              : name}
+          </span>
 
           {/* Prices */}
           <div class="mt-4">
             <div class="flex flex-row gap-2 items-center">
               {(listPrice ?? 0) > price && (
-                <span class="line-through text-base-300 text-xl">
+                <span class="line-through text-base-400 text-xl">
                   {formatPrice(listPrice, offers?.priceCurrency)}
                 </span>
               )}
@@ -146,7 +154,6 @@ function ProductInfo({ page, layout }: Props) {
                   variantStyle="productPage"
                   showCounter={true}
                 />
-               
               </>
             ) : (
               // <OutOfStock productID={productID} />
