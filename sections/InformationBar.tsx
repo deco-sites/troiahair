@@ -49,7 +49,7 @@ export default function Slide({ content }: Props) {
                   <Image
                     width={45}
                     height={45}
-                    class=""
+                    class="w-[45px] h-[45px]"
                     src={image || ""}
                     alt={title}
                     decoding="async"
