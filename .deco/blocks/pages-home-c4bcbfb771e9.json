@@ -300,61 +300,6 @@
       }
     },
     {
-      "__resolveType": "site/sections/LongBanner.tsx",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1af76ea3-1a79-494e-a56f-5f7dd508ad76",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/93159794-1ffe-4d62-819d-c62c74278331"
-    },
-    {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "BESTSELLERS DO BRASIL!",
-      "layout": {
-        "showArrows": false,
-        "numberOfSliders": {
-          "desktop": 5
-        }
-      },
-      "products": {
-        "crossSelling": "similars",
-        "__resolveType": "vnda/loaders/productList.ts",
-        "sort": "newest",
-        "tags": [],
-        "typeTags": [],
-        "ids": [],
-        "count": 5
-      },
-      "cardLayout": {
-        "layout": {
-          "hide": {
-            "allPrices": false,
-            "favoriteIcon": true,
-            "installments": false,
-            "productDescription": true
-          },
-          "basics": {
-            "oldPriceSize": "Normal",
-            "contentAlignment": "Left"
-          },
-          "onMouseOver": {
-            "card": "None",
-            "image": "Change image",
-            "showCta": true,
-            "showCardShadow": false,
-            "showSkuSelector": false,
-            "showFavoriteIcon": false
-          },
-          "elementsPositions": {
-            "skuSelector": "Bottom",
-            "favoriteIcon": "Top right"
-          }
-        },
-        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-      },
-      "description": "Os mais procurados pelos nossos clientes",
-      "rating": {
-        "maxRating": 5
-      }
-    },
-    {
       "__resolveType": "site/sections/Images/BannerGrid.tsx",
       "itemsPerLine": {
         "mobile": 1,
@@ -505,8 +450,189 @@
       "layout": {
         "showArrows": false,
         "numberOfSliders": {
+          "desktop": 5
+        }
+      },
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 5
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      }
+    },
+    {
+      "__resolveType": "site/sections/LongBanner.tsx",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1af76ea3-1a79-494e-a56f-5f7dd508ad76",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/93159794-1ffe-4d62-819d-c62c74278331"
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BESTSELLERS DO BRASIL!",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
           "mobile": 4,
           "desktop": 5
+        }
+      },
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 5
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      }
+    },
+    {
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 2
+      },
+      "borderRadius": {
+        "mobile": "sm",
+        "desktop": "none"
+      },
+      "banners": [
+        {
+          "alt": "a",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72"
+        },
+        {
+          "alt": "a",
+          "href": "a",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BESTSELLERS DO BRASIL!",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "mobile": 4,
+          "desktop": 5
+        }
+      },
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 5
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BESTSELLERS DO BRASIL!",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "desktop": 5,
+          "mobile": 4
         }
       },
       "products": {
