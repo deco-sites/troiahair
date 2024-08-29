@@ -39,15 +39,17 @@ export default function GallerySlider(props: Props) {
 
   const aspectRatio = `${width} / ${height}`;
 
+  
+
   return (
-    <div id={id} class="grid grid-flow-row sm:grid-flow-col">
+    <div id={id} class="grid grid-flow-row sm:grid-flow-col mt-2 lg:mt-0">
       {/* Image Slider */}
-      <div class="relative order-1 sm:order-2  md:max-w-[482px] md:max-h-[462px] w-screen flex items-center justify-center">
-        <Slider class="carousel carousel-center gap-6  md:max-w-[482px]   md:w-[482px] md:h-[462px] w-[300px] h-[300px] border border-primary rounded-xl">
+      <div class="relative order-1 sm:order-2  md:max-w-[462px] md:max-h-[462px] w-screen flex items-center justify-center">
+        <Slider class="carousel carousel-center gap-6 mx-2 md:mx-0 md:max-w-[462px]   md:w-[462px] md:h-[462px] w-full h-full border border-primary rounded-xl">
           {images.map((img, index) => (
-            <Slider.Item index={index} class="carousel-item mx-auto">
+            <Slider.Item index={index} class="carousel-item mx-auto w-full">
               <Image
-                class="object-cover"
+                class="object-cover p-2 w-full"
                 sizes="(max-width: 640px) 100vw, 40vw"
                 style={{ aspectRatio }}
                 src={img.url!}
@@ -62,25 +64,26 @@ export default function GallerySlider(props: Props) {
           ))}
         </Slider>
 
-        <Slider.PrevButton
-          class="no-animation absolute left-2 "
-          disabled
-        >
-          <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary">
-            <Icon size={24} id="ChevronLeft" strokeWidth={3} />
-          </div>
-        </Slider.PrevButton>
+        {/* {images.length > 1 && (
+          <>
+            <Slider.PrevButton class="no-animation absolute left-2 " >
+              <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary">
+                <Icon size={24} id="ChevronLeft" strokeWidth={3} />
+              </div>
+            </Slider.PrevButton>
 
-        <Slider.NextButton
-          class="no-animation absolute right-2"
-          disabled={images.length < 2}
-        >
-          <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary">
-            <Icon size={24} id="ChevronRight" strokeWidth={3} />
-          </div>
-        </Slider.NextButton>
+            <Slider.NextButton
+              class="no-animation absolute right-2"
+           
+            >
+              <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary ">
+                <Icon size={24} id="ChevronRight" strokeWidth={3} />
+              </div>
+            </Slider.NextButton>
+          </>
+        )} */}
 
-        <div class="absolute top-2 right-2 bg-base-100 rounded-full ">
+        <div class="absolute top-2 right-2  ">
           <ProductImageZoom
             images={images}
             width={700}
@@ -90,13 +93,13 @@ export default function GallerySlider(props: Props) {
       </div>
 
       {/* Dots */}
-      <ul class="carousel carousel-center gap-1 px-4 sm:px-0 sm:flex-col order-2 sm:order-1  mr-[21px] hidden md:block">
+      <ul class="carousel carousel-center gap-1 px-4 sm:px-0 sm:flex-col order-2 sm:order-1 w-[90px] mr-3 hidden md:block">
         {images.map((img, index) => (
-          <li class="carousel-item min-w-[63px] max-w-[113px] w-[113px] h-[102px] ">
+          <li class="carousel-item min-w-[63px] max-w-[90px] w-[90px] h-[90px] mb-2 ">
             <Slider.Dot index={index}>
               <Image
                 style={{ aspectRatio }}
-                class="  object-cover w-[113px] h-[102px] border border-primary rounded-xl"
+                class="  object-cover w-[90px] h-[90px] border border-primary rounded-xl p-3"
                 width={99}
                 height={89}
                 src={img.url!}

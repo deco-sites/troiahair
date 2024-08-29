@@ -83,7 +83,7 @@ function ProductInfo({ page, layout }: Props) {
         </span>
       </div> */}
 
-      <div class="flex md:mx-6 mt-8 sm:mt-8 flex-col lg:flex-row ">
+      <div class="flex md:mx-3 mt-8  flex-col lg:flex-row ">
         <ImageGallerySlider page={page} />
         <div class=" flex flex-col lg:pl-10 md:w-1/2 mt-4 lg:mt-0 w-screen p-4 lg:p-0">
           <Breadcrumb itemListElement={breadcrumb.itemListElement} />
