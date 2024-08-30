@@ -50,7 +50,10 @@
       }
     },
     {
-      "__resolveType": "Footer - 01"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer - 05"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
