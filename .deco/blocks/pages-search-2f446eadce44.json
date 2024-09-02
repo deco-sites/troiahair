@@ -12,25 +12,38 @@
       "__resolveType": "Header - 01"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/LongBanner.tsx",
+        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/4ce6ff2a-430e-4ac7-8650-3647f010cf88/Imagesn---Banner-Home.png",
+        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/4ce6ff2a-430e-4ac7-8650-3647f010cf88/Imagesn---Banner-Home.png",
+        "alt": "banner pesquisa",
+        "href": "/"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
         "__resolveType": "vnda/loaders/productListingPage.ts",
         "tags": [],
         "count": 12,
         "filterOperator": {
-          "type_tags": "and",
           "property1": "and",
           "property2": "and",
-          "property3": "and"
-        }
+          "property3": "and",
+          "type_tags": "and"
+        },
+        "filterByTags": true
       },
       "layout": {
         "columns": {
           "mobile": 2,
           "desktop": 4
         },
-        "variant": "aside"
+        "variant": "aside",
+        "format": "Pagination"
       },
-      "__resolveType": "site/sections/Product/SearchResult.tsx"
+      "startingPage": 1
     },
     {
       "__resolveType": "Footer - 01"

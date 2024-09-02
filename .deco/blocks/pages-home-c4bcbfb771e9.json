@@ -4,12 +4,15 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header - 01"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header - 01"
+      }
     },
     {
       "__resolveType": "site/sections/Images/Carousel.tsx",
       "dots": true,
-      "arrows": true,
+      "arrows": false,
       "images": [
         {
           "alt": "Feminino",

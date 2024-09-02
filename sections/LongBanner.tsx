@@ -47,7 +47,7 @@ export default function LongBanner({
       </div>
       <Picture>
         <Source
-          class=" object-fit object-top h-[120px]"
+          class=" object-cover object-top h-[120px]"
           src={mobile}
           width={360}
           height={120}

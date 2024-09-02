@@ -67,7 +67,7 @@ function Result({
 
   return (
     <>
-      <div class="container px-4 sm:py-10">
+      <div class=" max-w-[1300px] px-4 sm:py-10 mx-auto">
         {(isFirstPage || !isPartial) && (
           <SearchControls
             sortOptions={sortOptions}
@@ -95,8 +95,8 @@ function Result({
           </div>
         </div>
 
-        {format == "Pagination" && (
-          <div class="flex justify-center my-4">
+        {(format == "Pagination" && products.length>12) && (
+          <div class="flex justify-center my-4 text-primary">
             <div class="join">
               <a
                 aria-label="previous page link"
