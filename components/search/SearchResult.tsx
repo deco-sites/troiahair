@@ -67,7 +67,7 @@ function Result({
 
   return (
     <>
-      <div class=" max-w-[1300px] px-4 sm:py-10 mx-auto">
+      <div class=" max-w-[1300px] px-4 sm:py-10 mx-auto mb-4">
         {(isFirstPage || !isPartial) && (
           <SearchControls
             sortOptions={sortOptions}

@@ -32,7 +32,7 @@ export default function LongBanner({
   subtitle = "",
 }: Props) {
   return (
-    <div class="mx-auto max-w-[1300px] max-h-[195px] relative">
+    <div class="mx-auto max-w-[1300px] max-h-[195px] relative mt-8 lg:mt-0">
       <div class="container flex flex-col items-center justify-center sm:items-start  w-full absolute top-10 left-7 z-10">
         {title && (
           <p>
@@ -60,7 +60,7 @@ export default function LongBanner({
           height={195}
           media="(min-width: 767px)"
         />
-        <img class="w-full h-[120px] md:h-[195px]" src={desktop} alt={alt} />
+        <img class="w-full h-[120px] md:h-[195px] mx-auto" src={desktop} alt={alt} />
       </Picture>
     </div>
   );
