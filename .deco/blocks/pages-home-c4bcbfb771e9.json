@@ -297,7 +297,8 @@
       "description": "Os mais procurados pelos nossos clientes",
       "rating": {
         "maxRating": 5
-      }
+      },
+      "whatsappNumber": 819065432069
     },
     {
       "__resolveType": "site/sections/Images/BannerGrid.tsx",

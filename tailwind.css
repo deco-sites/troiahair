@@ -54,3 +54,8 @@
     --dot-progress: 100%
   }
 }
+
+#show-component:checked ~ #component {
+  
+  opacity: 0;
+}

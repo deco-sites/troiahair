@@ -4,14 +4,11 @@ import Image from "apps/website/components/Image.tsx";
 import type { Platform } from "../../apps/site.ts";
 import { SendEventOnClick } from "../../components/Analytics.tsx";
 // import Avatar from "../../components/ui/Avatar.tsx";
-import {
-  default as WishlistButtonVtex,
-  default as WishlistButtonWake,
-} from "../../islands/WishlistButton/vtex.tsx";
 import { clx } from "../../sdk/clx.ts";
 import { formatPrice } from "../../sdk/format.ts";
 import { relative } from "../../sdk/url.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
+
 
 import AddToCartButtonVNDA from "../../islands/AddToCartButton/vnda.tsx";
 
@@ -22,11 +19,14 @@ interface Props {
   /** Preload card image */
   preload?: boolean;
 
+  imageNotFound: string;
+
   /** @description used for analytics event */
   itemListName?: string;
 
   /** @description index of the product card in the list */
   index?: number;
+  whatsappNumber: number;
 
   platform?: Platform;
 }
@@ -38,6 +38,8 @@ function ProductCard({
   product,
   preload,
   itemListName,
+  whatsappNumber,
+  imageNotFound,
   platform,
   index,
 }: Props) {
@@ -74,27 +76,12 @@ function ProductCard({
           }}
         />
 
-        <div class="flex flex-col hover:transform hover:-translate-y-2 mt-2 h-[374px] w-[185px] border border-primary rounded-lg px-2 pt-[5px]">
+        <div class="flex flex-col hover:transform hover:-translate-y-2 mt-2 h-[400px] w-[275px] border border-primary rounded-lg px-2 pt-[5px]">
           {/* Wishlist button */}
           <div class="flex justify-between items-center w-full pb-3">
-            <div class="lg:group-hover:block w-[20px] h-[23px]">
-              {platform === "vtex" && (
-                <WishlistButtonVtex
-                  productGroupID={productGroupID}
-                  productID={productID}
-                />
-              )}
-              {platform === "wake" && (
-                <WishlistButtonWake
-                  productGroupID={productGroupID}
-                  productID={productID}
-                />
-              )}
-            </div>
-
             {/* Discount % */}
             {listPrice && price ? (
-              <div class="w-[44px] h-[13px] bg-red-600 rounded flex flex-col items-center ">
+              <div class="w-[44px] h-[13px] bg-primary rounded flex flex-col items-center ">
                 <span class="font-bold text-[9px] text-white">
                   {listPrice && price
                     ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
@@ -105,12 +92,16 @@ function ProductCard({
               ""
             )}
 
-            <a href="/" target="blank">
+            <a
+              href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Gostaria de mais informações sobre o produto ${name} https://troiahair.deco.site${relativeUrl}`}
+              target="blank"
+            >
               <Image
                 alt="icone de whatsapp"
                 src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/588fa64d-c23a-43a5-a77e-c4be6d748e74"
-                width={18}
-                height={18}
+                width={20}
+                height={20}
+                class="hover:scale-125"
               />
             </a>
           </div>
@@ -120,16 +111,17 @@ function ProductCard({
             href={relativeUrl}
             aria-label="view product"
             class={clx(
-              " w-[182px] h-[182px] pb-3 pt-6",
-              "grid grid-cols-1 grid-rows-1",
-              "w-full"
+              " w-[255px] h-[196px] mb-2",
+              
             )}
           >
             <Image
-              src={front.url!}
+              src={
+                front.url || imageNotFound
+              }
               alt={front.alternateName}
-              width={WIDTH}
-              height={HEIGHT}
+              width={255}
+              height={232}
               style={{ aspectRatio }}
               class={clx(
                 "object-cover",
@@ -142,10 +134,10 @@ function ProductCard({
               decoding="async"
             />
             <Image
-              src={back?.url ?? front.url!}
+              src={back?.url ?? front.url! }
               alt={back?.alternateName ?? front.alternateName}
-              width={WIDTH}
-              height={HEIGHT}
+              width={255}
+              height={232}
               style={{ aspectRatio }}
               class={clx(
                 "object-cover",
@@ -196,21 +188,14 @@ function ProductCard({
 
           {/* Price from/to */}
           <div class="flex gap-2 items-center justify-center  pb-2 ">
-            {/* <span class="line-through text-sm text-primary">
-            {formatPrice(listPrice, offers?.priceCurrency)}
-          </span> */}
+            <span class="line-through text-sm text-primary">
+              {formatPrice(listPrice, offers?.priceCurrency)}
+            </span>
             <span class="font-bold  text-primary text-center text-[20px]">
               {formatPrice(price, offers?.priceCurrency)}
             </span>
           </div>
           <div class="flex flex-col gap-2 justify-betweem mx-auto">
-            {/* <a
-              href={relativeUrl}
-              aria-label="view product"
-              class="font-semibold uppercase btn btn-primary p-0 w-[153px] h-[18px] text-[10px] text-base-100 rounded-md min-h-0"
-            >
-              comprar
-            </a> */}
             <AddToCartButtonVNDA
               eventParams={{ items: [eventItem] }}
               productID={productID}

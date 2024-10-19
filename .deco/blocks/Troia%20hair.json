@@ -11,7 +11,7 @@
     "base-100": "#ffffff",
     "secondary": "#971C7E",
     "tertiary": "#FCC3FD",
-    "neutral": "#A4147C"
+    "neutral": "#393738"
   },
   "font": {
     "__resolveType": "website/loaders/fonts/googleFonts.ts",

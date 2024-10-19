@@ -68,7 +68,7 @@
           "label": "Quem somos"
         },
         {
-          "href": "/privacidade",
+          "href": "/politica-de-privacidade",
           "label": "Privacidade e segurança"
         },
         {
@@ -103,7 +103,7 @@
     {
       "items": [
         {
-          "href": "/central-de-atendimento",
+          "href": "/contato",
           "label": "Central de atendimento"
         },
         {
@@ -157,7 +157,7 @@
   ],
   "extraLinks": [
     {
-      "href": "http://www.google.com",
+      "href": "/politica-de-privacidade",
       "link": "http://www.google.com/",
       "label": "Política de privacidade"
     },

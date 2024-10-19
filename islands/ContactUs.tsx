@@ -81,13 +81,8 @@ const ContactUs = (sendEmailProps: EmailJSProps) => {
         await invoke({
           key: "site/actions/sendEmail.ts",
           props: {
-            nome,
-            empresa,
+            name,
             email,
-            telefone,
-            assunto,
-            mensagem,
-            sendEmailProps,
           },
         });
 

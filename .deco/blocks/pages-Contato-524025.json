@@ -3,6 +3,9 @@
   "path": "/contato",
   "sections": [
     {
+      "__resolveType": "Header - 01"
+    },
+    {
       "__resolveType": "site/sections/ContactForm.tsx",
       "maps": "<p><iframe style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.1563006003107!2d-46.353556288113005!3d-23.49087907876007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce635efa0afea1%3A0xc484608c7ed9126c!2sTr%C3%B3ia%20Hair%20Cosm%C3%A9ticos!5e0!3m2!1spt-BR!2sjp!4v1719942992865!5m2!1spt-BR!2sjp\" width=\"567\" height=\"166\" allowfullscreen=\"allowfullscreen\" loading=\"lazy\" data-mce-src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.1563006003107!2d-46.353556288113005!3d-23.49087907876007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce635efa0afea1%3A0xc484608c7ed9126c!2sTr%C3%B3ia%20Hair%20Cosm%C3%A9ticos!5e0!3m2!1spt-BR!2sjp!4v1719942992865!5m2!1spt-BR!2sjp\" data-mce-style=\"border: 0;\"></iframe></p>",
       "titleBox1": "Central de Atendimento ao Cliente",

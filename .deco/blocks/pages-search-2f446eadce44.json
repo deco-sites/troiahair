@@ -22,28 +22,35 @@
       }
     },
     {
-      "__resolveType": "site/sections/Product/SearchResult.tsx",
-      "page": {
-        "__resolveType": "vnda/loaders/productListingPage.ts",
-        "tags": [],
-        "count": 12,
-        "filterOperator": {
-          "property1": "and",
-          "property2": "and",
-          "property3": "and",
-          "type_tags": "and"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/SearchResult.tsx",
+        "page": {
+          "__resolveType": "vnda/loaders/productListingPage.ts",
+          "tags": [],
+          "count": 16,
+          "filterOperator": {
+            "property1": "and",
+            "property2": "and",
+            "property3": "and",
+            "type_tags": "and"
+          },
+          "filterByTags": false,
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
         },
-        "filterByTags": true
-      },
-      "layout": {
-        "columns": {
-          "mobile": 2,
-          "desktop": 4
+        "layout": {
+          "columns": {
+            "mobile": 2,
+            "desktop": 4
+          },
+          "variant": "aside",
+          "format": "Pagination"
         },
-        "variant": "aside",
-        "format": "Pagination"
-      },
-      "startingPage": 1
+        "startingPage": 1
+      }
     },
     {
       "__resolveType": "Footer - 01"

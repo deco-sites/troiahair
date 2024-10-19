@@ -10,6 +10,7 @@ import { useOffer } from "../../sdk/useOffer.ts";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import Rating from "../daisy/Rating.tsx";
 import type { Props as ratingProps } from "../daisy/Rating.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
   products: Product[] | null;
@@ -22,7 +23,11 @@ export interface Props {
     // };
     showArrows?: boolean;
   };
-  rating?: ratingProps;
+  // rating?: ratingProps;
+  whatsappNumber: number;
+
+  /** @description  Imagem que será usada quando não tem imagem na VNDA*/
+  imageNotFound: ImageWidget;
 }
 
 function ProductShelf({
@@ -30,8 +35,10 @@ function ProductShelf({
   title,
   description,
   layout,
-  rating = { maxRating: 5 },
-}: Props) {
+  whatsappNumber,
+  imageNotFound,
+}: //rating = { maxRating: 5 },
+Props) {
   const id = useId();
   const platform = usePlatform();
 
@@ -55,14 +62,14 @@ function ProductShelf({
   };
 
   return (
-    <div class="md:max-w-[1200px] w-screen py-16 flex flex-col gap-6 lg:py-10 mx-auto">
+    <div class="md:max-w-[1300px] w-screen py-16 flex flex-col gap-6 lg:py-10 mx-auto">
       <div class="flex flex-col items-center pb-8">
         <h2 class="text-2xl text-primary font-bold pb-2">{title}</h2>
         <p class="text-base text-primary">{description}</p>
       </div>
 
       <div id={id} class=" h-auto pt-2    ">
-        <Slider class="md:max-w-[1200px] w-screen overflow-x-auto carousel carousel-center sm:carousel-end mx-auto">
+        <Slider class="md:max-w-[1300px] w-screen overflow-x-auto carousel carousel-center sm:carousel-end mx-auto">
           <div class="flex gap-5 mx-auto px-5">
             {products?.map((product, index) => (
               <Slider.Item
@@ -78,6 +85,8 @@ function ProductShelf({
                     itemListName={title}
                     platform={platform}
                     index={index}
+                    whatsappNumber={whatsappNumber}
+                    imageNotFound={imageNotFound}
                   />
                   {/* <Rating maxRating={rating.maxRating} rating={rating.rating} /> */}
                 </div>
