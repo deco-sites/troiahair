@@ -10,36 +10,38 @@ export interface Props extends Omit<BtnProps, "onAddItem"> {
 }
 
 function AddToCartButton(
-  { productID, eventParams, variantStyle , showCounter}: Props,
+  { productID, eventParams, variantStyle, showCounter }: Props,
 ) {
   const { addItem } = useCart();
   const [qtd, setQtd] = useState(1);
   const onAddItem = () =>
     // @ts-ignore atributes is not required
     addItem({
-      quantity: qtd ,
+      quantity: qtd,
       itemId: productID,
     });
 
   return (
     <>
-     {showCounter && ( <div class="container h-screen flex  gap-2">
-        <button
-          class="btn  btn-accent no-animation min-h-0 w-[27px] h-[23px] border border-primary"
-          onClick={() => setQtd(qtd - 1)}
-        >
-          <span class="text-primary font-semibold">-</span>
-        </button>
-        <span class="text-base-200  font-bold w-[53px] h-[23px] bg-primary rounded-sm text-center">
-          {qtd}
-        </span>
-        <button
-          class="btn  btn-accent no-animation min-h-0 w-[27px] h-[23px] border border-primary"
-          onClick={() => setQtd(qtd + 1)}
-        >
-          <span class="text-primary  font-bold">+</span>
-        </button>
-      </div>)}
+      {showCounter && (
+        <div class="container h-screen flex  gap-2">
+          <button
+            class="btn  btn-accent no-animation min-h-0 w-[27px] h-[23px] border border-primary"
+            onClick={() => setQtd(qtd - 1)}
+          >
+            <span class="text-primary font-semibold">-</span>
+          </button>
+          <span class="text-base-200  font-bold w-[53px] h-[23px] bg-primary rounded-sm text-center">
+            {qtd}
+          </span>
+          <button
+            class="btn  btn-accent no-animation min-h-0 w-[27px] h-[23px] border border-primary"
+            onClick={() => setQtd(qtd + 1)}
+          >
+            <span class="text-primary  font-bold">+</span>
+          </button>
+        </div>
+      )}
       <Button
         onAddItem={onAddItem}
         eventParams={eventParams}

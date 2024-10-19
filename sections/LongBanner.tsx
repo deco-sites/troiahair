@@ -8,7 +8,7 @@ interface Props {
   title?: string;
   /**
    * @title Subtitulo
-   * @description Texto opcional que aparece em cima da Imagem e abaixo do titulo*/
+   * @description Texto opcional que aparece em cima da Imagem e abaixo do titulo */
   subtitle?: string;
   /**
    * @title Imagem desktop
@@ -25,8 +25,10 @@ interface Props {
 }
 
 export default function LongBanner({
-  mobile = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af",
-  desktop = "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96",
+  mobile =
+    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af",
+  desktop =
+    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96",
   alt = "a",
   title = "",
   subtitle = "",
@@ -60,7 +62,11 @@ export default function LongBanner({
           height={195}
           media="(min-width: 767px)"
         />
-        <img class="w-full h-[120px] md:h-[195px] mx-auto" src={desktop} alt={alt} />
+        <img
+          class="w-full h-[120px] md:h-[195px] mx-auto"
+          src={desktop}
+          alt={alt}
+        />
       </Picture>
     </div>
   );

@@ -150,13 +150,15 @@ function Navbar({
               >
                 <div class="flex p-1">
                   {discountButton.image &&
-                  <Image
-                    class="object-contain pr-1"
-                    src={discountButton.image}
-                    width={15}
-                    height={15}
-                    alt={""}
-                  />}
+                    (
+                      <Image
+                        class="object-contain pr-1"
+                        src={discountButton.image}
+                        width={15}
+                        height={15}
+                        alt={""}
+                      />
+                    )}
                   <span class="text-[10px] text-base-100 font-semibold">
                     {discountButton.text}
                   </span>
@@ -193,7 +195,8 @@ function Navbar({
               </div>
             )}
 
-            {/* {!buttons?.hideWishlistButton && (
+            {
+              /* {!buttons?.hideWishlistButton && (
               <a
                 class="flex items-center text-xs font-thin"
                 href="/wishlist"
@@ -206,7 +209,8 @@ function Navbar({
                   <Icon id="Heart" size={27} strokeWidth={0.4} />
                 </button>
               </a>
-            )} */}
+            )} */
+            }
 
             {!buttons?.hideAccountButton && (
               <a

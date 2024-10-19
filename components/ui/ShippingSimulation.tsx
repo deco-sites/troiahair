@@ -115,9 +115,6 @@ function ShippingSimulation({ skuId }: Props) {
     }
   }, []);
 
- 
-  
-
   return (
     <div class="flex flex-col gap-2">
       <div class="flex flex-col lg:flex-row w-full ">
@@ -174,10 +171,9 @@ function ShippingSimulation({ skuId }: Props) {
           for="show-component"
           class=" transition-opacity duration-300 ease-in-out
               opacity-100 cursor-pointer"
-          
           onClick={() => {
             postalCode.value = "";
-            simulateResult.value= null
+            simulateResult.value = null;
           }}
         >
           <div>
@@ -185,7 +181,6 @@ function ShippingSimulation({ skuId }: Props) {
           </div>
         </label>
       </div>
-  
     </div>
   );
 }

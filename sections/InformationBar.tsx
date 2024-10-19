@@ -2,8 +2,8 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 /**
-   * @title Bloco de Informações
-   */
+ * @title Bloco de Informações
+ */
 export interface SlideProps {
   /**
    * @description Nome do elemento que irá aparecer na lista do admin

@@ -22,14 +22,12 @@ export type Item = {
   href: string;
 };
 
-
 export type Section = {
   /** @title Nome da Coluna de Link */
   label: string;
   /** @title Links */
   items: Item[];
 };
-
 
 export interface SocialItem {
   label:
@@ -71,11 +69,11 @@ export interface Layout {
     | "Secondary"
     | "Accent"
     | "Base 100"
-  | "Base 100 inverted";
-  
-  /** 
-   * @title Variações de Layout do Footer 
-   * */
+    | "Base 100 inverted";
+
+  /**
+   * @title Variações de Layout do Footer
+   */
   variation?:
     | "Variation 1"
     | "Variation 2"
@@ -253,7 +251,7 @@ function Footer({
     <footer
       class={clx(
         "font-poppins lg:max-w-none w-screen mx-auto flex-col pt-[53px] pb-2 md:pb-10 flex justify-center items-center",
-        LAYOUT[layout?.backgroundColor ?? "Primary"]
+        LAYOUT[layout?.backgroundColor ?? "Primary"],
       )}
     >
       <div class="lg:w-[1153px] flex flex-col ">
@@ -392,11 +390,9 @@ function Footer({
           </div>
         )}
       </div>
-      {layout?.hide?.backToTheTop ? (
-        <></>
-      ) : (
-        <BackToTop content={backToTheTop?.text} />
-      )}
+      {layout?.hide?.backToTheTop
+        ? <></>
+        : <BackToTop content={backToTheTop?.text} />}
     </footer>
   );
 }

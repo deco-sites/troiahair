@@ -41,7 +41,7 @@ interface Props {
   bannerType: "Banner Grande" | "Lista de banners";
   /**
    * @title Lista de Banners Pequenos
-   * @minItems 4 
+   * @minItems 4
    * @maxItems 4
    */
   bannerList?: BannerItem[];

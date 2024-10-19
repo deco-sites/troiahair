@@ -39,8 +39,6 @@ export default function GallerySlider(props: Props) {
 
   const aspectRatio = `${width} / ${height}`;
 
-  
-
   return (
     <div id={id} class="grid grid-flow-row sm:grid-flow-col mt-2 lg:mt-0">
       {/* Image Slider */}
@@ -64,7 +62,8 @@ export default function GallerySlider(props: Props) {
           ))}
         </Slider>
 
-        {/* {images.length > 1 && (
+        {
+          /* {images.length > 1 && (
           <>
             <Slider.PrevButton class="no-animation absolute left-2 " >
               <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary">
@@ -74,14 +73,15 @@ export default function GallerySlider(props: Props) {
 
             <Slider.NextButton
               class="no-animation absolute right-2"
-           
+
             >
               <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary ">
                 <Icon size={24} id="ChevronRight" strokeWidth={3} />
               </div>
             </Slider.NextButton>
           </>
-        )} */}
+        )} */
+        }
 
         <div class="absolute top-2 right-2  ">
           <ProductImageZoom

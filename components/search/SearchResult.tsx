@@ -95,7 +95,7 @@ function Result({
           </div>
         </div>
 
-        {(format == "Pagination" && products.length>12) && (
+        {(format == "Pagination" && products.length > 12) && (
           <div class="flex justify-center my-4 text-primary">
             <div class="join">
               <a

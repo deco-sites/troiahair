@@ -16,10 +16,7 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
 
       {children && children.length > 0 &&
         (
-          <div
-            class="fixed hidden hover:flex mt-[350px] group-hover:flex bg-base-100 z-50 items-start justify-center gap-6  max-w-screen text-primary"
-            
-          >
+          <div class="fixed hidden hover:flex mt-[350px] group-hover:flex bg-base-100 z-50 items-start justify-center gap-6  max-w-screen text-primary">
             {image?.url && (
               <Image
                 class="p-6"

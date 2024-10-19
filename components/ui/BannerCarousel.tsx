@@ -20,10 +20,10 @@ export interface Banner {
   /** @description Descrição de acessibilidade e SEO */
   alt: string;
   action?: {
-    /** 
+    /**
      * @title link
-     * @description ao clicar link para a pagina 
-     * */
+     * @description ao clicar link para a pagina
+     */
     href: string;
     // /** @description Image text title */
     // title: string;

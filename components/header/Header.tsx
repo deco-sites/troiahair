@@ -116,7 +116,6 @@ export interface Props {
 }
 
 function Header({
-  
   alerts,
   interval,
   searchbar,
@@ -178,7 +177,9 @@ function Header({
         <Drawers menu={{ items }} searchbar={searchbar} platform={platform}>
           <div class="fixed left-0 w-full z-50 bg-base-100">
             <div class=" max-w-[1300px]   mx-auto ">
-              {alerts && alerts.length > 0 && <Alert alerts={alerts} interval={interval}/>}
+              {alerts && alerts.length > 0 && (
+                <Alert alerts={alerts} interval={interval} />
+              )}
               <Navbar
                 device={device}
                 items={items}

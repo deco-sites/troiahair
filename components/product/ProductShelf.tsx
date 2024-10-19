@@ -38,7 +38,7 @@ function ProductShelf({
   whatsappNumber,
   imageNotFound,
 }: //rating = { maxRating: 5 },
-Props) {
+  Props) {
   const id = useId();
   const platform = usePlatform();
 
@@ -75,7 +75,6 @@ Props) {
               <Slider.Item
                 index={index}
                 class="carousel-item justify-center ml-4 first:ml-0 "
-
                 // slideDesktop[layout?.numberOfSliders?.desktop ?? 2],
                 // slideMobile[layout?.numberOfSliders?.mobile ?? 5],
               >

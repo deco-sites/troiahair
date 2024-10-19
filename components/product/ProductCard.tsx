@@ -9,7 +9,6 @@ import { formatPrice } from "../../sdk/format.ts";
 import { relative } from "../../sdk/url.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 
-
 import AddToCartButtonVNDA from "../../islands/AddToCartButton/vnda.tsx";
 
 //import { useVariantPossibilities } from "../../sdk/useVariantPossiblities.ts";
@@ -80,17 +79,21 @@ function ProductCard({
           {/* Wishlist button */}
           <div class="flex justify-between items-center w-full pb-3">
             {/* Discount % */}
-            {listPrice && price ? (
-              <div class="w-[44px] h-[13px] bg-primary rounded flex flex-col items-center ">
-                <span class="font-bold text-[9px] text-white">
-                  {listPrice && price
-                    ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
-                    : ""}
-                </span>
-              </div>
-            ) : (
-              ""
-            )}
+            {listPrice && price
+              ? (
+                <div class="w-[44px] h-[13px] bg-primary rounded flex flex-col items-center ">
+                  <span class="font-bold text-[9px] text-white">
+                    {listPrice && price
+                      ? `${
+                        Math.round(((listPrice - price) / listPrice) * 100)
+                      }% `
+                      : ""}
+                  </span>
+                </div>
+              )
+              : (
+                ""
+              )}
 
             <a
               href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Gostaria de mais informações sobre o produto ${name} https://troiahair.deco.site${relativeUrl}`}
@@ -112,13 +115,10 @@ function ProductCard({
             aria-label="view product"
             class={clx(
               " w-[255px] h-[196px] mb-2",
-              
             )}
           >
             <Image
-              src={
-                front.url || imageNotFound
-              }
+              src={front.url || imageNotFound}
               alt={front.alternateName}
               width={255}
               height={232}
@@ -126,7 +126,7 @@ function ProductCard({
               class={clx(
                 "object-cover",
                 "rounded w-full",
-                "col-span-full row-span-full"
+                "col-span-full row-span-full",
               )}
               // sizes="(max-width: 640px) 50vw, 20vw"
               preload={preload}
@@ -134,7 +134,7 @@ function ProductCard({
               decoding="async"
             />
             <Image
-              src={back?.url ?? front.url! }
+              src={back?.url ?? front.url!}
               alt={back?.alternateName ?? front.alternateName}
               width={255}
               height={232}
@@ -143,7 +143,7 @@ function ProductCard({
                 "object-cover",
                 "rounded w-full",
                 "col-span-full row-span-full",
-                "transition-opacity opacity-0 lg:group-hover:opacity-100"
+                "transition-opacity opacity-0 lg:group-hover:opacity-100",
               )}
               // sizes="(max-width: 640px) 50vw, 20vw"
               loading="lazy"
@@ -152,7 +152,8 @@ function ProductCard({
           </a>
 
           {/* SKU Selector */}
-          {/* <ul class="flex items-center justify-center gap-2">
+          {
+            /* <ul class="flex items-center justify-center gap-2">
           {variants
             .map(([value, link]) => [value, relative(link)] as const)
             .map(([value, link]) => (
@@ -171,7 +172,8 @@ function ProductCard({
                 </a>
               </li>
             ))}
-        </ul> */}
+        </ul> */
+          }
 
           {/* Name/Description */}
           <div class="flex flex-col pt-3">
@@ -180,10 +182,12 @@ function ProductCard({
               dangerouslySetInnerHTML={{ __html: name ?? "" }}
             />
 
-            {/* <div
+            {
+              /* <div
             class="truncate text-xs"
             dangerouslySetInnerHTML={{ __html: description ?? "" }}
-          /> */}
+          /> */
+            }
           </div>
 
           {/* Price from/to */}
@@ -214,9 +218,11 @@ function ProductCard({
         </div>
       </div>
       {/* Installments */}
-      {/* <span class="text-[7px] text-primary  text-center pt-[9px]">
+      {
+        /* <span class="text-[7px] text-primary  text-center pt-[9px]">
         ou {installments}
-      </span> */}
+      </span> */
+      }
     </div>
   );
 }

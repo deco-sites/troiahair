@@ -6,7 +6,6 @@ interface Props {
    * @description Insira somente números ex:55000000000 (incluir o código do país).
    */
   whatsappNumber: number;
-
 }
 
 export default function Whatsapp(

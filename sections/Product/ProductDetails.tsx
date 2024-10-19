@@ -16,9 +16,11 @@ export default function ProductDetails({ page }: Props) {
   return (
     <div class="w-full container pb-8 flex flex-col gap-6 ">
       <div class="flex flex-col gap-6 lg:flex-row lg:justify-center">
-        {/* <ImageGallerySlider
+        {
+          /* <ImageGallerySlider
           page={page}
-        /> */}
+        /> */
+        }
         <ProductInfo page={page} />
       </div>
     </div>

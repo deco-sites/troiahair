@@ -80,8 +80,7 @@ function Banner(props: SectionProps<ReturnType<typeof loader>>) {
             {subtitle}
           </span>
         </h2>
-      </div> 
-      
+      </div>
     </div>
   );
 }
