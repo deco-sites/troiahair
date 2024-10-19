@@ -75,25 +75,21 @@ function ProductCard({
           }}
         />
 
-        <div class="flex flex-col hover:transform hover:-translate-y-2 mt-2 h-[400px] w-[275px] border border-primary rounded-lg px-2 pt-[5px]">
+        <div class="flex flex-col hover:transform hover:-translate-y-2 mt-2 h-[412px] w-[275px] border border-secondary rounded-lg px-2 pt-[5px]">
           {/* Wishlist button */}
           <div class="flex justify-between items-center w-full pb-3">
             {/* Discount % */}
-            {listPrice && price
-              ? (
-                <div class="w-[44px] h-[13px] bg-primary rounded flex flex-col items-center ">
-                  <span class="font-bold text-[9px] text-white">
-                    {listPrice && price
-                      ? `${
-                        Math.round(((listPrice - price) / listPrice) * 100)
-                      }% `
-                      : ""}
-                  </span>
-                </div>
-              )
-              : (
-                ""
-              )}
+            {listPrice && price ? (
+              <div class="w-[44px] h-[13px] bg-primary rounded flex flex-col items-center ">
+                <span class="font-bold text-[9px] text-white">
+                  {listPrice && price
+                    ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
+                    : ""}
+                </span>
+              </div>
+            ) : (
+              ""
+            )}
 
             <a
               href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Gostaria de mais informações sobre o produto ${name} https://troiahair.deco.site${relativeUrl}`}
@@ -114,19 +110,21 @@ function ProductCard({
             href={relativeUrl}
             aria-label="view product"
             class={clx(
-              " w-[255px] h-[196px] mb-2",
+              " w-[255px] h-[222px] mb-2",
+              "grid grid-cols-1 grid-rows-1",
             )}
           >
             <Image
               src={front.url || imageNotFound}
               alt={front.alternateName}
               width={255}
-              height={232}
+              height={222}
               style={{ aspectRatio }}
               class={clx(
                 "object-cover",
-                "rounded w-full",
+                "rounded w-[255px] h-[222px]",
                 "col-span-full row-span-full",
+                "transition-opacity opacity-100 lg:group-hover:opacity-0"
               )}
               // sizes="(max-width: 640px) 50vw, 20vw"
               preload={preload}
@@ -134,16 +132,16 @@ function ProductCard({
               decoding="async"
             />
             <Image
-              src={back?.url ?? front.url!}
+              src={back?.url || front.url! || imageNotFound}
               alt={back?.alternateName ?? front.alternateName}
               width={255}
-              height={232}
+              height={222}
               style={{ aspectRatio }}
               class={clx(
                 "object-cover",
-                "rounded w-full",
+                "rounded w-[255px] h-[222px]",
                 "col-span-full row-span-full",
-                "transition-opacity opacity-0 lg:group-hover:opacity-100",
+                "transition-opacity opacity-0 lg:group-hover:opacity-100"
               )}
               // sizes="(max-width: 640px) 50vw, 20vw"
               loading="lazy"
@@ -152,8 +150,7 @@ function ProductCard({
           </a>
 
           {/* SKU Selector */}
-          {
-            /* <ul class="flex items-center justify-center gap-2">
+          {/* <ul class="flex items-center justify-center gap-2">
           {variants
             .map(([value, link]) => [value, relative(link)] as const)
             .map(([value, link]) => (
@@ -172,26 +169,23 @@ function ProductCard({
                 </a>
               </li>
             ))}
-        </ul> */
-          }
+        </ul> */}
 
           {/* Name/Description */}
           <div class="flex flex-col pt-3">
             <h2
-              class="font-bold text-[10px] text-primary text-center h-12 pb-4"
+              class="font-bold text-[10px] text-neutral text-center h-12 pb-2"
               dangerouslySetInnerHTML={{ __html: name ?? "" }}
             />
 
-            {
-              /* <div
+            {/* <div
             class="truncate text-xs"
             dangerouslySetInnerHTML={{ __html: description ?? "" }}
-          /> */
-            }
+          /> */}
           </div>
 
           {/* Price from/to */}
-          <div class="flex gap-2 items-center justify-center  pb-2 ">
+          <div class="flex gap-2 items-center justify-center  pb-1 ">
             <span class="line-through text-sm text-primary">
               {formatPrice(listPrice, offers?.priceCurrency)}
             </span>
@@ -218,11 +212,9 @@ function ProductCard({
         </div>
       </div>
       {/* Installments */}
-      {
-        /* <span class="text-[7px] text-primary  text-center pt-[9px]">
+      {/* <span class="text-[7px] text-primary  text-center pt-[9px]">
         ou {installments}
-      </span> */
-      }
+      </span> */}
     </div>
   );
 }

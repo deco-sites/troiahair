@@ -63,9 +63,9 @@ function ProductShelf({
 
   return (
     <div class="md:max-w-[1300px] w-screen py-16 flex flex-col gap-6 lg:py-10 mx-auto">
-      <div class="flex flex-col items-center pb-8">
+      <div class="flex flex-col items-center pb-6">
         <h2 class="text-2xl text-primary font-bold pb-2">{title}</h2>
-        <p class="text-base text-primary">{description}</p>
+        <p class="text-base text-neutral">{description}</p>
       </div>
 
       <div id={id} class=" h-auto pt-2    ">
