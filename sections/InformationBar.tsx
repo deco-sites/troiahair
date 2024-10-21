@@ -32,15 +32,53 @@ export interface SlideProps {
 export interface Props {
   /**
    * @title Items
+   * @maxItems 4
    */
   content?: SlideProps[];
 }
 
-export default function Slide({ content }: Props) {
+// export default function Slide({ content }: Props) {
+//   const slideContent = content?.map(
+//     ({ image, title, subtitle, repeat = 1 }) => {
+//       return (
+//         <div class="flex flex-col items-center bg-primary ">
+//           <div class="flex items-center justify-center py-auto">
+//             {Array(repeat)
+//               .fill(0)
+//               .map(() => (
+//                 <div class="flex justify-center items-center bg-primary gap-5 h-[56px]">
+//                   <Image
+//                     width={45}
+//                     height={45}
+//                     class="w-[45px] h-[45px] object-cover"
+//                     src={image || ""}
+//                     alt={title}
+//                     decoding="async"
+//                     loading="lazy"
+//                   />
+//                   <div class="w-[200px] mr-20">
+//                     <h5 class="font-bold text-[10px] text-white">{title}</h5>
+//                     <p class="font-normal text-[10px] text-white">{subtitle}</p>
+//                   </div>
+//                 </div>
+//               ))}
+//           </div>
+//         </div>
+//       );
+//     },
+//   );
+//   return (
+//     <div class="bg-primary relative w-full overflow-hidden h-[56px]">
+//       <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-11">
+//         {slideContent}
+//       </div>
+//     </div>
+//   );
+  export default function InformationBar({ content }: Props) {
   const slideContent = content?.map(
     ({ image, title, subtitle, repeat = 1 }) => {
       return (
-        <div class="flex flex-col items-center bg-primary ">
+        <div class="flex flex-col items-center bg-primary max-w-[1300px] mx-auto justify-between px-10 ">
           <div class="flex items-center justify-center py-auto">
             {Array(repeat)
               .fill(0)
@@ -49,13 +87,13 @@ export default function Slide({ content }: Props) {
                   <Image
                     width={45}
                     height={45}
-                    class="w-[45px] h-[45px]"
+                    class="w-[45px] h-[45px] object-contain"
                     src={image || ""}
                     alt={title}
                     decoding="async"
                     loading="lazy"
                   />
-                  <div class="w-[200px] mr-20">
+                  <div class="w-[200px]">
                     <h5 class="font-bold text-[10px] text-white">{title}</h5>
                     <p class="font-normal text-[10px] text-white">{subtitle}</p>
                   </div>
@@ -67,10 +105,8 @@ export default function Slide({ content }: Props) {
     },
   );
   return (
-    <div class="bg-primary relative w-full overflow-hidden h-[56px]">
-      <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-11">
-        {slideContent}
-      </div>
+    <div class="bg-primary relative max-w-[1300px] mx-auto overflow-x-auto h-[56px] ">
+      <div class="absolute flex flex-nowrap h-11">{slideContent}</div>
     </div>
   );
 }
