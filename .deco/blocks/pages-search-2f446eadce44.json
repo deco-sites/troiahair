@@ -28,7 +28,7 @@
         "page": {
           "__resolveType": "vnda/loaders/productListingPage.ts",
           "tags": [],
-          "count": 16,
+          "count": 15,
           "filterOperator": {
             "property1": "and",
             "property2": "and",
@@ -44,7 +44,7 @@
         "layout": {
           "columns": {
             "mobile": 2,
-            "desktop": 4
+            "desktop": 3
           },
           "variant": "aside",
           "format": "Pagination"

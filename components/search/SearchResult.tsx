@@ -37,7 +37,7 @@ export interface Props {
 function NotFound() {
   return (
     <div class="w-full flex justify-center items-center py-10">
-      <span>Not Found!</span>
+      <span>Não encontramos nenhum produto, tente novamente!</span>
     </div>
   );
 }
@@ -147,6 +147,8 @@ function Result({
 function SearchResult(
   { page, ...props }: ReturnType<typeof loader>,
 ) {
+  console.log(page);
+  
   if (!page) {
     return <NotFound />;
   }

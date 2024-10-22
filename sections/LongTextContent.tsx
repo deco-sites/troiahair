@@ -14,7 +14,7 @@ export default function LongTextContent({ title, text }: Props) {
       <h4 class="font-bold text-xl text-center my-12">{title}</h4>
       <div
         dangerouslySetInnerHTML={{ __html: text }}
-        class="leading-loose mb-10 px-10"
+        class="leading-loose mb-10 px-10 text-neutral"
       >
       </div>
     </div>
