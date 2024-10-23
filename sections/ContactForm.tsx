@@ -2,12 +2,12 @@ import { HTMLWidget } from "apps/admin/widgets.ts";
 import ContactUs from "../islands/ContactUs.tsx";
 import { Secret } from "apps/website/loaders/secret.ts";
 
-interface EmailJSProps {
-  serviceId: string;
-  templateId: string;
-  publicKey: string;
-  privateKey: Secret;
-}
+// interface EmailJSProps {
+//   serviceId: string;
+//   templateId: string;
+//   publicKey: string;
+//   privateKey: Secret;
+// }
 
 interface Props {
   title: string;
@@ -25,7 +25,7 @@ interface Props {
   titleGoogleMaps: string;
   /** @description mudar o width para 567 e o height para 166 */
   maps: HTMLWidget;
-  sendEmailProps: EmailJSProps;
+  // sendEmailProps: EmailJSProps;
   //key: Secret;
 }
 
@@ -44,7 +44,6 @@ export default function ContactForm({
   textBox5,
   titleGoogleMaps,
   maps,
-  sendEmailProps,
 }: Props) {
   return (
     <div class="md:max-w-[1300px] flex flex-col items-center mx-auto text-primary">
@@ -68,7 +67,7 @@ export default function ContactForm({
           <p class="md:text-[12px] text-[9px] mt-[6px] ">
             Campos marcados com asterisco são de preenchimento obrigatório.
           </p>
-          <ContactUs sendEmailProps={sendEmailProps} />
+          <ContactUs />
         </div>
 
         <div class="flex flex-col items-center md:w-[567px] w-screen">

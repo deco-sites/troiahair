@@ -130,7 +130,7 @@ function Categories({
           >
             <div>
               <Image
-                class="object-cover hover:w-[135px] hover:h-[135px]"
+                class="object-cover hover:w-[95px] hover:h-auto z-10"
                 alt={alt}
                 src={image || ""}
                 width={83}
@@ -139,7 +139,7 @@ function Categories({
             </div>
           </a>
           <a href={href}>
-            <p class="text-[10px] text-primary text-center font-bold pt-2">
+            <p class="text-[11px] text-neutral text-center font-medium pt-2">
               {categorieName}
             </p>
           </a>

@@ -1,18 +1,9 @@
 import { AppContext } from "../apps/site.ts";
 
 interface Props {
-  nome: string;
-  empresa: string;
+
   email: string;
-  telefone: string;
-  assunto: string;
-  mensagem: string;
-  sendEmailProps: {
-    serviceId: string;
-    templateId: string;
-    publicKey: string;
-    privateKey: string;
-  };
+
 }
 
 export default async function action(
@@ -21,9 +12,11 @@ export default async function action(
   _ctx: AppContext
 ) {
   const serviceId = "service_3171aym";
-  const templateId = "template_is5tdv8";
+  const templateId = "template_qvx224r";
   const publicKey = "wXuElPf2NB7DdV69z";
   const privateKey = "Iw7uNYXwk5V91CxeYo9hy";
+
+
 
   const emailData = {
     service_id: serviceId,
