@@ -7,6 +7,7 @@ import SearchControls from "../../islands/SearchControls.tsx";
 import { useId } from "../../sdk/useId.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
+import { HTMLWidget } from "apps/admin/widgets.ts";
 
 export type Format = "Show More" | "Pagination";
 
@@ -28,6 +29,11 @@ export interface Layout {
 export interface Props {
   /** @title Integration */
   page: ProductListingPage | null;
+  /** @title Nome da Categoria */
+  /** @description Preencher o nome da categoria e a Descrição ajuda o SEO */
+  title?: string;
+  description?: HTMLWidget;
+
   layout?: Layout;
 
   /** @description 0 for ?page=0 as your first page */
@@ -43,6 +49,7 @@ function NotFound() {
 }
 
 function Result({
+  title,description,
   page,
   layout,
   startingPage = 0,
@@ -78,24 +85,42 @@ function Result({
         )}
 
         <div class="flex flex-row">
-          {layout?.variant === "aside" && filters.length > 0 &&
+          {layout?.variant === "aside" &&
+            filters.length > 0 &&
             (isFirstPage || !isPartial) && (
-            <aside class="hidden sm:block w-min min-w-[250px]">
-              <Filters filters={filters} />
-            </aside>
-          )}
-          <div class="flex-grow" id={id}>
-            <ProductGallery
-              products={products}
-              offset={offset}
-              layout={{ columns: layout?.columns, format }}
-              pageInfo={pageInfo}
-              url={url}
-            />
+              <aside class="hidden sm:block w-min min-w-[250px]">
+                <Filters filters={filters} />
+              </aside>
+            )}
+          <div class="pl-8">
+            <div class="mt-10 ">
+              {title && (
+                <h2 class="font-semibold uppercase text-xl text-primary">
+                  {title}
+                </h2>
+              )}
+              {description && (
+                <div
+                  class="text-[12px] text-neutral mt-4 pr-10"
+                  dangerouslySetInnerHTML={{
+                    __html: description,
+                  }}
+                />
+              )}
+            </div>
+            <div class="flex-grow mt-8" id={id}>
+              <ProductGallery
+                products={products}
+                offset={offset}
+                layout={{ columns: layout?.columns, format }}
+                pageInfo={pageInfo}
+                url={url}
+              />
+            </div>
           </div>
         </div>
 
-        {(format == "Pagination" && products.length > 12) && (
+        {format == "Pagination" && products.length > 12 && (
           <div class="flex justify-center my-4 text-primary">
             <div class="join">
               <a
@@ -131,7 +156,7 @@ function Result({
             item_list_id: breadcrumb.itemListElement?.at(-1)?.item,
             items: page.products?.map((product, index) =>
               mapProductToAnalyticsItem({
-                ...(useOffer(product.offers)),
+                ...useOffer(product.offers),
                 index: offset + index,
                 product,
                 breadcrumbList: page.breadcrumb,
