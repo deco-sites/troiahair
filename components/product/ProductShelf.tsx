@@ -62,13 +62,13 @@ function ProductShelf({
   };
 
   return (
-    <div class="md:max-w-[1300px] w-screen py-16 flex flex-col gap-6 lg:py-10 mx-auto">
-      <div class="flex flex-col items-center pb-6">
+    <div class="md:max-w-[1300px] w-screen py-12 flex flex-col gap-6  mx-auto">
+      <div class="flex flex-col items-center pb-5">
         <h2 class="text-2xl text-primary font-bold pb-2">{title}</h2>
         <p class="text-base text-neutral">{description}</p>
       </div>
 
-      <div id={id} class=" h-auto pt-2    ">
+      <div id={id} class=" h-auto ">
         <Slider class="md:max-w-[1300px] w-screen overflow-x-auto carousel carousel-center sm:carousel-end mx-auto">
           <div class="flex gap-5 mx-auto px-5">
             {products?.map((product, index) => (

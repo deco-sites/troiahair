@@ -20,7 +20,7 @@ export default function BrandText({
     <div
       class={`text-primary md:max-w-[1114px] h-auto md:mx-auto mb-[58px]  ${
         backgroundColor
-          ? "bg-accent md:rounded-xl md:pt-[56px] md:pb-[79px] w-screen py-10"
+          ? "bg-gray-200 md:rounded-xl md:pt-[56px] md:pb-[79px] w-screen py-10"
           : "mt-[97px]"
       } ${mobile || "hidden"}`}
     >
@@ -30,7 +30,7 @@ export default function BrandText({
       <div
         class={`text-[12px] ${
           backgroundColor ? "md:px-[42px] px-7" : "px-6"
-        } w-screen md:w-full`}
+        } w-screen md:w-full leading-7`}
         dangerouslySetInnerHTML={{ __html: text }}
       >
       </div>

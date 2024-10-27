@@ -172,8 +172,6 @@ function Result({
 function SearchResult(
   { page, ...props }: ReturnType<typeof loader>,
 ) {
-  console.log(page);
-  
   if (!page) {
     return <NotFound />;
   }

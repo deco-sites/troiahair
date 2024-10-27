@@ -19,7 +19,7 @@ interface Props {
 
 export default function TopBar({ imageFormat = "Quadrado", content }: Props) {
   return (
-    <div class="hidden md:flex md:max-w-[1103px] md:mx-auto md:justify-between md:visible md:py-[75px]">
+    <div class="hidden md:flex md:max-w-[1103px] md:mx-auto md:justify-between md:visible md:py-[45px]">
       {content.map((item) => (
         <a href={item.href} class="flex items-center">
           <div
