@@ -12,7 +12,7 @@ import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalytic
 import ProductSelector from "./ProductVariantSelector.tsx";
 
 import ImageGallerySlider from "../../components/product/Gallery/ImageSlider.tsx";
-import ProductDescription from "../../components/product/ProductDescription.tsx";
+import ProductDescription from "../../sections/Product/ProductDescription.tsx";
 import Image from "apps/website/components/Image.tsx";
 import Breadcrumb from "../ui/Breadcrumb.tsx";
 

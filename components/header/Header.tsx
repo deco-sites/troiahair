@@ -7,6 +7,7 @@ import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import type { SectionProps } from "deco/types.ts";
 import Alert from "./Alert.tsx";
 import Navbar from "./Navbar.tsx";
+import Image from "apps/website/components/Image.tsx";
 // import { headerHeight } from "./constants.ts";
 
 export interface Logo {
@@ -109,6 +110,11 @@ export interface Props {
   logo?: Logo;
   logoPosition?: "left" | "center";
   /**
+   * @title Número de Whatsapp
+   * @description Insira somente números ex:55000000000 (incluir o código do país).
+   */
+  whatsappNumber: number;
+  /**
    * @title Elementos do Topo do site
    * @description Habilita/Desabilita elementos
    */
@@ -165,6 +171,7 @@ function Header({
     alt: "Logo",
   },
   logoPosition = "left",
+  whatsappNumber = 5522222222,
   buttons,
   device,
 }: SectionProps<typeof loader>) {
@@ -194,6 +201,21 @@ function Header({
           </div>
         </Drawers>
       </header>
+      <div>
+        <a
+          href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`}
+          target="_blank"
+          class="fixed bottom-6 right-6 z-40"
+        >
+          <Image
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1e07fe4f-c0f8-48d5-a1e1-977df17a6f0e"
+            alt="whatsapp icon"
+            width={60}
+            height={60}
+            loading="lazy"
+          />
+        </a>
+      </div>
     </>
   );
 }
