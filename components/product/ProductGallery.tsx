@@ -60,7 +60,7 @@ function ProductGallery({
 
   return (
     <div
-      class={`grid ${mobile} justify-center items-center ${desktop} lg:gap-10`}
+      class={`grid ${mobile} justify-center items-center ${desktop} gap-10`}
     >
       {/* {layout?.format == "Show More" && (
         <Head>
@@ -70,7 +70,7 @@ function ProductGallery({
           )}
         </Head>
       )} */}
-      <div class="mx-auto">
+      <div class="mx-auto ">
         {products?.map((product, index) => (
           <ProductCard
             key={`product-card-${product.productID}`}
