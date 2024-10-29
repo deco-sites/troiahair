@@ -44,7 +44,8 @@ function ProductImageZoom({ images, width, height }: Props) {
                     alt={image.alternateName}
                     width={width}
                     height={height}
-                    class="h-full w-auto"
+                    fit="contain"
+                    class="image-contain h-full w-auto"
                   />
                 </Slider.Item>
               ))}

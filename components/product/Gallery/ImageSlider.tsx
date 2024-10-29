@@ -62,26 +62,20 @@ export default function GallerySlider(props: Props) {
           ))}
         </Slider>
 
-        {
-          /* {images.length > 1 && (
+        {images.length > 1 && (
           <>
-            <Slider.PrevButton class="no-animation absolute left-2 " >
+            <Slider.PrevButton class="no-animation absolute left-2 ">
               <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary">
                 <Icon size={24} id="ChevronLeft" strokeWidth={3} />
               </div>
             </Slider.PrevButton>
-
-            <Slider.NextButton
-              class="no-animation absolute right-2"
-
-            >
+            <Slider.NextButton class="no-animation absolute right-2">
               <div class="btn btn-circle btn-outline btn-primary border border-primary bg-base-100 text-primary ">
                 <Icon size={24} id="ChevronRight" strokeWidth={3} />
               </div>
             </Slider.NextButton>
           </>
-        )} */
-        }
+        )}
 
         <div class="absolute top-2 right-2  ">
           <ProductImageZoom

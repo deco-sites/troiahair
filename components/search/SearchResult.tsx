@@ -7,7 +7,8 @@ import SearchControls from "../../islands/SearchControls.tsx";
 import { useId } from "../../sdk/useId.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
-import { HTMLWidget } from "apps/admin/widgets.ts";
+import { HTMLWidget, ImageWidget } from "apps/admin/widgets.ts";
+import LinxImpulsePageView from "apps/linx-impulse/sections/Analytics/LinxImpulsePageView.tsx";
 
 export type Format = "Show More" | "Pagination";
 
@@ -38,6 +39,8 @@ export interface Props {
 
   /** @description 0 for ?page=0 as your first page */
   startingPage?: 0 | 1;
+  whatsappNumber: number;
+  imageNotFound: ImageWidget;
 }
 
 function NotFound() {
@@ -49,11 +52,14 @@ function NotFound() {
 }
 
 function Result({
-  title,description,
+  title,
+  description,
   page,
   layout,
   startingPage = 0,
   url: _url,
+  whatsappNumber,
+  imageNotFound,
 }: Omit<Props, "page"> & {
   page: ProductListingPage;
   url: string;
@@ -115,6 +121,8 @@ function Result({
                 layout={{ columns: layout?.columns, format }}
                 pageInfo={pageInfo}
                 url={url}
+                whatsappNumber={whatsappNumber}
+                imageNotFound={imageNotFound}
               />
             </div>
           </div>
@@ -169,9 +177,8 @@ function Result({
   );
 }
 
-function SearchResult(
-  { page, ...props }: ReturnType<typeof loader>,
-) {
+function SearchResult({ page, ...props }: ReturnType<typeof loader>) {
+  //const hasImage = page?.products.map((item) => !item.image);
   if (!page) {
     return <NotFound />;
   }

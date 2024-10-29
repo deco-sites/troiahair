@@ -6,14 +6,6 @@ import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalytic
 
 interface Props {
   page: ProductDetailsPage | null;
-  layout?: {
-    /**
-     * @title Product Name
-     * @description How product title will be displayed. Concat to concatenate product and sku names.
-     * @default product
-     */
-    name?: "concat" | "productGroup" | "product";
-  };
 }
 
 function ProductDescription({ page }: Props) {
@@ -23,40 +15,98 @@ function ProductDescription({ page }: Props) {
     throw new Error("Detalhes do produto não encontrado");
   }
 
-  const { breadcrumbList, product } = page;
-  const {
-    productID,
-    offers,
-    name = "",
-    gtin,
-    isVariantOf,
-    additionalProperty = [],
-  } = product;
+  const { product } = page;
+  const { isVariantOf } = product;
   const description = product.description || isVariantOf?.description;
-  const { price = 0, listPrice } = useOffer(offers);
+  const title = isVariantOf?.name ?? product.name;
 
-  const breadcrumb = {
-    ...breadcrumbList,
-    itemListElement: breadcrumbList?.itemListElement.slice(0, -1),
-    numberOfItems: breadcrumbList.numberOfItems - 1,
-  };
+  function processDescription(description: string) {
+    // Remover comentários HTML (<!-- -->)
+    description = description.replace(/<!--.*?-->/g, "");
 
-  const eventItem = mapProductToAnalyticsItem({
-    product,
-    breadcrumbList: breadcrumb,
-    price,
-    listPrice,
-  });
+    // converter as linhas em branco
+    description = description.replace(/\n/g, "<br>");
+
+    // converter para negrito
+    const regexBold = /\*\*(.*?)\*\*/gm;
+    let matchBold;
+    while ((matchBold = regexBold.exec(description)) !== null) {
+      description = description.replace(
+        matchBold[0],
+        `<strong>${matchBold[1]}</strong>`
+      );
+    }
+
+    // Converter cabeçalhos Markdown para HTML com classes Tailwind
+
+    const regexh4 = /<br>\s*####\s*(.*?)\s*<br>/gm;
+    let matchH4;
+    while ((matchH4 = regexh4.exec(description)) !== null) {
+      description = description.replace(
+        matchH4[0],
+        `<h4 class="pt-5"><span class="text-base font-medium pt-7 pb-4">${matchH4[1]}</span></h4>`
+      );
+    }
+
+    const regexh3 = /<br>\s*###\s*(.*?)\s*<br>/gm;
+    let matchH3;
+    while ((matchH3 = regexh3.exec(description)) !== null) {
+      description = description.replace(
+        matchH3[0],
+        `<div class="pt-10"><h3><span class="text-lg font-semibold mt-7 mb-4">${matchH3[1]}</span></h3></div>`
+      );
+    }
+
+    const regexh2 = /<br>\s*##\s*(.*?)\s*<br>/gm;
+    let matchH2;
+    while ((matchH2 = regexh2.exec(description)) !== null) {
+      description = description.replace(
+        matchH2[0],
+        `<h2 class="pt-10"><span class="text-xl font-bold mt-7 mb-4">${matchH2[1]}</span></h2>`
+      );
+    }
+
+    const regexh1 = /<br>\s*#\s*(.*?)\s*<br>/gm;
+    let matchH1;
+    while ((matchH1 = regexh1.exec(description)) !== null) {
+      description = description.replace(
+        matchH1[0],
+        `<h1 class="pt-10"><span class="text-2xl font-bold mb-4">${matchH1[1]}</span></h1>`
+      );
+    }
+
+    // Adicionar classes Tailwind às imagens
+    const regexImg = /!\[\]\((.*?)\)/g; // Regex para encontrar o link da imagem
+    let matchImg;
+
+    while ((matchImg = regexImg.exec(description)) !== null) {
+      description = description.replace(
+        matchImg[0],
+        ` <Image
+            class="w-[70%] mx-auto"
+            src="${matchImg[1]}"
+            alt={"img.alternateName"}
+            width={300}
+            height={300}
+            loading="lazy"
+          />`
+      );
+    }
+
+    return description;
+  }
 
   return (
-    <div class="flex flex-col  max-w-[1300px]" id={id}>
+    <div class="flex flex-col  max-w-[1100px] mx-auto" id={id}>
       {/* Description card */}
       <div class="mt-[14px] sm:mt-6">
         <span class="text-sm">
           {description && (
             <div
-              class="ml-2 text-[12px] text-primary h-[97px] overflow-y-auto"
-              dangerouslySetInnerHTML={{ __html: description }}
+              class="ml-2 text-[12px] text-primary"
+              dangerouslySetInnerHTML={{
+                __html: processDescription(description),
+              }}
             />
           )}
         </span>

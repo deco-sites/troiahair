@@ -33,6 +33,23 @@
       "__resolveType": "site/sections/Product/ProductDetails.tsx"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/ProductDescription.tsx",
+        "page": {
+          "__resolveType": "vnda/loaders/productDetailsPage.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        },
+        "layout": {
+          "name": "product"
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "title": "Lorem Ipsum",
       "products": {
         "__resolveType": "vnda/loaders/productList.ts",
@@ -42,7 +59,6 @@
         "ids": [],
         "count": 5
       },
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "layout": {
         "numberOfSliders": {
           "desktop": 5

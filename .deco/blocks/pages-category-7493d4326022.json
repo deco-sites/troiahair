@@ -1,6 +1,6 @@
 {
   "name": "Category",
-  "path": "/category",
+  "path": "/:slug",
   "default": {
     "possiblePaths": []
   },
@@ -11,20 +11,35 @@
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
-        "__resolveType": "Search Loader"
+        "__resolveType": "vnda/loaders/productListingPage.ts",
+        "tags": [],
+        "filterOperator": {
+          "type_tags": "and",
+          "property1": "and",
+          "property2": "and",
+          "property3": "and"
+        },
+        "count": 16,
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
       },
       "layout": {
         "columns": {
           "mobile": 2,
-          "desktop": 4
+          "desktop": 3
         },
         "variant": "aside",
-        "pagination": "show-more"
+        "pagination": "show-more",
+        "format": "Pagination"
       },
       "cardLayout": {
         "__resolveType": "Product Card Layout - 01"
       },
-      "startingPage": 1
+      "startingPage": 1,
+      "whatsappNumber": 0,
+      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
     },
     {
       "__resolveType": "Footer - 05"

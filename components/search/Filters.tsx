@@ -15,9 +15,7 @@ interface Props {
 const isToggle = (filter: Filter): filter is FilterToggle =>
   filter["@type"] === "FilterToggle";
 
-function ValueItem(
-  { url, selected, label, quantity }: FilterToggleValue,
-) {
+function ValueItem({ url, selected, label, quantity }: FilterToggleValue) {
   return (
     <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div aria-checked={selected} class="checkbox" />
@@ -28,9 +26,8 @@ function ValueItem(
 }
 
 function FilterValues({ key, values }: FilterToggle) {
-  const flexDirection = key === "tamanho" || key === "cor"
-    ? "flex-row"
-    : "flex-col";
+  const flexDirection =
+    key === "tamanho" || key === "cor" ? "flex-row" : "flex-col";
 
   return (
     <ul class={`flex flex-wrap gap-2 ${flexDirection}`}>
@@ -51,11 +48,13 @@ function FilterValues({ key, values }: FilterToggle) {
         if (key === "price") {
           const range = parseRange(item.value);
 
-          return range && (
-            <ValueItem
-              {...item}
-              label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
-            />
+          return (
+            range && (
+              <ValueItem
+                {...item}
+                label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
+              />
+            )
           );
         }
 
@@ -66,15 +65,35 @@ function FilterValues({ key, values }: FilterToggle) {
 }
 
 function Filters({ filters }: Props) {
+  console.log(filters);
+
   return (
-    <ul class="flex flex-col gap-6 p-4">
-      {filters.filter(isToggle).map((filter) => (
-        <li class="flex flex-col gap-4 ">
-          <span>{filter.label}</span>
-          <FilterValues {...filter} />
-        </li>
-      ))}
-    </ul>
+    <div>
+      <ul class="flex flex-col gap-6 p-4">
+        {filters.filter(isToggle).map(
+          (filter) =>
+            filter.label === "marca" && (
+              <li class="flex flex-col gap-4 ">
+                <span class="text-lg font-semibold text-primary">Marcas</span>
+                <FilterValues {...filter} />
+              </li>
+            )
+        )}
+      </ul>
+      <ul class="flex flex-col gap-6 p-4">
+        {filters.filter(isToggle).map(
+          (filter) =>
+            filter.label === "categoria" && (
+              <li class="flex flex-col gap-4 ">
+                <span class="text-lg font-semibold text-primary">
+                  Categoria
+                </span>
+                <FilterValues {...filter} />
+              </li>
+            )
+        )}
+      </ul>
+    </div>
   );
 }
 

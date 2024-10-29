@@ -119,7 +119,7 @@ function ProductInfo({ page, layout }: Props) {
           }
 
           {/* Product Name */}
-          <span class="font-bold text-xl uppercase text-secondary pt-2">
+          <span class="font-bold text-xl uppercase text-neutral pt-2">
             {layout?.name === "concat"
               ? `${isVariantOf?.name} ${name}`
               : layout?.name === "productGroup"
@@ -128,14 +128,14 @@ function ProductInfo({ page, layout }: Props) {
           </span>
 
           {/* Prices */}
-          <div class="mt-4">
+          <div class="my-5 ">
             <div class="flex flex-row gap-2 items-center">
               {(listPrice ?? 0) > price && (
                 <span class="line-through text-base-400 text-xl">
                   {formatPrice(listPrice, offers?.priceCurrency)}
                 </span>
               )}
-              <span class="font-bold text-3xl text-primary">
+              <span class="font-bold text-3xl text-primary ">
                 {formatPrice(price, offers?.priceCurrency)}
               </span>
             </div>
@@ -143,9 +143,9 @@ function ProductInfo({ page, layout }: Props) {
           </div>
 
           {/* Sku Selector */}
-          <div class="mt-4 sm:mt-6">
+          {/* <div class="mt-4 sm:mt-6">
             <ProductSelector product={product} />
-          </div>
+          </div> */}
 
           {/* Add to Cart and Favorites button */}
           <div class="mt-4 sm:mt-10 flex flex-col gap-2 w-full h-[64px]">
@@ -179,25 +179,7 @@ function ProductInfo({ page, layout }: Props) {
               // ]}
             />
           </div>
-          {/* Description card */}
-          <div class="mt-[14px] sm:mt-6">
-            <span class="text-sm">
-              {description && (
-                // <details>
-                //   <summary class="cursor-pointer">Descrição</summary>
-                //   <div
-                //     class="ml-2 mt-2"
-                //     dangerouslySetInnerHTML={{ __html: description }}
-                //   />
-                // </details>
-                <div
-                  class="ml-2 text-[12px] text-primary h-[97px] overflow-y-auto"
-                  dangerouslySetInnerHTML={{ __html: description }}
-                />
-              )}
-            </span>
-          </div>
-
+          
           {/* Analytics Event */}
           <SendEventOnView
             id={id}
@@ -212,7 +194,7 @@ function ProductInfo({ page, layout }: Props) {
           />
         </div>
       </div>
-      {/* <ProductDescription /> */}
+  
     </div>
   );
 }

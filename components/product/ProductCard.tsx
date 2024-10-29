@@ -115,7 +115,7 @@ function ProductCard({
             )}
           >
             <Image
-              src={front.url || imageNotFound}
+              src={front?.url || imageNotFound}
               alt={front.alternateName}
               width={255}
               height={222}
