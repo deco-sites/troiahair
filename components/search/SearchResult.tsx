@@ -8,7 +8,6 @@ import { useId } from "../../sdk/useId.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
 import { HTMLWidget, ImageWidget } from "apps/admin/widgets.ts";
-import LinxImpulsePageView from "apps/linx-impulse/sections/Analytics/LinxImpulsePageView.tsx";
 
 export type Format = "Show More" | "Pagination";
 
@@ -98,8 +97,8 @@ function Result({
                 <Filters filters={filters} />
               </aside>
             )}
-          <div class="pl-8">
-            <div class="mt-10 ">
+          <div class="lg:pl-8 ">
+            <div class="mt-3 lg:mt-10 ">
               {title && (
                 <h2 class="font-semibold uppercase text-xl text-primary">
                   {title}

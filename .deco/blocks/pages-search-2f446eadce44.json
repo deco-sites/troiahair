@@ -43,7 +43,7 @@
         },
         "layout": {
           "columns": {
-            "mobile": 2,
+            "mobile": 1,
             "desktop": 3
           },
           "variant": "aside",
@@ -52,7 +52,8 @@
         "startingPage": 1,
         "title": "lorem ipsum",
         "description": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&nbsp;</p>",
-        "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
+        "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+        "whatsappNumber": 0
       }
     },
     {

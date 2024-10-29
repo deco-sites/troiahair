@@ -59,29 +59,31 @@ function ProductGallery({
   }
 
   return (
-    <div class={`grid ${mobile} gap-2 items-center ${desktop} sm:gap-10`}>
-      {layout?.format == "Show More" && (
+    <div
+      class={`grid ${mobile} justify-center items-center ${desktop} lg:gap-10`}
+    >
+      {/* {layout?.format == "Show More" && (
         <Head>
           {pageInfo.nextPage && <link rel="next" href={pageInfo.nextPage} />}
           {pageInfo.previousPage && (
             <link rel="prev" href={pageInfo.previousPage} />
           )}
         </Head>
-      )}
-
-      {products?.map((product, index) => (
-        <ProductCard
-          key={`product-card-${product.productID}`}
-          product={product}
-          preload={index === 0}
-          index={offset + index}
-          platform={platform}
-          whatsappNumber={whatsappNumber}
-          imageNotFound={imageNotFound}
-        />
-      ))}
-
-      {layout && layout?.format === "Show More" && (
+      )} */}
+      <div class="mx-auto">
+        {products?.map((product, index) => (
+          <ProductCard
+            key={`product-card-${product.productID}`}
+            product={product}
+            preload={index === 0}
+            index={offset + index}
+            platform={platform}
+            whatsappNumber={whatsappNumber}
+            imageNotFound={imageNotFound}
+          />
+        ))}
+      </div>
+      {/* {layout && layout?.format === "Show More" && (
         <>
           <ShowMore pageInfo={pageInfo}>
             {partialUrl && (
@@ -103,7 +105,7 @@ function ProductGallery({
             )}
           </ShowMore>
         </>
-      )}
+      )} */}
     </div>
   );
 }
