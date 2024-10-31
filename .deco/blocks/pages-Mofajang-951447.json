@@ -1,6 +1,6 @@
 {
-  "name": "Troia Hair",
-  "path": "/marcas/troia-hair",
+  "name": "Mofajang",
+  "path": "/marcas/mofajang",
   "sections": {
     "__resolveType": "website/flags/multivariate.ts",
     "variants": [
@@ -33,7 +33,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -60,7 +60,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -170,7 +170,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": [],
@@ -209,7 +209,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": [],
@@ -248,7 +248,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "troiahair"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": [],

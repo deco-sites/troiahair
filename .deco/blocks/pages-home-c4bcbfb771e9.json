@@ -339,7 +339,7 @@
             "href": "/"
           },
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/39dbda66-3e5d-4a4a-bf66-509330406940/QatarHair-LogoNovoMELI.png",
-          "alt": "logo da marca qstar hair",
+          "alt": "logo da marca qtar hair",
           "href": "/marcas/qatar-hair",
           "categorieName": "Qatar Hair"
         },
@@ -352,7 +352,7 @@
           },
           "categorieName": "Raiz Line ",
           "alt": "Logo da marca Raiz Line Profissional",
-          "href": "/marcas/raiz-line-profissional",
+          "href": "/marcas/raiz-line",
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/761aa118-9509-45f3-a54e-e03a9f8c61d8/RaizLine-LogoNovo1.png"
         },
         {
@@ -362,10 +362,34 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/d93c228b-c60e-4867-a775-dbde6a975c85/troia-hair-logopb.svg",
+          "categorieName": "Tróia Hair",
+          "alt": "Logo troia hair",
+          "href": "/marcas/troia-hair"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/a0b99dab-28ed-4185-ac47-fc57aa1c4dd6/Elfa4Man_cosmeticos2.png",
+          "categorieName": "elfa 4 men",
+          "alt": "logo de 4 men elfa",
+          "href": "/marcas/elfa-4-men"
+        },
+        {
+          "content": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "categorieName": "categorie01",
+            "alt": "teste",
+            "href": "/"
+          },
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/938d513b-a51d-4afb-8417-596b6b1c3c7b/LISORGANIC.webp",
+          "alt": "Logo de lisorganic",
+          "href": "/marcas/lisorganic",
+          "categorieName": "Lisorganic"
         },
         {
           "content": {
@@ -375,9 +399,9 @@
             "href": "/"
           },
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
+          "categorieName": "Mofajang",
+          "alt": "logo de mofajang",
+          "href": "/marcas/mofajang"
         },
         {
           "content": {
@@ -387,9 +411,9 @@
             "href": "/"
           },
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
+          "categorieName": "Tróia 4 men",
+          "alt": "logo de troia 4 men",
+          "href": "/marcas/troia-4-men"
         },
         {
           "content": {
@@ -399,9 +423,9 @@
             "href": "/"
           },
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
+          "categorieName": "Tróia Care",
+          "alt": "logo de troia care",
+          "href": "/marcas/troia-care"
         },
         {
           "content": {
@@ -411,33 +435,9 @@
             "href": "/"
           },
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
+          "categorieName": "Tróia Hair Colors",
+          "alt": "logo Tróia Hair Colors",
+          "href": "/marcas/troia-hair-colors"
         }
       ]
     },

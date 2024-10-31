@@ -1,6 +1,8 @@
 {
-  "name": "Troia Hair",
-  "path": "/marcas/troia-hair",
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "sections": {
     "__resolveType": "website/flags/multivariate.ts",
     "variants": [
@@ -33,7 +35,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "troia-hair-colors"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -60,7 +62,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "troia-hair-colors"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -170,7 +172,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "troia-hair-colors"
                 ],
                 "typeTags": [],
                 "ids": [],
@@ -209,7 +211,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "troia-hair"
+                  "troia-hair-colors"
                 ],
                 "typeTags": [],
                 "ids": [],
@@ -248,7 +250,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "troiahair"
+                  "troia-hair-colors"
                 ],
                 "typeTags": [],
                 "ids": [],
@@ -298,8 +300,6 @@
       }
     ]
   },
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  "name": "Troia Hair Colors",
+  "path": "/marcas/troia-hair-colors"
 }

@@ -59,9 +59,7 @@ function ProductGallery({
   }
 
   return (
-    <div
-      class={`grid ${mobile} justify-center items-center ${desktop} gap-10`}
-    >
+    <div class="w-full">
       {/* {layout?.format == "Show More" && (
         <Head>
           {pageInfo.nextPage && <link rel="next" href={pageInfo.nextPage} />}
@@ -70,7 +68,9 @@ function ProductGallery({
           )}
         </Head>
       )} */}
-      <div class="mx-auto ">
+      <div
+        class={`grid ${mobile} justify-center items-center ${desktop} gap-10`}
+      >
         {products?.map((product, index) => (
           <ProductCard
             key={`product-card-${product.productID}`}

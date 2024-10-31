@@ -4,7 +4,7 @@ import Icon from "../components/ui/Icon.tsx";
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 
-/** @title Categoria ou Marcas*/
+/** @title {{categorieName}} */
 export interface Categorie {
   /** @title Nome da Categoria/Marca */
   categorieName: string;
@@ -135,6 +135,7 @@ function Categories({
                 src={image || ""}
                 width={83}
                 height={83}
+                fit="cover"
               />
             </div>
           </a>
