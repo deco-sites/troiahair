@@ -22,32 +22,27 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/SearchResult.tsx",
-        "page": {
-          "__resolveType": "vnda/loaders/productListingPage.ts",
-          "tags": [],
-          "count": 15,
-          "filterOperator": {
-            "property1": "and",
-            "property2": "and",
-            "property3": "and",
-            "type_tags": "and"
-          },
-          "filterByTags": false,
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
-          }
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "__resolveType": "vnda/loaders/productListingPage.ts",
+        "tags": [],
+        "filterOperator": {
+          "property1": "and",
+          "property2": "and",
+          "property3": "and",
+          "type_tags": "and"
         },
-        "layout": {
-          "columns": {
-            "mobile": 1,
-            "desktop": 3
-          },
-          "variant": "aside",
-          "format": "Pagination"
+        "filterByTags": true,
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        },
+        "count": 15
+      },
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 3
         },
         "startingPage": 1,
         "title": "lorem ipsum",
@@ -57,7 +52,10 @@
       }
     },
     {
-      "__resolveType": "Footer - 01"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer - 05"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
