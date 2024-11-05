@@ -19,8 +19,8 @@
             "title": "VTEX Store",
             "subTitle": "Visit our site and start building now:"
           },
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d489736-321c-4794-b789-2de57f66131f",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1af76ea3-1a79-494e-a56f-5f7dd508ad76"
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f3039956-80f9-462e-8c48-9a6768b7b743/_.webp",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f3039956-80f9-462e-8c48-9a6768b7b743/_.webp"
         },
         {
           "alt": "Masculino",
@@ -74,28 +74,28 @@
       ],
       "content": [
         {
-          "title": "Lorem ipsum dolor ",
-          "subtitle": "sit amet consectetur",
-          "label": "Lorem Ipsum 01",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+          "title": "Frete Grátis",
+          "subtitle": "Em compras acima de R$180",
+          "label": "Frete Grátis",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/28d99036-ddf0-477b-af77-1a7a9d254035/Design-sem-nome-(8).svg"
         },
         {
-          "title": "Lorem ipsum dolor ",
-          "subtitle": "sit amet consectetur",
-          "label": "Lorem Ipsum 02",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+          "title": "Frete GRÁTIS sem valor mínimo",
+          "subtitle": "Para São Paulo capital e regiões metropolitanas",
+          "label": "Frete GRÁTIS sem valor mínimo",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/28d99036-ddf0-477b-af77-1a7a9d254035/Design-sem-nome-(8).svg"
         },
         {
-          "title": "Lorem ipsum dolor ",
-          "subtitle": "sit amet consectetur",
-          "label": "Lorem Ipsum 03",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+          "title": "Pague com Cartão de Crédito",
+          "subtitle": "Em até 12x Sem Juros",
+          "label": "Pague com cartão",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/dcba573e-3583-4a31-a9fa-1300bbca6a71/Design-sem-nome-(7).svg"
         },
         {
-          "title": "Lorem ipsum dolor ",
-          "subtitle": "sit amet consectetur",
-          "label": "Lorem Ipsum 04",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7"
+          "title": "Segurança",
+          "subtitle": "Loja Oficial",
+          "label": "Segurança",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f7a0c3a8-c5b6-4efd-ae59-960c2f066390/Design-sem-nome-(9).svg"
         }
       ]
     },
@@ -109,10 +109,10 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/e5b24108-c0b1-48f9-8969-8ca0b74106e0/BTXPROGR.webp",
+          "categorieName": "Progressivas e Btx",
           "alt": "a",
-          "href": "/"
+          "href": "/progressiva"
         },
         {
           "content": {
@@ -121,10 +121,10 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/b8c41537-91c8-4878-8a67-033ab14e32d1/HIDRETEITION.webp",
+          "categorieName": "Hidratação",
           "alt": "a",
-          "href": "/"
+          "href": "/hidratacao"
         },
         {
           "content": {
@@ -133,10 +133,10 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/7b8935bf-638c-4d6b-938d-625af22c3dc6/PISTOLA-NANO.webp",
+          "categorieName": "Tratamentos",
           "alt": "a",
-          "href": "/"
+          "href": "/tratamento"
         },
         {
           "content": {
@@ -145,10 +145,10 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/952779f8-17c7-465a-b870-3b20cf4d0c47/DETX.webp",
+          "categorieName": "Kits Poderosos",
           "alt": "a",
-          "href": "/"
+          "href": "/kits"
         },
         {
           "content": {
@@ -157,10 +157,10 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c8db0b78-8e38-4f24-8f79-1ce4d6fefdbb/COLOOOO.webp",
+          "categorieName": "Troia Colors",
           "alt": "a",
-          "href": "/"
+          "href": "/coloracao-pigmentante-troia-colors"
         },
         {
           "content": {
@@ -169,10 +169,10 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/db4b41b9-ed0a-4613-9211-d0307ff30867/GELLLS.webp",
+          "categorieName": "Ceras e Géis",
           "alt": "a",
-          "href": "/"
+          "href": "/ceras-e-geis"
         },
         {
           "content": {
@@ -181,34 +181,10 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/db4b41b9-ed0a-4613-9211-d0307ff30867/GELLLS.webp",
+          "categorieName": "Linha Masculina",
           "alt": "a",
-          "href": "/"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Loren Ipsum",
-          "alt": "a",
-          "href": "/"
+          "href": "/produto-masculino"
         }
       ],
       "layout": {

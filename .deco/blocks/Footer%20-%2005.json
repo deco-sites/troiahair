@@ -1,6 +1,6 @@
 {
   "logo": {
-    "description": "Loren Ipsum",
+    "description": "Cuidando da sua beleza há 7 anos, excelência em fazer cosméticos para cuidado dos seus cabelos.",
     "textLogo": "Tróia Hair"
   },
   "layout": {
@@ -17,28 +17,16 @@
   "social": {
     "items": [
       {
-        "link": "http://deco.cx/",
-        "label": "Discord"
-      },
-      {
-        "link": "http://deco.cx/",
-        "label": "Facebook"
-      },
-      {
-        "link": "http://deco.cx/",
+        "link": "https://www.instagram.com/troiahairoficial/#",
         "label": "Instagram"
       },
       {
-        "link": "http://deco.cx/",
-        "label": "Linkedin"
-      },
-      {
-        "link": "http://deco.cx/",
+        "link": "https://www.tiktok.com/@troiahairoficial",
         "label": "Tiktok"
       },
       {
-        "link": "http://deco.cx/",
-        "label": "Twitter"
+        "link": "https://pt-br.facebook.com/TroiaHairOficial/",
+        "label": "Facebook"
       }
     ],
     "title": "Siga-nos nas redes"
