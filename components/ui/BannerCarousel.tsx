@@ -212,7 +212,7 @@ function BannerCarousel(props: Props) {
   return (
     <div
       id={id}
-      class="md:max-w-[1300px] grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_]  min-h-[360px] mx-auto"
+      class="md:max-w-[1300px] grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_]  min-h-[360px] mx-auto mt-10"
     >
       <Slider class="carousel carousel-center w-full col-span-full row-span-full gap-6">
         {images?.map((image, index) => {
