@@ -219,11 +219,13 @@
       "products": {
         "__resolveType": "vnda/loaders/productList.ts",
         "sort": "newest",
-        "tags": [],
+        "tags": [
+          "progressiva"
+        ],
         "typeTags": [],
         "ids": [],
-        "count": 7,
-        "wildcard": false
+        "wildcard": false,
+        "count": 7
       },
       "cardLayout": {
         "layout": {
@@ -252,12 +254,12 @@
         },
         "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
       },
-      "title": "BESTSELLERS DO BRASIL!",
-      "description": "Os mais procurados pelos nossos clientes",
+      "title": "PROGRESSIVAS",
+      "description": "As melhores do mercado",
       "rating": {
         "maxRating": 5
       },
-      "whatsappNumber": 5511970671380,
+      "whatsappNumber": 5511970671376,
       "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
     },
     {
