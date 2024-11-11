@@ -12,21 +12,37 @@
       ],
       "children": [
         {
-          "url": "/Progressivas e Btx",
-          "name": "Novidades",
-          "@type": "SiteNavigationElement",
+          "url": "/progressivas-e-btx",
+          "name": "Progressivas e Btx",
           "children": [
             {
-              "url": "/feminino/vestidos",
-              "name": "Mais vendidos",
-              "@type": "SiteNavigationElement"
+              "image": [],
+              "children": [],
+              "additionalType": "Progressivas",
+              "name": "Progressivas",
+              "url": "/progressivas"
             },
             {
-              "url": "/feminino/vestidos",
-              "name": "Parcerias",
-              "@type": "SiteNavigationElement"
+              "image": [],
+              "children": [],
+              "name": "Botox",
+              "url": "/botox"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Selagem Termica",
+              "url": "/selagem-termica"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Shampoo Limpeza Profunda",
+              "url": "/shampoo-limpeza-profunda"
             }
-          ]
+          ],
+          "image": [],
+          "additionalType": "Progressivas e Btx"
         }
       ]
     },
@@ -130,6 +146,23 @@
       "image": [],
       "name": "Nossas Marcas",
       "url": "/nossas-marcas"
+    },
+    {
+      "children": [],
+      "image": []
+    },
+    {
+      "children": [],
+      "image": []
+    },
+    {
+      "children": [
+        {
+          "image": [],
+          "children": []
+        }
+      ],
+      "image": []
     },
     {
       "children": [],

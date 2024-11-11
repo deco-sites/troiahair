@@ -115,6 +115,8 @@
           "href": "/progressiva"
         },
         {
+          "categorieName": "Hidratação",
+          "href": "/hidratacao",
           "content": {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
             "categorieName": "categorie01",
@@ -122,9 +124,7 @@
             "href": "/"
           },
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/b8c41537-91c8-4878-8a67-033ab14e32d1/HIDRETEITION.webp",
-          "categorieName": "Hidratação",
-          "alt": "a",
-          "href": "/hidratacao"
+          "alt": "a"
         },
         {
           "content": {
@@ -192,7 +192,7 @@
           "mobile": 3,
           "desktop": 7
         },
-        "showArrows": false
+        "showArrows": true
       },
       "title": "Nossas Categorias"
     },
