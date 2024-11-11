@@ -9,10 +9,10 @@
     {
       "__resolveType": "site/sections/Images/Carousel.tsx",
       "dots": true,
-      "arrows": false,
+      "arrows": true,
       "images": [
         {
-          "alt": "Feminino",
+          "alt": "Black Friday",
           "action": {
             "href": "/feminino",
             "label": "Explore collection",
@@ -23,30 +23,19 @@
           "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f3039956-80f9-462e-8c48-9a6768b7b743/_.webp"
         },
         {
-          "alt": "Masculino",
+          "alt": "Frete Grátis",
           "action": {
-            "href": "/masculino",
+            "href": "/politica-de-entrega",
             "label": "Explore collection",
             "title": "VTEX Store",
             "subTitle": "Visit our site and start building now:"
           },
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-        },
-        {
-          "alt": "Vestidos",
-          "action": {
-            "href": "/feminino/roupas/vestidos",
-            "label": "Explore collection",
-            "title": "VTEX Store",
-            "subTitle": "Visit our site and start building now:"
-          },
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/cca52152-1a81-4553-aa31-e5e4d5716fc3/grande.webp",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/cca52152-1a81-4553-aa31-e5e4d5716fc3/grande.webp"
         }
       ],
       "preload": true,
-      "interval": 5
+      "interval": 3
     },
     {
       "__resolveType": "site/sections/InformationBar.tsx",
