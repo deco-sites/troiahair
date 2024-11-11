@@ -47,32 +47,40 @@
       ]
     },
     {
-      "url": "/hidratacao",
-      "name": "Hidratação",
+      "url": "/troia-hair-colors",
+      "name": "Troia Hair Colors",
       "@type": "SiteNavigationElement",
       "image": [
         {
-          "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/575c3b0f-1a2e-4ecb-aaad-532671dc553d",
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c8db0b78-8e38-4f24-8f79-1ce4d6fefdbb/COLOOOO.webp",
           "@type": "ImageObject"
         }
       ],
       "children": [
         {
-          "url": "/masculino",
-          "name": "Novidades",
-          "@type": "SiteNavigationElement",
+          "image": [],
           "children": [
             {
-              "url": "/masculino",
-              "name": "Mais vendidos",
-              "@type": "SiteNavigationElement"
+              "image": [],
+              "children": [],
+              "name": "Coloração Permanente",
+              "url": "/coloracao-permanente"
             },
             {
-              "url": "/masculino",
-              "name": "Parcerias",
-              "@type": "SiteNavigationElement"
+              "image": [],
+              "children": [],
+              "name": "Coloração Semi Permanente",
+              "url": "/coloracao-semi-permanente"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Emulsão Reveladora OX",
+              "url": "/emulsao-reveladora-ox"
             }
-          ]
+          ],
+          "name": "Troia Hair Colors",
+          "url": "/troia-hair-colors"
         }
       ]
     },
