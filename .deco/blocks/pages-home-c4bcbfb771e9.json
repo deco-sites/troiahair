@@ -294,7 +294,7 @@
         "showArrows": false,
         "numberOfCategories": {
           "mobile": 3,
-          "desktop": 7
+          "desktop": 5
         }
       },
       "categories": [
@@ -357,54 +357,6 @@
           "alt": "Logo de lisorganic",
           "href": "/marcas/lisorganic",
           "categorieName": "Lisorganic"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Mofajang",
-          "alt": "logo de mofajang",
-          "href": "/marcas/mofajang"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Tróia 4 men",
-          "alt": "logo de troia 4 men",
-          "href": "/marcas/troia-4-men"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Tróia Care",
-          "alt": "logo de troia care",
-          "href": "/marcas/troia-care"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-          "categorieName": "Tróia Hair Colors",
-          "alt": "logo Tróia Hair Colors",
-          "href": "/marcas/troia-hair-colors"
         }
       ]
     },
