@@ -67,7 +67,6 @@ function ProductInfo({ page, layout }: Props) {
     listPrice,
   });
 
-  console.log("product info", product);
 
   return (
     <div class="flex flex-col  max-w-[1300px]" id={id}>

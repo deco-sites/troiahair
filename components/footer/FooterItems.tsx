@@ -1,4 +1,6 @@
-// import Icon, { AvailableIcons } from "../../components/ui/Icon.tsx";
+import CartLinkVDNA from "../../islands/Header/Cart/vndaFooter.tsx";
+
+import { usePlatform } from "../../sdk/usePlatform.tsx";
 
 export type Item = {
   label: string;
@@ -10,9 +12,14 @@ export type Section = {
   items: Item[];
 };
 
-export default function FooterItems(
-  { sections, justify = false }: { sections: Section[]; justify: boolean },
-) {
+export default function FooterItems({
+  sections,
+  justify = false,
+}: {
+  sections: Section[];
+  justify: boolean;
+}) {
+  const platform = usePlatform();
   return (
     <>
       {sections.length > 0 && (
@@ -30,12 +37,18 @@ export default function FooterItems(
                   <ul class={`flex flex-col gap-3 flex-wrap ]`}>
                     {section.items?.map((item) => (
                       <li>
-                        <a
-                          href={item.href}
-                          class="block link link-hover text-[11px]"
-                        >
-                          {item.label}
-                        </a>
+                        {item.label === "Meu pedido" ? (
+                          <div class="block link link-hover text-[11px]">
+                            {platform === "vnda" && <CartLinkVDNA />}
+                          </div>
+                        ) : (
+                          <a
+                            href={item.href}
+                            class="block link link-hover text-[11px]"
+                          >
+                            {item.label}
+                          </a>
+                        )}
                       </li>
                     ))}
                   </ul>

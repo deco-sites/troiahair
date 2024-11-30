@@ -37,7 +37,7 @@ function ProductShelf({
   layout,
   whatsappNumber,
   imageNotFound,
-}: //rating = { maxRating: 5 },
+}:
   Props) {
   const id = useId();
   const platform = usePlatform();
@@ -62,7 +62,7 @@ function ProductShelf({
   };
 
   return (
-    <div class="md:max-w-[1300px] w-screen py-12 flex flex-col gap-6  mx-auto">
+    <div class="md:max-w-[1300px] w-screen py-12 flex flex-col gap-6  mx-auto overflow-x-auto">
       <div class="flex flex-col items-center pb-5">
         <h2 class="text-2xl text-primary font-bold pb-2">{title}</h2>
         <p class="text-base text-neutral">{description}</p>
@@ -87,7 +87,7 @@ function ProductShelf({
                     whatsappNumber={whatsappNumber}
                     imageNotFound={imageNotFound}
                   />
-                  {/* <Rating maxRating={rating.maxRating} rating={rating.rating} /> */}
+            
                 </div>
               </Slider.Item>
             ))}

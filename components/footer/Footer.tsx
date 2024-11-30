@@ -12,6 +12,8 @@ import { clx } from "../../sdk/clx.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import PoweredByDeco from "apps/website/components/PoweredByDeco.tsx";
 
+
+
 export type Item = {
   /**
    * @title Título
@@ -131,6 +133,12 @@ export interface Props {
   mobileApps?: MobileApps;
   //regionOptions?: RegionOptions;
   extraLinks?: Item[];
+  
+  /** @description selos de confiança */
+  sealImage?: {
+    seal: ImageWidget;
+    label: string;
+  }[];
   /** @title Voltar para o topo */
   backToTheTop?: {
     text?: string;
@@ -139,9 +147,9 @@ export interface Props {
 }
 
 const LAYOUT = {
-  "Primary": "bg-primary text-primary-content",
-  "Secondary": "bg-secondary text-secondary-content",
-  "Accent": "bg-accent text-accent-content",
+  Primary: "bg-primary text-primary-content",
+  Secondary: "bg-secondary text-secondary-content",
+  Accent: "bg-accent text-accent-content",
   "Base 100": "bg-base-100 text-base-content",
   "Base 100 inverted": "bg-base-content text-base-100",
 };
@@ -153,43 +161,50 @@ function Footer({
     description: "",
     form: { placeholder: "", buttonText: "", helpText: "" },
   },
-  sections = [{
-    "label": "Sobre",
-    "items": [
-      {
-        "href": "/quem-somos",
-        "label": "Quem somos",
-      },
-      {
-        "href": "/termos-de-uso",
-        "label": "Termos de uso",
-      },
-      {
-        "href": "/trabalhe-conosco",
-        "label": "Trabalhe conosco",
-      },
-    ],
-  }, {
-    "label": "Atendimento",
-    "items": [
-      {
-        "href": "/centraldeatendimento",
-        "label": "Central de atendimento",
-      },
-      {
-        "href": "/whatsapp",
-        "label": "Fale conosco pelo WhatsApp",
-      },
-      {
-        "href": "/trocaedevolucao",
-        "label": "Troca e devolução",
-      },
-    ],
-  }],
+  sections = [
+    {
+      label: "Sobre",
+      items: [
+        {
+          href: "/quem-somos",
+          label: "Quem somos",
+        },
+        {
+          href: "/termos-de-uso",
+          label: "Termos de uso",
+        },
+        {
+          href: "/trabalhe-conosco",
+          label: "Trabalhe conosco",
+        },
+      ],
+    },
+    {
+      label: "Atendimento",
+      items: [
+        {
+          href: "/centraldeatendimento",
+          label: "Central de atendimento",
+        },
+        {
+          href: "/whatsapp",
+          label: "Fale conosco pelo WhatsApp",
+        },
+        {
+          href: "/trocaedevolucao",
+          label: "Troca e devolução",
+        },
+      ],
+    },
+  ],
   social = {
     title: "Redes sociais",
-    items: [{ label: "Instagram", link: "/" }, { label: "Tiktok", link: "/" }],
+    items: [
+      { label: "Instagram", link: "/" },
+      { label: "Tiktok", link: "/" },
+    ],
   },
+  sealImage,
   payments = {
     title: "Formas de pagamento",
     items: [{ label: "Mastercard" }, { label: "Visa" }, { label: "Pix" }],
@@ -215,43 +230,59 @@ function Footer({
   },
 }: Props) {
   const _logo = layout?.hide?.logo ? <></> : <Logo logo={logo} />;
-  const _newsletter = layout?.hide?.newsletter ? <></> : (
+  const _newsletter = layout?.hide?.newsletter ? (
+    <></>
+  ) : (
     <Newsletter
       content={newsletter}
       layout={{
-        tiled: layout?.variation == "Variation 4" ||
+        tiled:
+          layout?.variation == "Variation 4" ||
           layout?.variation == "Variation 5",
       }}
     />
   );
-  const _sectionLinks = layout?.hide?.sectionLinks ? <></> : (
+  const _sectionLinks = layout?.hide?.sectionLinks ? (
+    <></>
+  ) : (
     <FooterItems
       sections={sections}
-      justify={layout?.variation == "Variation 2" ||
-        layout?.variation == "Variation 3"}
+      justify={
+        layout?.variation == "Variation 2" || layout?.variation == "Variation 3"
+      }
     />
   );
-  const _social = layout?.hide?.socialLinks
-    ? <></>
-    : <Social content={social} vertical={layout?.variation == "Variation 3"} />;
-  const _payments = layout?.hide?.paymentMethods
-    ? <></>
-    : <PaymentMethods content={payments} />;
-  const _apps = layout?.hide?.mobileApps
-    ? <></>
-    : <MobileApps content={mobileApps} />;
+  const _social = layout?.hide?.socialLinks ? (
+    <></>
+  ) : (
+    <Social content={social} vertical={layout?.variation == "Variation 3"} />
+  );
+  const _payments = layout?.hide?.paymentMethods ? (
+    <></>
+  ) : (
+    <PaymentMethods content={payments} />
+  );
+  const _apps = layout?.hide?.mobileApps ? (
+    <></>
+  ) : (
+    <MobileApps content={mobileApps} />
+  );
   // const _region = layout?.hide?.regionOptions
   //   ? <></>
   //   : <RegionSelector content={regionOptions} />;
-  const _links = layout?.hide?.extraLinks
-    ? <></>
-    : <ExtraLinks content={extraLinks} />;
+  const _links = layout?.hide?.extraLinks ? (
+    <></>
+  ) : (
+    <ExtraLinks content={extraLinks} />
+  );
+
+
 
   return (
     <footer
       class={clx(
         "font-poppins lg:max-w-none w-screen mx-auto flex-col pt-[53px] pb-2 md:pb-10 flex justify-center items-center",
-        LAYOUT[layout?.backgroundColor ?? "Primary"],
+        LAYOUT[layout?.backgroundColor ?? "Primary"]
       )}
     >
       <div class="lg:w-[1153px] flex flex-col ">
@@ -360,9 +391,25 @@ function Footer({
                 <a href="/">{_logo}</a>
                 {_sectionLinks}
               </div>
-              <div class="flex flex-col gap-[30px] mr-[76px] w-[280px]">
+              <div class="flex flex-col gap-[30px] mr-[56px] w-[300px]lg:w-[350px]">
                 {_payments}
                 {_social}
+                {sealImage && (
+                  <div class="flex flex-col lg:flex-row  justify-center items-center gap-4">
+                    {sealImage.map((image) => (
+                      <div>
+                        <img
+                          loading="lazy"
+                          width="130"
+                          height="60"
+                          src={image.seal}
+                          alt={image.label}
+                          class="object-cover"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
                 {_apps}
               </div>
             </div>
@@ -370,7 +417,8 @@ function Footer({
             <div class="flex flex-col-reverse md:flex-row md:justify-between gap-10 md:items-center mt-[30px]">
               {/* <PoweredByDeco /> */}
               <p class="text-[9px] text-base-200">
-                © Copyright Tróia Hair - 2024. Todos os direitos reservados.
+                © Copyright Tróia Hair -CNPJ: 13.422.865/0001-98 - 2024. Todos os
+                direitos reservados.
               </p>
               <a href="https://tec3commerce.com.br/" target="blank">
                 <p class="text-[9px] text-base-200 pb-2">Desenvolvido por:</p>
@@ -390,9 +438,11 @@ function Footer({
           </div>
         )}
       </div>
-      {layout?.hide?.backToTheTop
-        ? <></>
-        : <BackToTop content={backToTheTop?.text} />}
+      {layout?.hide?.backToTheTop ? (
+        <></>
+      ) : (
+        <BackToTop content={backToTheTop?.text} />
+      )}
     </footer>
   );
 }

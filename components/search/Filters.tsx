@@ -65,7 +65,6 @@ function FilterValues({ key, values }: FilterToggle) {
 }
 
 function Filters({ filters }: Props) {
-  console.log(filters);
 
   return (
     <div>

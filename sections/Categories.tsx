@@ -150,7 +150,7 @@ function Categories({
   }
 
   return (
-    <div class="w-screen flex flex-col items-center pb-[56px] ">
+    <div class="w-screen lg:w-full flex flex-col items-center pb-[56px]">
       <div class="max-w-[1300px]">
         <h2 class="text-2xl text-primary text-center font-bold uppercase pt-[37px] pb-[25px]">
           {title}
@@ -158,7 +158,7 @@ function Categories({
 
         <div
           id={id}
-          class={`grid ${
+          class={`grid  overflow-x-auto w-full ${
             layout?.showArrows
               ? "grid-cols-[48px_1fr_48px] items-center"
               : "grid-cols-1"
@@ -166,7 +166,7 @@ function Categories({
         >
           {layout?.showArrows && (
             <>
-              <div class="col-start-1 flex justify-center">
+              <div class="hidden col-start-1 lg:flex justify-center">
                 <Slider.PrevButton class="w-12 h-12 flex justify-center items-center">
                   <Icon
                     size={24}
@@ -192,7 +192,7 @@ function Categories({
 
           {layout?.showArrows && (
             <>
-              <div class="col-start-3 flex justify-center">
+              <div class="hidden col-start-3 lg:flex justify-center">
                 <Slider.NextButton class="w-12 h-12 flex justify-center items-center text-primary">
                   <Icon size={24} id="ChevronRight" strokeWidth={3} />
                 </Slider.NextButton>

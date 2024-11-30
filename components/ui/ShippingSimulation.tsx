@@ -31,7 +31,6 @@ function ShippingContent({ simulation }: {
   if (simulation.value == null) {
     return null;
   }
-  console.log(simulation.value);
   if (methods.length === 0) {
     return (
       <div class="p-2">
@@ -88,8 +87,7 @@ function ShippingContent({ simulation }: {
 }
 
 function ShippingSimulation({ skuId }: Props) {
-  console.log(skuId);
-
+ 
   const postalCode = useSignal("");
   const loading = useSignal(false);
   const simulateResult = useSignal<ShippingResult | string | null>(null);

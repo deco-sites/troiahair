@@ -6,7 +6,7 @@
   "layout": {
     "hide": {
       "logo": false,
-      "mobileApps": false,
+      "mobileApps": true,
       "newsletter": false,
       "socialLinks": false,
       "regionOptions": true
@@ -95,7 +95,7 @@
           "label": "Central de atendimento"
         },
         {
-          "href": "/fale-whatsapp",
+          "href": "https://api.whatsapp.com/send?phone=5511970671380",
           "label": "Fale conosco pelo Whatsapp"
         },
         {
@@ -122,12 +122,12 @@
     {
       "items": [
         {
-          "href": "/login",
+          "href": "/entrar",
           "label": "Login e cadastro"
         },
         {
-          "href": "/meus-pedidos",
-          "label": "Meus pedidos"
+          "href": "/checkout",
+          "label": "Meu pedido"
         }
       ],
       "label": "Minha conta",
@@ -148,11 +148,6 @@
       "href": "/politica-de-privacidade",
       "link": "http://www.google.com/",
       "label": "Política de privacidade"
-    },
-    {
-      "href": "http://www.google.com",
-      "link": "http://www.google.com",
-      "label": "Termos de serviço"
     }
   ],
   "mobileApps": {
@@ -184,5 +179,136 @@
       }
     ],
     "language": []
-  }
+  },
+  "sealImage": [
+    {
+      "0": "h",
+      "1": "t",
+      "2": "t",
+      "3": "p",
+      "4": "s",
+      "5": ":",
+      "6": "/",
+      "7": "/",
+      "8": "d",
+      "9": "e",
+      "10": "c",
+      "11": "o",
+      "12": "-",
+      "13": "s",
+      "14": "i",
+      "15": "t",
+      "16": "e",
+      "17": "s",
+      "18": "-",
+      "19": "a",
+      "20": "s",
+      "21": "s",
+      "22": "e",
+      "23": "t",
+      "24": "s",
+      "25": ".",
+      "26": "s",
+      "27": "3",
+      "28": ".",
+      "29": "s",
+      "30": "a",
+      "31": "-",
+      "32": "e",
+      "33": "a",
+      "34": "s",
+      "35": "t",
+      "36": "-",
+      "37": "1",
+      "38": ".",
+      "39": "a",
+      "40": "m",
+      "41": "a",
+      "42": "z",
+      "43": "o",
+      "44": "n",
+      "45": "a",
+      "46": "w",
+      "47": "s",
+      "48": ".",
+      "49": "c",
+      "50": "o",
+      "51": "m",
+      "52": "/",
+      "53": "t",
+      "54": "r",
+      "55": "o",
+      "56": "i",
+      "57": "a",
+      "58": "h",
+      "59": "a",
+      "60": "i",
+      "61": "r",
+      "62": "/",
+      "63": "f",
+      "64": "1",
+      "65": "2",
+      "66": "d",
+      "67": "1",
+      "68": "b",
+      "69": "f",
+      "70": "9",
+      "71": "-",
+      "72": "e",
+      "73": "9",
+      "74": "9",
+      "75": "f",
+      "76": "-",
+      "77": "4",
+      "78": "3",
+      "79": "f",
+      "80": "7",
+      "81": "-",
+      "82": "a",
+      "83": "8",
+      "84": "a",
+      "85": "7",
+      "86": "-",
+      "87": "e",
+      "88": "c",
+      "89": "1",
+      "90": "8",
+      "91": "b",
+      "92": "6",
+      "93": "6",
+      "94": "5",
+      "95": "1",
+      "96": "4",
+      "97": "e",
+      "98": "d",
+      "99": "/",
+      "100": "r",
+      "101": "e",
+      "102": "c",
+      "103": "l",
+      "104": "a",
+      "105": "m",
+      "106": "e",
+      "107": "-",
+      "108": "a",
+      "109": "q",
+      "110": "u",
+      "111": "i",
+      "112": ".",
+      "113": "p",
+      "114": "n",
+      "115": "g",
+      "seal": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f12d1bf9-e99f-43f7-a8a7-ec18b66514ed/reclame-aqui.png",
+      "alt": "selo reclame aqui",
+      "label": "Reclame aqui"
+    },
+    {
+      "seal": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/83405188-ade8-40c1-ad03-dcd2ebc145a2/Selo-Google.png",
+      "label": "Google Safe Browsing"
+    },
+    {
+      "seal": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/b233510a-7ff9-4044-9606-7f0aeae9cea9/selos-loja-protegida.webp",
+      "label": "Loja protegida"
+    }
+  ]
 }
