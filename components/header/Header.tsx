@@ -182,7 +182,7 @@ function Header({
     <>
       <header class="h-[100px] lg:min-h-[77px] max-w-[1300px] p-0 mx-auto bg-white  z-1000">
         <Drawers menu={{ items }} searchbar={searchbar} platform={platform}>
-          <div class="fixed left-0 w-full z-1000 bg-white">
+          <div class="fixed left-0 w-full z-20 bg-white">
             <div class=" max-w-[1300px]   mx-auto ">
               {alerts && alerts.length > 0 && (
                 <Alert alerts={alerts} interval={interval} />
