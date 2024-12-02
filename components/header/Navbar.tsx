@@ -99,7 +99,7 @@ function Navbar({
           </div>
           <a
             class="flex items-center text-xs font-thin ml-2"
-            href="/entrar"
+            href="https://direct.troiahair.com.br/entrar"
             aria-label="Account"
           >
             <div class="font-normal btn btn-accent btn-outline border border-primary rounded-full p-0 m-0 w-[43px] h-[43px] min-h-0">
@@ -108,7 +108,7 @@ function Navbar({
                 src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/fb00010a-a586-4ede-ba77-653171becd82"
                 width={28}
                 height={38}
-                alt={""}
+                alt={"Account icon"}
               />
             </div>
           </a>
@@ -202,7 +202,7 @@ function Navbar({
 
             <a
               class="flex items-center text-xs font-thin"
-              href="/entrar"
+              href="https://direct.troiahair.com.br/entrar"
               aria-label="Account"
             >
               <div class="font-normal btn btn-accent btn-outline border border-primary rounded-full p-0 m-0 w-[43px] h-[43px] min-h-0">
