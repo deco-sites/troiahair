@@ -75,7 +75,7 @@ function ProductCard({
           }}
         />
 
-        <div class="flex flex-col hover:transform hover:-translate-y-2 lg:mt-2 mt-8 h-[412px] w-[275px] border border-secondary rounded-lg px-2 pt-[5px]">
+        <div class="flex flex-col hover:transform hover:-translate-y-2 lg:mt-2 mt-0 h-[412px] w-[180px] lg:w-[275px] border border-secondary rounded-lg px-2 pt-[5px]">
           {/* Wishlist button */}
           <div class="flex justify-between items-center w-full pb-3">
             {/* Discount % */}
@@ -110,7 +110,7 @@ function ProductCard({
             href={relativeUrl}
             aria-label="view product"
             class={clx(
-              " w-[255px] h-[222px] mb-2",
+              "w-[174] lg:w-[255px] h-[222px] mb-2",
               "grid grid-cols-1 grid-rows-1"
             )}
           >

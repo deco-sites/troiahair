@@ -69,7 +69,7 @@ function ProductGallery({
         </Head>
       )} */}
       <div
-        class={`grid ${mobile} justify-center items-center ${desktop} gap-10`}
+        class={`grid ${mobile} justify-center items-center ${desktop} lg:gap-10 gap-3`}
       >
         {products?.map((product, index) => (
           <ProductCard

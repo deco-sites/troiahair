@@ -97,8 +97,8 @@ function Result({
                 <Filters filters={filters} />
               </aside>
             )}
-          <div class="lg:pl-8 ">
-            <div class="mt-3 lg:mt-10 ">
+          <div class="lg:pl-8 mx-auto">
+            <div class="mt-0 lg:mt-10 ">
               {title && (
                 <h2 class="font-semibold uppercase text-xl text-primary">
                   {title}
