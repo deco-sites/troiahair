@@ -69,7 +69,7 @@ function ProductInfo({ page, layout }: Props) {
 
 
   return (
-    <div class="flex flex-col  max-w-[1300px] mt-4 lg:mt-8" id={id}>
+    <div class="flex flex-col  max-w-[1300px] mt-10 lg:mt-8" id={id}>
       {/* Code and name */}
 
       {/* <div class=" bg-primary h-3 mx-auto md:w-[1300px] w-screen pt-12 md:pt-0">
