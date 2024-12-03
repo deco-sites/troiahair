@@ -30,8 +30,8 @@ interface Props {
   platform?: Platform;
 }
 
-const WIDTH = 255;
-const HEIGHT = 222;
+const WIDTH = 200;
+const HEIGHT = 300;
 
 function ProductCard({
   product,
@@ -117,9 +117,8 @@ function ProductCard({
             <Image
               src={front?.url || imageNotFound}
               alt={front.alternateName}
-              width={255}
-              height={222}
-              style={{ aspectRatio }}
+              // A largura esta definida como 0 para nao cortar
+              width={0}
               class={clx(
                 "object-contain",
                 "rounded w-[255px] h-[222px]",
@@ -135,9 +134,8 @@ function ProductCard({
             <Image
               src={back?.url || front.url! || imageNotFound}
               alt={back?.alternateName ?? front.alternateName}
-              width={255}
-              height={222}
-              style={{ aspectRatio }}
+              // A largura esta definida como 0 para nao cortar
+              width={0}
               class={clx(
                 "object-contain",
                 "rounded w-[255px] h-[222px]",
