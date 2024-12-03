@@ -121,7 +121,7 @@ function ProductCard({
               height={222}
               style={{ aspectRatio }}
               class={clx(
-                "object-cover",
+                "object-contain",
                 "rounded w-[255px] h-[222px]",
                 "col-span-full row-span-full",
                 "transition-opacity opacity-100 lg:group-hover:opacity-0"
@@ -130,6 +130,7 @@ function ProductCard({
               preload={preload}
               loading={preload ? "eager" : "lazy"}
               decoding="async"
+              fit="contain"
             />
             <Image
               src={back?.url || front.url! || imageNotFound}
