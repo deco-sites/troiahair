@@ -190,20 +190,19 @@
       "bannerList": [
         {
           "href": "/",
-          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/cd2f30f9-b6b3-4d3e-ad00-61f9bea14ba2"
+          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/a27293fe-a448-4b25-8028-a837d13318c5/mini-banner-1999.jpg"
         },
         {
           "href": "/",
-          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0f2fc985-7692-4d64-93a8-e9ed0992a2fe"
+          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/2988acb7-779b-4427-a670-130fac138d48/50DESCONTO.jpg"
         },
         {
-          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/b03196e7-4179-4b2a-a12a-80138f360b0e",
+          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/58c2b79c-3713-42b5-8377-1c1f542756fc/mini-banner-MOFA.jpg",
           "href": "/"
         },
         {
-          "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/efba4e5a-42d7-48ee-bdf6-018da4bfec5f",
-          "href": "/",
-          "label": "04"
+          "label": "New",
+          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/4d4f4a06-4268-40c5-8d15-ded1a8c5ad7b/pistola-k6.jpg"
         }
       ],
       "bannerType": "Lista de banners"
