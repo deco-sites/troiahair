@@ -139,7 +139,7 @@ function ProductCard({
               height={222}
               style={{ aspectRatio }}
               class={clx(
-                "object-cover",
+                "object-contain",
                 "rounded w-[255px] h-[222px]",
                 "col-span-full row-span-full",
                 "transition-opacity opacity-0 lg:group-hover:opacity-100"
@@ -147,6 +147,7 @@ function ProductCard({
               // sizes="(max-width: 640px) 50vw, 20vw"
               loading="lazy"
               decoding="async"
+              fit="contain"
             />
           </a>
 
