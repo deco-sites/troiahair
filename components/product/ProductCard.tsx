@@ -30,8 +30,8 @@ interface Props {
   platform?: Platform;
 }
 
-const WIDTH = 143;
-const HEIGHT = 130;
+const WIDTH = 255;
+const HEIGHT = 222;
 
 function ProductCard({
   product,
