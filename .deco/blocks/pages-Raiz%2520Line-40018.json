@@ -110,38 +110,6 @@
             "alt": "teste"
           },
           {
-            "__resolveType": "site/sections/TopBar.tsx",
-            "imageFormat": "Quadrado",
-            "content": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur",
-                "label": "Item 1"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur",
-                "label": "item 2"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur"
-              }
-            ]
-          },
-          {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ProductShelfBrands.tsx",
@@ -163,7 +131,7 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
+              "title": "RAIZ LINE",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
@@ -177,7 +145,7 @@
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Raiz Line Hair é uma marca dedicada a oferecer cuidados capilares especializados, com foco em soluções que promovem a saúde e a beleza natural dos fios desde a raiz. Combinando tecnologia avançada e ingredientes de alta qualidade, a marca se destaca por atender a diversas necessidades capilares, proporcionando resultados eficazes e duradouros."
             }
           },
           {
@@ -202,7 +170,6 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
@@ -216,7 +183,8 @@
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "title": "Lançamentos",
+              "description": "Veja todos os lançamentos da marca"
             }
           },
           {
@@ -241,7 +209,6 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
@@ -255,38 +222,16 @@
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "title": "Mais vendidos",
+              "description": "Veja os mais vendidos da marca"
             }
           },
           {
             "__resolveType": "site/sections/BrandText.tsx",
             "mobile": true,
             "text": "<p>Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Consectetur vivamus sed mi proin. Suspendisse enim mauris at semper. Eros mauris adipiscing facilisis nulla. Elit vulputate pellentesque non ac donec pulvinar feugiat feugiat. Feugiat congue erat sodales at egestas aliquam imperdiet. Tellus nulla elementum purus lacus velit in ac ut ultrices. Maecenas sit nec eleifend elementum. Enim viverra vulputate sed luctus platea quam vitae. Sagittis nisl sociis enim mauris amet leo vitae enim eget. Sed laoreet elementum ultricies proin aliquet euismod porttitor volutpat at. Enim in id molestie sollicitudin. Nunc pharetra nunc mi libero in bibendum id urna. Quis bibendum id mauris faucibus nunc. Vehicula tellus purus mollis risus in libero vitae. Felis pharetra faucibus consectetur tellus faucibus euismod tempor varius. Et tincidunt vestibulum duis sit.</p>",
-            "title": "BELEZA É VIDA, É SER FELIZ",
-            "backgroundColor": false
-          },
-          {
-            "__resolveType": "site/sections/BrandBanners.tsx",
-            "mobile": true,
-            "bannersType": "Medio",
-            "banners": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
-                "alt": "teste"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
-                "alt": "teste",
-                "href": "/"
-              }
-            ]
-          },
-          {
-            "__resolveType": "site/sections/BrandText.tsx",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Consectetur vivamus sed mi proin. Suspendisse enim mauris at semper. Eros mauris adipiscing facilisis nulla. Elit vulputate pellentesque non ac donec pulvinar feugiat feugiat. Feugiat congue erat sodales at egestas aliquam imperdiet. Tellus nulla elementum purus lacus velit in ac ut ultrices. Maecenas sit nec eleifend elementum. Enim viverra vulputate sed luctus platea quam vitae. Sagittis nisl sociis enim mauris amet leo vitae enim eget. Sed laoreet elementum ultricies proin aliquet euismod porttitor volutpat at. Enim in id molestie sollicitudin. Nunc pharetra nunc mi libero in bibendum id urna. Quis bibendum id mauris faucibus nunc. Vehicula tellus purus mollis risus in libero vitae. Felis pharetra faucibus consectetur tellus faucibus euismod tempor varius. Et tincidunt vestibulum duis sit.</p>",
-            "title": "BELEZA É VIDA, É SER FELiz 2",
-            "backgroundColor": true,
-            "mobile": true
+            "backgroundColor": false,
+            "title": "Diferenciais da marca"
           },
           {
             "__resolveType": "Footer - 05"
