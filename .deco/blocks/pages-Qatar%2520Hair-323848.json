@@ -1,6 +1,6 @@
 {
-  "name": " Lisorganic",
-  "path": "/marcas/lisorganic",
+  "name": "Qatar Hair",
+  "path": "/marcas/qatar-hair",
   "sections": {
     "__resolveType": "website/flags/multivariate.ts",
     "variants": [
@@ -33,7 +33,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "lisorganic"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -60,7 +60,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "lisorganic"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -110,38 +110,6 @@
             "alt": "teste"
           },
           {
-            "__resolveType": "site/sections/TopBar.tsx",
-            "imageFormat": "Quadrado",
-            "content": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur",
-                "label": "Item 1"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur",
-                "label": "item 2"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur"
-              }
-            ]
-          },
-          {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ProductShelfBrands.tsx",
@@ -163,21 +131,21 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
+              "title": "Qatar Hair",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "lisorganic"
+                  "qatar-hair"
                 ],
                 "typeTags": [],
                 "ids": [],
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "A marca Qatar Hair é reconhecida por seu foco em cuidados capilares de alta qualidade, trazendo produtos desenvolvidos para promover cabelos saudáveis, hidratados e com brilho excepcional. Ela combina tecnologia avançada com ingredientes cuidadosamente selecionados para atender às necessidades específicas de diferentes tipos de cabelo."
             }
           },
           {
@@ -202,21 +170,21 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
+              "title": "Lançamentos",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "lisorganic"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": [],
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Veja todos os lançamentos da marca"
             }
           },
           {
@@ -241,52 +209,29 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
+              "title": "Mais vendidos",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "lisorganic"
+                  "mofajang"
                 ],
                 "typeTags": [],
                 "ids": [],
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Veja os mais vendidos da marca"
             }
           },
           {
             "__resolveType": "site/sections/BrandText.tsx",
             "mobile": true,
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Consectetur vivamus sed mi proin. Suspendisse enim mauris at semper. Eros mauris adipiscing facilisis nulla. Elit vulputate pellentesque non ac donec pulvinar feugiat feugiat. Feugiat congue erat sodales at egestas aliquam imperdiet. Tellus nulla elementum purus lacus velit in ac ut ultrices. Maecenas sit nec eleifend elementum. Enim viverra vulputate sed luctus platea quam vitae. Sagittis nisl sociis enim mauris amet leo vitae enim eget. Sed laoreet elementum ultricies proin aliquet euismod porttitor volutpat at. Enim in id molestie sollicitudin. Nunc pharetra nunc mi libero in bibendum id urna. Quis bibendum id mauris faucibus nunc. Vehicula tellus purus mollis risus in libero vitae. Felis pharetra faucibus consectetur tellus faucibus euismod tempor varius. Et tincidunt vestibulum duis sit.</p>",
-            "title": "BELEZA É VIDA, É SER FELIZ",
+            "text": "<p><strong>Sofisticação e eficácia:</strong> Qatar Hair posiciona-se como uma marca premium, oferecendo soluções que aliam inovação científica com resultados visíveis.<br><strong></strong></p><p><strong>Foco na hidratação e reparação:</strong> Seus produtos são formulados para nutrir profundamente, restaurar cabelos danificados e proteger contra agressões externas.<br><strong></strong></p><p><strong>Inspiração internacional:</strong> O nome sugere uma conexão com elegância e excelência, alinhando-se a um mercado global exigente.<br><strong></strong></p><p><strong>Variedade de produtos:</strong> Inclui linhas específicas para hidratação, reconstrução, controle de frizz, e tratamentos especiais para diferentes texturas capilares.<br><strong></strong></p><p><strong>Compromisso com qualidade:</strong> A marca preza pela satisfação dos consumidores, oferecendo produtos testados e aprovados para resultados consistentes.<br></p><p>Se a marca Qatar Hair tem um diferencial específico ou um foco em sustentabilidade ou ingredientes naturais, posso ajustar a descrição para incluir esses detalhes. Por favor, me avise se precisar de algo mais!<br></p>",
+            "title": "Diferenciais da marca",
             "backgroundColor": false
-          },
-          {
-            "__resolveType": "site/sections/BrandBanners.tsx",
-            "mobile": true,
-            "bannersType": "Medio",
-            "banners": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
-                "alt": "teste"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
-                "alt": "teste",
-                "href": "/"
-              }
-            ]
-          },
-          {
-            "__resolveType": "site/sections/BrandText.tsx",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Consectetur vivamus sed mi proin. Suspendisse enim mauris at semper. Eros mauris adipiscing facilisis nulla. Elit vulputate pellentesque non ac donec pulvinar feugiat feugiat. Feugiat congue erat sodales at egestas aliquam imperdiet. Tellus nulla elementum purus lacus velit in ac ut ultrices. Maecenas sit nec eleifend elementum. Enim viverra vulputate sed luctus platea quam vitae. Sagittis nisl sociis enim mauris amet leo vitae enim eget. Sed laoreet elementum ultricies proin aliquet euismod porttitor volutpat at. Enim in id molestie sollicitudin. Nunc pharetra nunc mi libero in bibendum id urna. Quis bibendum id mauris faucibus nunc. Vehicula tellus purus mollis risus in libero vitae. Felis pharetra faucibus consectetur tellus faucibus euismod tempor varius. Et tincidunt vestibulum duis sit.</p>",
-            "title": "BELEZA É VIDA, É SER FELiz 2",
-            "backgroundColor": true,
-            "mobile": true
           },
           {
             "__resolveType": "Footer - 05"

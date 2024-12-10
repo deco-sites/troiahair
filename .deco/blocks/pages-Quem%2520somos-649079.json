@@ -13,16 +13,15 @@
           "type": "Padronizar a excelência não deixa de ser uma batalha",
           "label": "CONHEÇA NOSSA HISTÓRIA",
           "description": "<p>Em dezembro de 2016, o Grupo Troia Cosméticos ingressou no mercado de cosmético com o lançamento do primeiro produto. Sua trajetória ganhou força em janeiro do ano seguinte, quando inaugurou o primeiro espaço comercial em São Paulo. O crescimento rápido da empresa é resultado de muita dedicação e compromisso com os consumidores. A marca lançou o Tratamento Térmico Orga²nic, que repercutiu para além das fronteiras nacionais, como Paraguai, Argentina, Dubai, EUA e Europa. Durante 12 anos, vendendo multimarcas, e reunindo os melhores profissionais do ramo, o proprietário aprendeu a rotina e necessidades dos salões, e relata:&nbsp;“Buscamos inovar com qualidade, e travamos uma batalha em que vence aquele que atinge a excelência”<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>“Padronizar a excelência não deixa de ser uma batalha[...]” relata, ao explicar a escolha do nome. “Na trama do filme Tróia, a beleza de Helena motiva o enredo, e no final do filme aprende-se a lição de que a transparência é o que mantém um império em ascensão. Nós batalhamos para levar beleza a cada um de nossos consumidores e, na Troia Hair, todos são bem Após um ano no mercado, o Grupo Troia Cosméticos conquistou sua primeira fábrica com a fusão da Exatbel Indústria de Cosméticos. Esta aquisição permitiu padronizar suas fórmulas exclusivas, desenvolvidas pensando em amigos e parceiros de todos os salões do Brasil e do mundo. Com isso, o que antes era apenas uma marca, Troia Hair Cosmetics, expandiu, e hoje temos as marcas exibidas ao lado!</p>",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17a1c792-2439-4245-9180-862ff2515a45/Ativo-3foto-site.png"
         }
       ]
     },
     {
       "__resolveType": "site/sections/VideoPost.tsx",
       "video": "https://www.youtube.com/watch?v=qYl64LcxlGo",
-      "title": "TÍTULO: XXXXXXXXXXXXXXXXXX",
-      "subtile": "SUBTÍTULO: XXXXXXXXXXXXXXXXXX",
-      "text": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Consectetur vivamus sed mi proin. Suspendisse enim mauris at semper. Eros mauris adipiscing facilisis nulla. Elit vulputate pellentesque non ac donec pulvinar feugiat feugiat. Feugiat congue erat sodales at egestas aliquam imperdiet. Tellus nulla elementum purus lacus velit in ac ut ultrices. Maecenas sit nec eleifend elementum. Enim viverra vulputate sed luctus platea quam vitae. Sagittis nisl sociis enim mauris amet leo vitae enim eget. Sed laoreet elementum ultricies proin aliquet euismod porttitor volutpat at. Enim in id molestie sollicitudin. Nunc pharetra nunc mi libero in bibendum id urna. Quis bibendum id mauris faucibus nunc. Vehicula tellus purus mollis risus in libero vitae. Felis pharetra faucibus consectetur tellus faucibus euismod tempor varius. Et tincidunt vestibulum duis sit."
+      "title": "CONHEÇA MAIS SOBRE A TROIA HAIR :",
+      "text": "A Troia Hair se destaca no mercado de cosméticos capilares por oferecer uma ampla gama de produtos que atendem às mais diversas necessidades de cuidado e transformação dos cabelos. Com fabricação própria, garantimos qualidade, inovação e total controle sobre cada etapa da produção, desde a escolha dos ingredientes até o resultado final. Nosso compromisso é entregar excelência e resultados visíveis, sempre priorizando a saúde capilar e a satisfação de nossos clientes."
     },
     {
       "__resolveType": "site/sections/Brands.tsx",
@@ -33,112 +32,25 @@
           "alt": "teste"
         },
         {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
+          "brandImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/62ae195b-5149-4447-83bc-b81ecdf3b6eb/Prancheta-2-copia-5.png"
+        },
+        {
+          "brandImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f7ae03e8-fc39-4f19-8005-f50ada88e3c9/Prancheta-2-copia-4.png",
           "alt": "teste"
         },
         {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
+          "brandImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3cd314e0-b209-4b16-9b68-64ba4cc9ddbd/Prancheta-2-copia.png",
           "alt": "teste"
         },
         {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
+          "brandImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/39d5d42f-ab0b-4fe7-a69e-bd85f84237bf/Prancheta-2-copia-2.png",
           "alt": "teste"
         },
         {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
-          "alt": "teste"
-        },
-        {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
-          "alt": "teste"
-        },
-        {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
-          "alt": "teste"
-        },
-        {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
-          "alt": "teste"
-        },
-        {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
-          "alt": "teste"
-        },
-        {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
-          "alt": "teste"
-        },
-        {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
-          "alt": "teste"
-        },
-        {
-          "brandImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/be4bf143-9c51-4fba-8419-378fc044fd4e",
+          "brandImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/1a21292a-b404-4a42-9365-e165844d075f/Prancheta-2-copia-3.png",
           "alt": "teste"
         }
       ]
-    },
-    {
-      "__resolveType": "site/sections/News.tsx",
-      "title": "NOTÍCIAS DO GRUPO",
-      "news": [
-        {
-          "titleNews": "TÍTULO: XXXXXXXX",
-          "subtitleNews": "XXXXXXXXXXXXXXX",
-          "video": "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
-          "post": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus."
-        },
-        {
-          "titleNews": "TÍTULO: XXXXXXXX",
-          "subtitleNews": "XXXXXXXXXXXXXXX",
-          "video": "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
-          "post": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus.",
-          "image": {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/a4d77706-742d-4976-904b-80c94312d7e0"
-          }
-        },
-        {
-          "titleNews": "TÍTULO: XXXXXXXX",
-          "subtitleNews": "XXXXXXXXXXXXXXX",
-          "video": "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
-          "post": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus.",
-          "image": {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/a4d77706-742d-4976-904b-80c94312d7e0"
-          }
-        },
-        {
-          "titleNews": "TÍTULO: XXXXXXXX",
-          "subtitleNews": "XXXXXXXXXXXXXXX",
-          "video": "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
-          "post": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus.",
-          "image": {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/a4d77706-742d-4976-904b-80c94312d7e0"
-          }
-        },
-        {
-          "titleNews": "TÍTULO: XXXXXXXX",
-          "subtitleNews": "XXXXXXXXXXXXXXX",
-          "video": "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
-          "post": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus."
-        },
-        {
-          "titleNews": "TÍTULO: XXXXXXXX",
-          "subtitleNews": "XXXXXXXXXXXXXXX",
-          "video": "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
-          "post": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus.",
-          "image": {
-            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/a4d77706-742d-4976-904b-80c94312d7e0"
-          }
-        },
-        {
-          "titleNews": "TÍTULO: XXXXXXXX",
-          "subtitleNews": "XXXXXXXXXXXXXXX",
-          "video": "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
-          "post": "Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus."
-        }
-      ],
-      "dots": true,
-      "interval": 2
     },
     {
       "__resolveType": "Footer - 05"

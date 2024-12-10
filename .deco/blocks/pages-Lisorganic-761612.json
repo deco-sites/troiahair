@@ -1,6 +1,8 @@
 {
-  "name": "Qatar Hair",
-  "path": "/marcas/qatar-hair",
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "sections": {
     "__resolveType": "website/flags/multivariate.ts",
     "variants": [
@@ -33,7 +35,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "qatar-hair"
+                  "troia-care"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -60,7 +62,7 @@
                 "count": 10,
                 "sort": "newest",
                 "tags": [
-                  "qatar-hair"
+                  "troia-care"
                 ],
                 "typeTags": [],
                 "ids": []
@@ -110,38 +112,6 @@
             "alt": "teste"
           },
           {
-            "__resolveType": "site/sections/TopBar.tsx",
-            "imageFormat": "Quadrado",
-            "content": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur",
-                "label": "Item 1"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur",
-                "label": "item 2"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
-                "href": "/",
-                "title": "Lorem ipsum dolor ",
-                "subtitle": "sit amet consectetur"
-              }
-            ]
-          },
-          {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/ProductShelfBrands.tsx",
@@ -170,7 +140,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "qatar-hair"
+                  "lisorganic"
                 ],
                 "typeTags": [],
                 "ids": [],
@@ -202,21 +172,21 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
+              "title": "NOVIDADES",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "qatar-hair"
+                  "troia-care"
                 ],
                 "typeTags": [],
                 "ids": [],
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Veja os lançamentos da marca LISORGANIC"
             }
           },
           {
@@ -248,7 +218,7 @@
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "qatar-hair"
+                  "lisorganic"
                 ],
                 "typeTags": [],
                 "ids": [],
@@ -261,8 +231,8 @@
           {
             "__resolveType": "site/sections/BrandText.tsx",
             "mobile": true,
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Consectetur vivamus sed mi proin. Suspendisse enim mauris at semper. Eros mauris adipiscing facilisis nulla. Elit vulputate pellentesque non ac donec pulvinar feugiat feugiat. Feugiat congue erat sodales at egestas aliquam imperdiet. Tellus nulla elementum purus lacus velit in ac ut ultrices. Maecenas sit nec eleifend elementum. Enim viverra vulputate sed luctus platea quam vitae. Sagittis nisl sociis enim mauris amet leo vitae enim eget. Sed laoreet elementum ultricies proin aliquet euismod porttitor volutpat at. Enim in id molestie sollicitudin. Nunc pharetra nunc mi libero in bibendum id urna. Quis bibendum id mauris faucibus nunc. Vehicula tellus purus mollis risus in libero vitae. Felis pharetra faucibus consectetur tellus faucibus euismod tempor varius. Et tincidunt vestibulum duis sit.</p>",
-            "title": "BELEZA É VIDA, É SER FELIZ",
+            "text": "<p>Liso Organic é uma marca dedicada a oferecer soluções inovadoras para o alisamento e cuidado capilar, destacando-se pelo uso de ingredientes naturais e tecnologia avançada. Seu compromisso é proporcionar cabelos lisos, saudáveis e com movimento natural, valorizando a saúde dos fios e a sustentabilidade.</p>",
+            "title": "Sobre a marca",
             "backgroundColor": false
           },
           {
@@ -283,10 +253,10 @@
           },
           {
             "__resolveType": "site/sections/BrandText.tsx",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Non arcu nisl posuere eget proin maecenas ante quisque risus. Ut lorem penatibus lectus venenatis integer. Volutpat id habitasse duis phasellus pulvinar purus. Consectetur vivamus sed mi proin. Suspendisse enim mauris at semper. Eros mauris adipiscing facilisis nulla. Elit vulputate pellentesque non ac donec pulvinar feugiat feugiat. Feugiat congue erat sodales at egestas aliquam imperdiet. Tellus nulla elementum purus lacus velit in ac ut ultrices. Maecenas sit nec eleifend elementum. Enim viverra vulputate sed luctus platea quam vitae. Sagittis nisl sociis enim mauris amet leo vitae enim eget. Sed laoreet elementum ultricies proin aliquet euismod porttitor volutpat at. Enim in id molestie sollicitudin. Nunc pharetra nunc mi libero in bibendum id urna. Quis bibendum id mauris faucibus nunc. Vehicula tellus purus mollis risus in libero vitae. Felis pharetra faucibus consectetur tellus faucibus euismod tempor varius. Et tincidunt vestibulum duis sit.</p>",
-            "title": "BELEZA É VIDA, É SER FELiz 2",
-            "backgroundColor": true,
-            "mobile": true
+            "mobile": true,
+            "text": "<p><strong>Alisamento natural e seguro: </strong>Os produtos Liso Organic são formulados com ativos orgânicos e livres de químicas agressivas, garantindo resultados eficazes sem comprometer a saúde capilar.</p><p><strong>Foco na sustentabilidade:</strong> A marca prioriza ingredientes de origem natural e processos responsáveis, refletindo um&nbsp;compromisso com o meio ambiente.</p><p><strong>Cuidado profundo:</strong> Além do efeito liso, seus produtos promovem hidratação intensa, redução de frizz e nutrição dos fios.</p><p><strong>Para todos os tipos de cabelo:&nbsp;</strong>Liso Organic atende a diversas texturas capilares, oferecendo soluções adaptadas às necessidades individuais.</p><p><strong>Praticidade e eficácia:&nbsp;</strong>A aplicação dos produtos é simples, ideal para quem busca resultados de salão no conforto de casa.</p><p><strong>Valorização da beleza natural:</strong> A marca acredita que cabelos lisos podem ser obtidos de forma saudável, sem abrir mão do brilho e da vitalidade.</p>",
+            "title": "Diferenciais da marca",
+            "backgroundColor": true
           },
           {
             "__resolveType": "Footer - 05"
@@ -298,8 +268,6 @@
       }
     ]
   },
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  "name": "Lisorganic",
+  "path": "/marcas/lisorganic"
 }

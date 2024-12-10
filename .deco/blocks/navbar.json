@@ -43,6 +43,10 @@
           ],
           "image": [],
           "additionalType": "Progressivas e Btx"
+        },
+        {
+          "image": [],
+          "children": []
         }
       ]
     },
@@ -54,7 +58,8 @@
         {
           "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c8db0b78-8e38-4f24-8f79-1ce4d6fefdbb/COLOOOO.webp",
           "@type": "ImageObject"
-        }
+        },
+        {}
       ],
       "children": [
         {
@@ -77,6 +82,39 @@
               "children": [],
               "name": "Emulsão Reveladora OX",
               "url": "/emulsao-reveladora-ox"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Descolorantes",
+              "url": "/descolorantes"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Matizadores",
+              "url": "/matizadores"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Coloração Temporária",
+              "url": "/coloração-temporária"
             }
           ],
           "name": "Troia Hair Colors",
@@ -85,63 +123,450 @@
       ]
     },
     {
-      "url": "/todos-os-produtos",
-      "name": "Todos os Produtos",
-      "@type": "SiteNavigationElement",
-      "image": [
-        {
-          "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5e9310c0-c725-4643-ade3-f92a505bd1d6",
-          "@type": "ImageObject"
-        }
-      ],
+      "url": "/cronograma-capilar",
+      "name": "Cronograma Capilar",
       "children": [
         {
-          "url": "/feminino",
-          "name": "Feminino",
-          "@type": "SiteNavigationElement",
+          "image": [],
           "children": [
             {
-              "url": "/feminino",
-              "name": "Camisetas",
-              "@type": "SiteNavigationElement"
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Bálsamo",
+              "url": "/bálsamo"
             },
             {
-              "url": "/feminino",
-              "name": "Camisas",
-              "@type": "SiteNavigationElement"
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": [
+                    {
+                      "image": [],
+                      "children": [
+                        {
+                          "image": []
+                        }
+                      ],
+                      "name": "Bálsamo",
+                      "url": "/bálsamo"
+                    }
+                  ],
+                  "name": "Shampoo",
+                  "url": "/shampoo"
+                }
+              ],
+              "name": "Hidratação",
+              "url": "/hidratação"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Nutrição",
+              "url": "/nutrição"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": [
+                    {
+                      "image": [],
+                      "children": [
+                        {
+                          "image": [],
+                          "url": "/bálsamo",
+                          "name": "Bálsamo"
+                        }
+                      ],
+                      "url": "Shampoo "
+                    }
+                  ],
+                  "name": "Hidratação",
+                  "url": "/hidratação"
+                }
+              ],
+              "name": "Reconstrução",
+              "url": "/reconstrução"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Shampoo",
+              "url": "/shampoo"
             }
-          ]
-        },
+          ],
+          "name": "Cronotrat",
+          "url": "/cronotrat"
+        }
+      ],
+      "image": [
         {
-          "url": "/masculino",
-          "name": "Masculino",
-          "@type": "SiteNavigationElement",
-          "children": [
-            {
-              "url": "/masculino",
-              "name": "Camisetas",
-              "@type": "SiteNavigationElement"
-            },
-            {
-              "url": "/masculino",
-              "name": "Regatas",
-              "@type": "SiteNavigationElement"
-            }
-          ]
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/9dc0ae2b-49c3-407a-a8bd-3326339931e9/Design-sem-nome-(7).png"
         }
       ]
     },
     {
-      "url": "/shampoos",
-      "name": "Shampoos",
-      "@type": "SiteNavigationElement",
-      "children": []
+      "url": "/shampoo",
+      "name": "Shampoo",
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Linha Lavatório ",
+              "url": "/linha-lavatório"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Shampoo Limpeza Profunda",
+              "url": "/shampoo-limpeza-profunda"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": [
+                    {
+                      "image": [],
+                      "children": []
+                    }
+                  ],
+                  "name": "Shampoo Neutralizante",
+                  "url": "/shampoo-neutralizante"
+                }
+              ],
+              "name": "Shampoo Antirresíduo",
+              "url": "/shampoo-antirresíduo"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Manutenção",
+              "url": "/manutenção"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": [
+                    {
+                      "image": [],
+                      "children": []
+                    }
+                  ],
+                  "name": "Anti Caspa",
+                  "url": "/anti-caspa"
+                }
+              ],
+              "url": "/pós-química",
+              "name": "Pós Química"
+            }
+          ],
+          "name": "Shampoos",
+          "url": "/Shampoos"
+        }
+      ],
+      "image": [
+        {
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/a9dfe397-10a8-4715-8561-392820e7897a/Design-sem-nome-(3).png"
+        }
+      ],
+      "@type": "SiteNavigationElement"
     },
     {
-      "children": [],
-      "image": [],
-      "name": "Kits até R$99,00",
-      "url": "kits"
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "url": "/gloss-spray-alto-brilho-encantadora-6x1",
+              "name": "Gloss Spray - Alto Brilho Encantadora 6x1"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": [
+                    {
+                      "image": [],
+                      "children": [
+                        {
+                          "image": []
+                        }
+                      ],
+                      "name": "Óleo De Coco",
+                      "url": "/óleo-de-coco"
+                    }
+                  ],
+                  "name": "Óleo De Argan",
+                  "url": "/óleo-de-argan"
+                }
+              ],
+              "name": "Leave-In",
+              "url": "/leave-in"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Óleo De Argan",
+              "url": "/óleo-de-argan"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Óleo De Coco",
+              "url": "/óleo-de-coco"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Vinagre De Maça",
+              "url": "/vinagre-de-maça"
+            }
+          ],
+          "name": "Finalizadores",
+          "url": "/finalizadores"
+        }
+      ],
+      "image": [
+        {
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c490f621-746d-40b4-aa22-47c17c83d930/Design-sem-nome-(4).png"
+        }
+      ],
+      "name": "Finalizadores",
+      "url": "/finalizadores"
+    },
+    {
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": [
+                    {
+                      "image": [],
+                      "children": [
+                        {
+                          "image": [],
+                          "name": "Ouro",
+                          "url": "/ouro"
+                        }
+                      ],
+                      "name": "Diva",
+                      "url": "/diva"
+                    }
+                  ],
+                  "name": "Poderosa",
+                  "url": "/poderosa"
+                }
+              ],
+              "name": "Cronograma Capilar",
+              "url": "/cronograma-capilar"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": [
+                    {
+                      "image": [],
+                      "children": [
+                        {
+                          "image": [],
+                          "name": "Cachos",
+                          "url": "/Cachos"
+                        }
+                      ],
+                      "name": "Ouro",
+                      "url": "/ouro"
+                    }
+                  ],
+                  "name": "Diva",
+                  "url": "/diva"
+                }
+              ],
+              "name": "Poderosa",
+              "url": "/poderosa"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Diva",
+              "url": "/diva"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Ouro",
+              "url": "/ouro"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Cachos",
+              "url": "/cachos"
+            }
+          ],
+          "name": "Hidratação",
+          "url": "/hidratação"
+        }
+      ],
+      "image": [
+        {
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/9b585632-1f80-4eae-9e87-f45767557665/Design-sem-nome-(5).png"
+        }
+      ],
+      "name": "Hidratação",
+      "url": "/hidratação"
+    },
+    {
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Alisamento Americano",
+              "url": "/alisamento-americano"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Balm Pós Barba",
+              "url": "/balm-pós-barba"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Cera Modeladora",
+              "url": "/cera-modeladora"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Loção Pós Barba",
+              "url": "/loção-pós-barba"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Óleo Para Barba",
+              "url": "/óleo-para-barba"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Shaving Barber",
+              "url": "/shaving-barber"
+            }
+          ],
+          "name": "Linha Masculina",
+          "url": "/shaving-barber"
+        }
+      ],
+      "image": [
+        {
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/34aa4845-8c82-4f96-9a5f-68068dd405e9/Design-sem-nome-(6).png"
+        }
+      ],
+      "name": "Linha Masculina",
+      "url": "/linha-masculina"
     },
     {
       "children": [],
@@ -154,27 +579,6 @@
       "image": [],
       "name": "Nossas Marcas",
       "url": "/nossas-marcas"
-    },
-    {
-      "children": [],
-      "image": []
-    },
-    {
-      "children": [],
-      "image": []
-    },
-    {
-      "children": [
-        {
-          "image": [],
-          "children": []
-        }
-      ],
-      "image": []
-    },
-    {
-      "children": [],
-      "image": []
     }
   ],
   "__resolveType": "commerce/loaders/navbar.ts"

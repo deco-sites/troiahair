@@ -64,7 +64,7 @@
       "content": [
         {
           "title": "Frete Grátis",
-          "subtitle": "Em compras acima de R$180",
+          "subtitle": "Em compras acima de R$199",
           "label": "Frete Grátis",
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/28d99036-ddf0-477b-af77-1a7a9d254035/Design-sem-nome-(8).svg"
         },
@@ -271,20 +271,7 @@
         "mobile": "sm",
         "desktop": "none"
       },
-      "banners": [
-        {
-          "alt": "a",
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12327/ec5c3d53-8c44-4309-87d9-ad5d768187df",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12327/55ec794b-16f4-4159-a53b-2c36ca03fe85",
-          "href": "/"
-        },
-        {
-          "alt": "b",
-          "href": "/",
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12327/66c080bd-ae0a-4635-899c-2f3f6616561b",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12327/631e7de4-7602-4a25-8087-89fd018b0f9f"
-        }
-      ]
+      "banners": []
     },
     {
       "__resolveType": "site/sections/Categories.tsx",
@@ -413,61 +400,8 @@
     },
     {
       "__resolveType": "site/sections/LongBanner.tsx",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1af76ea3-1a79-494e-a56f-5f7dd508ad76",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/93159794-1ffe-4d62-819d-c62c74278331"
-    },
-    {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "BESTSELLERS DO BRASIL!",
-      "layout": {
-        "showArrows": false,
-        "numberOfSliders": {
-          "mobile": 4,
-          "desktop": 5
-        }
-      },
-      "products": {
-        "crossSelling": "similars",
-        "__resolveType": "vnda/loaders/productList.ts",
-        "sort": "newest",
-        "tags": [],
-        "typeTags": [],
-        "ids": [],
-        "count": 5
-      },
-      "cardLayout": {
-        "layout": {
-          "hide": {
-            "allPrices": false,
-            "favoriteIcon": true,
-            "installments": false,
-            "productDescription": true
-          },
-          "basics": {
-            "oldPriceSize": "Normal",
-            "contentAlignment": "Left"
-          },
-          "onMouseOver": {
-            "card": "None",
-            "image": "Change image",
-            "showCta": true,
-            "showCardShadow": false,
-            "showSkuSelector": false,
-            "showFavoriteIcon": false
-          },
-          "elementsPositions": {
-            "skuSelector": "Bottom",
-            "favoriteIcon": "Top right"
-          }
-        },
-        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-      },
-      "description": "Os mais procurados pelos nossos clientes",
-      "rating": {
-        "maxRating": 5
-      },
-      "whatsappNumber": 0,
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
+      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3fdef0a4-f301-4e33-8b20-7b84e92d4c7d/Prancheta-1banner-comprido2.png",
+      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/2849d25c-8052-49dd-a7e6-d73c00248a10/Prancheta-1banner-comprido.png"
     },
     {
       "__resolveType": "site/sections/Images/BannerGrid.tsx",
@@ -479,125 +413,7 @@
         "mobile": "sm",
         "desktop": "none"
       },
-      "banners": [
-        {
-          "alt": "a",
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72"
-        },
-        {
-          "alt": "a",
-          "href": "a",
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "BESTSELLERS DO BRASIL!",
-      "layout": {
-        "showArrows": false,
-        "numberOfSliders": {
-          "desktop": 5,
-          "mobile": 4
-        }
-      },
-      "products": {
-        "crossSelling": "similars",
-        "__resolveType": "vnda/loaders/productList.ts",
-        "sort": "newest",
-        "tags": [],
-        "typeTags": [],
-        "ids": [],
-        "count": 5
-      },
-      "cardLayout": {
-        "layout": {
-          "hide": {
-            "allPrices": false,
-            "favoriteIcon": true,
-            "installments": false,
-            "productDescription": true
-          },
-          "basics": {
-            "oldPriceSize": "Normal",
-            "contentAlignment": "Left"
-          },
-          "onMouseOver": {
-            "card": "None",
-            "image": "Change image",
-            "showCta": true,
-            "showCardShadow": false,
-            "showSkuSelector": false,
-            "showFavoriteIcon": false
-          },
-          "elementsPositions": {
-            "skuSelector": "Bottom",
-            "favoriteIcon": "Top right"
-          }
-        },
-        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-      },
-      "description": "Os mais procurados pelos nossos clientes",
-      "rating": {
-        "maxRating": 5
-      },
-      "whatsappNumber": -6,
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
-    },
-    {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "BESTSELLERS DO BRASIL!",
-      "layout": {
-        "showArrows": false,
-        "numberOfSliders": {
-          "desktop": 5,
-          "mobile": 4
-        }
-      },
-      "products": {
-        "crossSelling": "similars",
-        "__resolveType": "vnda/loaders/productList.ts",
-        "sort": "newest",
-        "tags": [],
-        "typeTags": [],
-        "ids": [],
-        "count": 5
-      },
-      "cardLayout": {
-        "layout": {
-          "hide": {
-            "allPrices": false,
-            "favoriteIcon": true,
-            "installments": false,
-            "productDescription": true
-          },
-          "basics": {
-            "oldPriceSize": "Normal",
-            "contentAlignment": "Left"
-          },
-          "onMouseOver": {
-            "card": "None",
-            "image": "Change image",
-            "showCta": true,
-            "showCardShadow": false,
-            "showSkuSelector": false,
-            "showFavoriteIcon": false
-          },
-          "elementsPositions": {
-            "skuSelector": "Bottom",
-            "favoriteIcon": "Top right"
-          }
-        },
-        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
-      },
-      "description": "Os mais procurados pelos nossos clientes",
-      "rating": {
-        "maxRating": 5
-      },
-      "whatsappNumber": 0,
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
+      "banners": []
     },
     {
       "__resolveType": "site/sections/Content/BlogPosts.tsx",
@@ -638,36 +454,36 @@
           "description": "Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
         }
       ],
-      "subtitle": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+      "subtitle": "A opinião de quem usa Troia Hair é essencial para nós! Confira as avaliações de nossos clientes e compartilhe sua experiência. Sua voz nos ajuda a melhorar sempre!",
       "testimonials": [
         {
           "content": {
-            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
             "alt": "imagem",
-            "name": "Larissa Andrade",
-            "position": "Consultora de Vendas",
-            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
-            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+            "name": "Cliente Troia Hair",
+            "description": "Eu amei já é a segunda vez que compro e não me arrependo ótimo produto cabelo tá 100% lisinho feito em casa e está durando de 3 a 4 meses podem compra sem medo eu trabalhei em um salão de cabeleireiro e lá conhece esse produto agora não vivo mais sem ele :)",
+            "date": "Avaliado em 04 de Junho de 2024",
+            "position": "Avaliação da Progressiva Organic"
           }
         },
         {
           "content": {
-            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
-            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+            "description": "Ótimo custo benefício, bem embalado, entrega super rápida,  Chegou no mesmo dia  Vale a pena! Não me arrependi  Não pesa no cabelo",
             "alt": "imagem",
-            "name": "Larissa Andrade",
-            "position": "Consultora de Vendas",
-            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+            "date": "Avaliado em 16 de Outubro de 2024",
+            "name": "Cliente Troia Haiar",
+            "position": "Avaliação do Leave-in Plena"
           }
         },
         {
           "content": {
-            "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/72f84150-a76a-4d54-ab07-41970f7990c3",
-            "description": "Lorem ipsum dolor sit amet consectetur. Enim est porttitor gravida dolor id. Id ipsum semper euismod euismod. Risus parturient non tempus eget libero ullamcorper ultricies tellus. Accumsan turpis tempor nunc tellus ut.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+            "description": "Adoro essa linha da Tróia hair, shampoo e máscara são perfeitos, adoro o cheiro muito gostoso, o ativador de cachos é muito bom deixa bem definido, só achei o co wash menos refrescante dessa vez que comprei é o único que eu não uso com tanta frequência mais meu marido usa.. ",
             "alt": "imagem",
-            "name": "Larissa Andrade",
-            "position": "Consultora de Vendas",
-            "date": "Avaliado em 04 de maio de 2024 às 16:04"
+            "name": "Cliente Troia Hair",
+            "position": "Avaliação do Kit Cacheada",
+            "date": "Avaliado em 11 de Janeiro de 2024"
           }
         },
         {
