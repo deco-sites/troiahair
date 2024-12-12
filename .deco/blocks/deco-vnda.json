@@ -1,7 +1,7 @@
 {
   "__resolveType": "site/apps/deco/vnda.ts",
   "account": "troiahair",
-  "publicUrl": "troiahair",
+  "publicUrl": "troiahair.com.br",
   "authToken": {
     "__resolveType": "website/loaders/secret.ts",
     "encrypted": "add4824ec7f877de53107ae46449bec5082014292304b813a78305d269192d69",
