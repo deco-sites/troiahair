@@ -8,5 +8,5 @@
     "name": "VNDA_TOKEN"
   },
   "platform": "vnda",
-  "sandbox": false
+  "sandbox": true
 }
