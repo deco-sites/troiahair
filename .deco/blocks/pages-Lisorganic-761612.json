@@ -133,7 +133,6 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
@@ -147,7 +146,8 @@
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Liso Organic é uma marca dedicada a oferecer soluções inovadoras para o alisamento e cuidado capilar, destacando-se pelo uso de ingredientes naturais e tecnologia avançada. Seu compromisso é proporcionar cabelos lisos, saudáveis e com movimento natural, valorizando a saúde dos fios e a sustentabilidade.",
+              "title": "LISORGANIC"
             }
           },
           {
@@ -172,21 +172,21 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "NOVIDADES",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
                 "tags": [
-                  "troia-care"
+                  "lisorganic"
                 ],
                 "typeTags": [],
                 "ids": [],
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Veja os lançamentos da marca LISORGANIC"
+              "description": "Veja os lançamentos da marca ",
+              "title": "Lançamentos"
             }
           },
           {
@@ -211,7 +211,6 @@
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
-              "title": "lorem ipsum",
               "whatsappNumber": 0,
               "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
               "products": {
@@ -225,38 +224,16 @@
                 "count": 10
               },
               "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "title": "Mais vendidos",
+              "description": "Veja os mais vendidos da marca"
             }
-          },
-          {
-            "__resolveType": "site/sections/BrandText.tsx",
-            "mobile": true,
-            "text": "<p>Liso Organic é uma marca dedicada a oferecer soluções inovadoras para o alisamento e cuidado capilar, destacando-se pelo uso de ingredientes naturais e tecnologia avançada. Seu compromisso é proporcionar cabelos lisos, saudáveis e com movimento natural, valorizando a saúde dos fios e a sustentabilidade.</p>",
-            "title": "Sobre a marca",
-            "backgroundColor": false
-          },
-          {
-            "__resolveType": "site/sections/BrandBanners.tsx",
-            "mobile": true,
-            "bannersType": "Medio",
-            "banners": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
-                "alt": "teste"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
-                "alt": "teste",
-                "href": "/"
-              }
-            ]
           },
           {
             "__resolveType": "site/sections/BrandText.tsx",
             "mobile": true,
             "text": "<p><strong>Alisamento natural e seguro: </strong>Os produtos Liso Organic são formulados com ativos orgânicos e livres de químicas agressivas, garantindo resultados eficazes sem comprometer a saúde capilar.</p><p><strong>Foco na sustentabilidade:</strong> A marca prioriza ingredientes de origem natural e processos responsáveis, refletindo um&nbsp;compromisso com o meio ambiente.</p><p><strong>Cuidado profundo:</strong> Além do efeito liso, seus produtos promovem hidratação intensa, redução de frizz e nutrição dos fios.</p><p><strong>Para todos os tipos de cabelo:&nbsp;</strong>Liso Organic atende a diversas texturas capilares, oferecendo soluções adaptadas às necessidades individuais.</p><p><strong>Praticidade e eficácia:&nbsp;</strong>A aplicação dos produtos é simples, ideal para quem busca resultados de salão no conforto de casa.</p><p><strong>Valorização da beleza natural:</strong> A marca acredita que cabelos lisos podem ser obtidos de forma saudável, sem abrir mão do brilho e da vitalidade.</p>",
             "title": "Diferenciais da marca",
-            "backgroundColor": true
+            "backgroundColor": false
           },
           {
             "__resolveType": "Footer - 05"
