@@ -39,14 +39,22 @@
               "children": [],
               "name": "Shampoo Limpeza Profunda",
               "url": "/shampoo-limpeza-profunda"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Alinhamento Capilar",
+              "url": "/alinhamento-capilar"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Redutor De Volume",
+              "url": "/redutor-de-volume"
             }
           ],
           "image": [],
           "additionalType": "Progressivas e Btx"
-        },
-        {
-          "image": [],
-          "children": []
         }
       ]
     },
@@ -318,8 +326,82 @@
                   "children": []
                 }
               ],
-              "url": "/gloss-spray-alto-brilho-encantadora-6x1",
-              "name": "Gloss Spray - Alto Brilho Encantadora 6x1"
+              "name": "Cauterização Capilar",
+              "url": "/cauterização-capilar"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Crescimento",
+              "url": "/crescimento"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Detox Capilar",
+              "url": "/detox-capilar"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Kit Cacheada",
+              "url": "/kit-cacheada"
+            },
+            {
+              "image": [],
+              "children": [],
+              "name": "Nano Fixer",
+              "url": "/nano-fixer"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Pulverizadora Capilar K6x",
+              "url": "/pulverizadora-capilar-k6x"
+            }
+          ],
+          "name": "Tratamentos",
+          "url": "/tratamentos"
+        }
+      ],
+      "image": [
+        {
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c6425964-aa08-4a86-bb1b-bb584821abc0/Design-sem-nome-(13).png"
+        }
+      ],
+      "name": "Tratamento",
+      "url": "/tratamento"
+    },
+    {
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Gloss Spray - Alto Brilho Encantadora 6x1",
+              "url": "/gloss-spray-alto-brilho-encantadora-6x1"
             },
             {
               "image": [],
@@ -380,114 +462,11 @@
       ],
       "image": [
         {
-          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c490f621-746d-40b4-aa22-47c17c83d930/Design-sem-nome-(4).png"
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ddf7f8a8-ce3e-47f6-903d-6bcc1b2ed2bf/Design-sem-nome-(11).png"
         }
       ],
       "name": "Finalizadores",
       "url": "/finalizadores"
-    },
-    {
-      "children": [
-        {
-          "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": [
-                    {
-                      "image": [],
-                      "children": [
-                        {
-                          "image": [],
-                          "name": "Ouro",
-                          "url": "/ouro"
-                        }
-                      ],
-                      "name": "Diva",
-                      "url": "/diva"
-                    }
-                  ],
-                  "name": "Poderosa",
-                  "url": "/poderosa"
-                }
-              ],
-              "name": "Cronograma Capilar",
-              "url": "/cronograma-capilar"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": [
-                    {
-                      "image": [],
-                      "children": [
-                        {
-                          "image": [],
-                          "name": "Cachos",
-                          "url": "/Cachos"
-                        }
-                      ],
-                      "name": "Ouro",
-                      "url": "/ouro"
-                    }
-                  ],
-                  "name": "Diva",
-                  "url": "/diva"
-                }
-              ],
-              "name": "Poderosa",
-              "url": "/poderosa"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Diva",
-              "url": "/diva"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Ouro",
-              "url": "/ouro"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Cachos",
-              "url": "/cachos"
-            }
-          ],
-          "name": "Hidratação",
-          "url": "/hidratação"
-        }
-      ],
-      "image": [
-        {
-          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/9b585632-1f80-4eae-9e87-f45767557665/Design-sem-nome-(5).png"
-        }
-      ],
-      "name": "Hidratação",
-      "url": "/hidratação"
     },
     {
       "children": [
@@ -566,17 +545,67 @@
         }
       ],
       "name": "Linha Masculina",
-      "url": "/linha-masculina"
+      "url": "/produtos-masculinos"
     },
     {
-      "children": [],
-      "image": [],
-      "name": "+ Categorias",
-      "url": "/categorias"
-    },
-    {
-      "children": [],
-      "image": [],
+      "children": [
+        {
+          "image": [],
+          "children": [
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Tróia Hair",
+              "url": "/tróia-hair"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Mofajang",
+              "url": "/mofajang"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Qatar Hair",
+              "url": "/qatar-hair"
+            },
+            {
+              "image": [],
+              "children": [
+                {
+                  "image": [],
+                  "children": []
+                }
+              ],
+              "name": "Raiz Line",
+              "url": "/raiz-line"
+            }
+          ],
+          "name": "Nossas Marcas:",
+          "url": "/nossas-marcas"
+        }
+      ],
+      "image": [
+        {
+          "url": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/a7a26d48-047c-4cae-9372-4518313577ab/Design-sem-nome-(12).png"
+        }
+      ],
       "name": "Nossas Marcas",
       "url": "/nossas-marcas"
     }
