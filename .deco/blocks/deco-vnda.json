@@ -4,7 +4,7 @@
   "publicUrl": "troiahair.com.br",
   "authToken": {
     "__resolveType": "website/loaders/secret.ts",
-    "encrypted": "904998357bd7db8f8645ab530fead95683ca190d2afa7903d046a6b2ccff3bf1",
+    "encrypted": "add4824ec7f877de53107ae46449bec5082014292304b813a78305d269192d69",
     "name": "VNDA_TOKEN"
   },
   "platform": "vnda",
