@@ -402,7 +402,7 @@
     {
       "__resolveType": "site/sections/LongBanner.tsx",
       "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3fdef0a4-f301-4e33-8b20-7b84e92d4c7d/Prancheta-1banner-comprido2.png",
-      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/2849d25c-8052-49dd-a7e6-d73c00248a10/Prancheta-1banner-comprido.png"
+      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3fdef0a4-f301-4e33-8b20-7b84e92d4c7d/Prancheta-1banner-comprido2.png"
     },
     {
       "__resolveType": "site/sections/Images/BannerGrid.tsx",
