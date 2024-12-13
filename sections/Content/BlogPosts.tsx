@@ -126,7 +126,7 @@ function BlogPosts({
               <p class="text-primary text-center text-[10px]">
                 {content?.position}
               </p>
-              <p class="text-xs w-[327px] text-primary text-center pt-6">
+              <p class="text-xs w-[327px] h-[120px] overflow-y-auto text-primary text-center pt-6">
                 {content?.description}
               </p>
               <p class="text-[10px] w-[327px] text-primary text-center pt-6">
@@ -140,14 +140,14 @@ function BlogPosts({
   }
 
   return (
-    <div class="w-screen border-t-2 border-primary py-[52px]">
+    <div class="w-screen border-t-2 border-primary py-[52px] px-3">
       <div class="flex flex-col  min-h-min  lg:container md:max-w-6xl lg:mx-auto mx-4  ">
         <h2 class="text-2xl text-primary font-bold pb-5 uppercase">{title}</h2>
         <p class="text-base text-primary">{subtitle}</p>
       </div>
       <div
         id={id}
-        class={`grid lg:container md:max-w-6xl lg:mx-auto mx-4  ${
+        class={`grid lg:container md:max-w-6xl mx-auto   ${
           layout?.showArrows
             ? "grid-cols-[48px_1fr_48px] items-center"
             : "grid-cols-1"
@@ -163,7 +163,7 @@ function BlogPosts({
           </>
         )}
 
-        <div class="col-span-1 lg:w-[1141px] overflow-x-auto">
+        <div class="col-span-1 lg:w-[1141px] w-[327px] overflow-x-auto mx-auto">
           <Slider class="lg:w-[1141px] carousel carousel-center  col-span-full row-span-full gap-20 pt-10">
             {testimonials?.map((slide, index) => (
               <Slider.Item index={index} class="carousel-item">

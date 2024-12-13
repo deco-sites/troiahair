@@ -7,7 +7,7 @@ import { useId } from "../sdk/useId.ts";
 /** @title {{categorieName}} */
 export interface Categorie {
   /** @title Nome da Categoria/Marca */
-  categorieName: string;
+  categorieName?: string;
   image: ImageWidget;
   /** @title Descrição de acessibilidade e SEO */
   alt: string;
@@ -126,15 +126,15 @@ function Categories({
         <div class="flex flex-col items-center">
           <a
             href={href}
-            class="flex items-center justify-center w-[115px] h-[115px] rounded-full border border-primary hover:bg-accent"
+            class="flex items-center justify-center w-[115px] h-[115px]"
           >
             <div>
               <Image
                 class="object-cover hover:w-[95px] hover:h-auto z-10"
                 alt={alt}
                 src={image || ""}
-                width={83}
-                height={83}
+                width={115}
+                height={115}
                 fit="cover"
               />
             </div>
