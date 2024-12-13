@@ -149,7 +149,7 @@ function Navbar({
           </div>
 
           <ul
-            class={`flex gap-6 mt-1 ${
+            class={`flex gap-6 mt-1 max-w-[1200px] bg-base-100 ${
               logoPosition === "left" ? "justify-center" : "justify-start"
             }`}
           >

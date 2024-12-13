@@ -80,8 +80,9 @@ import * as $$$$$$62 from "./sections/Social/WhatsApp.tsx";
 import * as $$$$$$63 from "./sections/SquareBanners.tsx";
 import * as $$$$$$64 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$65 from "./sections/TopBar.tsx";
-import * as $$$$$$66 from "./sections/VideoPost.tsx";
-import * as $$$$$$67 from "./sections/whatsapp.tsx";
+import * as $$$$$$66 from "./sections/VideoHome.tsx";
+import * as $$$$$$67 from "./sections/VideoPost.tsx";
+import * as $$$$$$68 from "./sections/whatsapp.tsx";
 
 const manifest = {
   "loaders": {
@@ -157,8 +158,9 @@ const manifest = {
     "site/sections/SquareBanners.tsx": $$$$$$63,
     "site/sections/Theme/Theme.tsx": $$$$$$64,
     "site/sections/TopBar.tsx": $$$$$$65,
-    "site/sections/VideoPost.tsx": $$$$$$66,
-    "site/sections/whatsapp.tsx": $$$$$$67,
+    "site/sections/VideoHome.tsx": $$$$$$66,
+    "site/sections/VideoPost.tsx": $$$$$$67,
+    "site/sections/whatsapp.tsx": $$$$$$68,
   },
   "actions": {
     "site/actions/sendEmail.ts": $$$$$$$$$0,
