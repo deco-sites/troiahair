@@ -121,8 +121,8 @@ function Searchbar({
             <span class="loading loading-spinner loading-xs" />
           ) : (
             <Image
-              class="rounded-lg"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/12fe600b-0a00-46e4-baeb-a9e57f72180c"
+              class="rounded-lg h-[18px] w-[18px] lg:h-[14px] lg:w-[14px]"
+              src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c0639430-1b5d-4abd-b233-ea19da14efe2/search-icon.png"
               width={18}
               height={18}
               alt={""}
@@ -143,9 +143,13 @@ function Searchbar({
               {searches.map(({ term }) => (
                 <li>
                   <a href={`/s?q=${term}`} class="flex gap-4 items-center">
-                    <span>
-                      <Icon id="MagnifyingGlass" size={26} strokeWidth={0.01} />
-                    </span>
+                    <Image
+                      class="rounded-lg"
+                      src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c0639430-1b5d-4abd-b233-ea19da14efe2/search-icon.png"
+                      width={18}
+                      height={18}
+                      alt={""}
+                    />
                     <span dangerouslySetInnerHTML={{ __html: term }} />
                   </a>
                 </li>
