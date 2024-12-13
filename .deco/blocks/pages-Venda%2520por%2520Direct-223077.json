@@ -1,9 +1,15 @@
 {
   "name": "Venda por Direct",
-  "path": "/venda-com-direct",
+  "path": "/seja-um-revendedor",
   "sections": [
     {
       "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BrandTopImage.tsx"
+      }
     },
     {
       "__resolveType": "site/sections/LongTextContent.tsx",
