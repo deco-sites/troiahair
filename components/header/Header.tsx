@@ -114,6 +114,8 @@ export interface Props {
    * @description Insira somente números ex:55000000000 (incluir o código do país).
    */
   whatsappNumber: number;
+  instagramUrl?: string;
+  tiktokUrl?: string;
   /**
    * @title Elementos do Topo do site
    * @description Habilita/Desabilita elementos
@@ -174,6 +176,8 @@ function Header({
   whatsappNumber = 5522222222,
   buttons,
   device,
+  instagramUrl,
+  tiktokUrl,
 }: SectionProps<typeof loader>) {
   const platform = usePlatform();
   const items = navItems ?? [];
@@ -202,6 +206,36 @@ function Header({
         </Drawers>
       </header>
       <div>
+        {tiktokUrl && (
+          <a
+            href={tiktokUrl}
+            target="_blank"
+            class="fixed bottom-[155px] right-6 z-40"
+          >
+            <Image
+              src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f75f0327-a78a-4aef-a764-49ca631f3225/tiktok-logo.png"
+              alt="whatsapp icon"
+              width={58}
+              height={58}
+              loading="lazy"
+            />
+          </a>
+        )}
+        {instagramUrl && (
+          <a
+            href={instagramUrl}
+            target="_blank"
+            class="fixed bottom-[90px] right-6 z-40"
+          >
+            <Image
+              src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/1e7c55bc-c494-4194-b402-0538bbe32aab/instagram-logo.png"
+              alt="whatsapp icon"
+              width={58}
+              height={58}
+              loading="lazy"
+            />
+          </a>
+        )}
         <a
           href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`}
           target="_blank"
