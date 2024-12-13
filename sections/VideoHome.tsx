@@ -42,7 +42,7 @@ export default function Section({
   }
 
   return (
-    <div class="w-screen pt-[30px] mb-2 px-4">
+    <div class="w-screen lg:pt-[30px] lg:mb-2 px-4 mb-10">
       <div class="lg:w-[1300px] md:mx-auto flex flex-col md:gap-5 items-center justify-center ">
         <div class="flex gap-3 ">
           {imageYoutube && <Image
@@ -50,18 +50,18 @@ export default function Section({
             alt="logo youtube"
             width={100}
             height={100}
-            class="object-cover w-[80px] h-[80px]"
+            class="object-cover lg:w-[80px] lg:h-[80px] w-[50px] h-[50px]"
           />}
           <div class=" mx-auto md:mx-0 flex flex-col items-center md:items-start">
-            <h2 class="text-2xl font-semibold text-primary md:pb-4 md:pt-3 pt-10 pb-3 text-center">
+            <h2 class="text-2xl font-semibold text-primary md:pb-4 md:pt-3  pb-3 text-center">
               {title}
             </h2>
-            <h4 class="text-sm  text-primary md:pb-5 pb-2 ">{subtile}</h4>
+            <h4 class="text-sm  text-primary md:pb-5 pb-5 ">{subtile}</h4>
           </div>
         </div>
-        <div class="md:w-[667px] md:h-[474px] w-[320px] h-[235px] mx-auto md:mx-0">
+        <div class="md:w-[667px] md:h-[474px] w-[320px] h-[185px] mx-auto md:mx-0">
           <iframe
-            class="w-full"
+            class="w-full h-auto"
             width="560"
             height="415"
             src={getEmbedLink(videoId) || ""}
