@@ -126,16 +126,16 @@ function Categories({
         <div class="flex flex-col items-center">
           <a
             href={href}
-            class="flex items-center justify-center w-[115px] h-[115px]"
+            class="flex items-center justify-center w-[115px] h-[115px] lg:w-[125px] lg:h-[125px]"
           >
             <div>
               <Image
-                class="object-cover hover:w-[95px] hover:h-auto z-10"
+                class="object-contain hover:w-[100px] hover:h-auto z-10 w-[115px] h-[115px] lg:w-[125px] lg:h-[125px]"
                 alt={alt}
                 src={image || ""}
-                width={115}
-                height={115}
-                fit="cover"
+                width={125}
+                height={125}
+                fit="contain"
               />
             </div>
           </a>
@@ -150,7 +150,7 @@ function Categories({
   }
 
   return (
-    <div class="w-screen lg:w-full flex flex-col items-center pb-[56px]">
+    <div class="w-screen lg:w-full flex flex-col items-center">
       <div class="max-w-[1300px]">
         <h2 class="text-2xl text-primary text-center font-bold uppercase pt-[37px] pb-[25px]">
           {title}

@@ -210,7 +210,7 @@ function Header({
           <a
             href={tiktokUrl}
             target="_blank"
-            class="fixed bottom-[148px] right-3 z-40"
+            class="fixed bottom-[148px] right-3 lg:right-6 z-40"
           >
             <Image
               src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f75f0327-a78a-4aef-a764-49ca631f3225/tiktok-logo.png"
@@ -225,7 +225,7 @@ function Header({
           <a
             href={instagramUrl}
             target="_blank"
-            class="fixed bottom-[82px] right-3 z-40"
+            class="fixed bottom-[82px] right-3 lg:right-6 z-40"
           >
             <Image
               src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/1e7c55bc-c494-4194-b402-0538bbe32aab/instagram-logo.png"
@@ -239,7 +239,7 @@ function Header({
         <a
           href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`}
           target="_blank"
-          class="fixed bottom-4 right-3 z-40"
+          class="fixed bottom-4 right-3 lg:right-6 z-40"
         >
           <Image
             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1e07fe4f-c0f8-48d5-a1e1-977df17a6f0e"

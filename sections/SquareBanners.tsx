@@ -53,7 +53,7 @@ export default function Section({ bannerList, wideBanner, bannerType }: Props) {
   return (
     <>
       {bannerType === "Lista de banners" && (
-        <div class="flex gap-6 md:max-w-[1300px] mx-auto p-4 overflow-x-auto ">
+        <div class="flex gap-6 md:max-w-[1300px] mx-auto p-4 overflow-x-auto mt-[56px]">
           <div className="flex gap-6">
             {bannerList?.map((item) => (
               <div class="w-[300px] h-[320px] ">
