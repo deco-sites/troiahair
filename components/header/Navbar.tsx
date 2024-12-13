@@ -81,7 +81,7 @@ function Navbar({
           </a>
         </div>
 
-        <div class="w-screen bg-white mx-auto pb-4 flex items-center justify-center">
+        <div class="w-screen bg-white mx-auto pb-2 lg:pb-4 flex items-center justify-center">
           <div>
             <Searchbar searchbar={searchbar} />
           </div>

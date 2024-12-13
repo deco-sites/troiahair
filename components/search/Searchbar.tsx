@@ -76,19 +76,19 @@ function Searchbar({
 
   return (
     <div
-      class=" h-[18px] gap-8 md:px-4 "
+      class="lg:h-[18px] h-[30px] gap-4 md:px-4 "
       style={{ gridTemplateRows: "min-content auto" }}
     >
       <form
         id={id}
         action={action}
-        class="join lg:max-w-[434px] w-[350px] lg:h-[18px] h-[28px] border border-primary"
+        class="join lg:max-w-[434px] w-[350px] lg:h-[18px] h-[34px] border border-primary"
       >
         <input
           ref={searchInputRef}
           id="search-input"
           class="input  join-item flex-grow text-[10px] placeholder-primary text-primary  
-          w-[434px] lg:h-[16px] h-[26px] min-h-0"
+          w-[434px] lg:h-[16px] h-[32px] min-h-0"
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;
@@ -123,13 +123,12 @@ function Searchbar({
             <Image
               class="rounded-lg"
               src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/12fe600b-0a00-46e4-baeb-a9e57f72180c"
-              width={13}
-              height={13}
+              width={18}
+              height={18}
               alt={""}
             />
           )}
         </Button>
-
       </form>
 
       <div
@@ -145,7 +144,7 @@ function Searchbar({
                 <li>
                   <a href={`/s?q=${term}`} class="flex gap-4 items-center">
                     <span>
-                      <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />
+                      <Icon id="MagnifyingGlass" size={26} strokeWidth={0.01} />
                     </span>
                     <span dangerouslySetInnerHTML={{ __html: term }} />
                   </a>

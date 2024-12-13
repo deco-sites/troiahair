@@ -13,11 +13,16 @@ function MenuItem({ item }: { item: SiteNavigationElement }) {
       <div class="collapse-content">
         <ul>
           <li>
-            <a class="underline text-sm" href={item.url}>Ver os produtos</a>
+            {/* <a class="underline text-sm" href={item.url}>
+              Ver os produtos
+            </a> */}
           </li>
           {item.children?.map((node) => (
             <li>
-              <MenuItem item={node} />
+              <a class="underline text-sm" href={node.url}>
+              {node.name}
+              </a>
+              {/* <MenuItem item={node} /> */}
             </li>
           ))}
         </ul>
