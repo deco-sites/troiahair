@@ -66,7 +66,7 @@ function Navbar({
           </div>
           <a
             class="flex items-center text-xs font-thin ml-2"
-            href="https://direct.troiahair.com.br/entrar"
+            href="/entrar"
             aria-label="Account"
           >
             <div class="font-normal btn btn-accent btn-outline border border-primary rounded-full p-0 m-0 w-[43px] h-[43px] min-h-0">

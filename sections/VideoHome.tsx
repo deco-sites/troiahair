@@ -59,11 +59,11 @@ export default function Section({
             <h4 class="text-sm  text-primary md:pb-5 pb-5 ">{subtile}</h4>
           </div>
         </div>
-        <div class="md:w-[667px] md:h-[474px] w-[320px] h-[185px] mx-auto md:mx-0">
+        <div class="md:w-[667px] md:h-[474px] w-[320px] h-[185px] mx-auto md:mx-0 lg:mb-10">
           <iframe
-            class="w-full h-auto"
-            width="560"
-            height="415"
+            class="md:w-[667px] md:h-[474px] w-[320px] h-[185px]"
+            width="667"
+            height="474"
             src={getEmbedLink(videoId) || ""}
             title="YouTube video player"
             frameborder="0"
