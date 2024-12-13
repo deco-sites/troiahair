@@ -12,49 +12,39 @@
       ],
       "children": [
         {
-          "url": "/progressivas-e-btx",
-          "name": "Progressivas e Btx",
-          "children": [
-            {
-              "image": [],
-              "children": [],
-              "additionalType": "Progressivas",
-              "name": "Progressivas",
-              "url": "/progressivas"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Botox",
-              "url": "/botox"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Selagem Termica",
-              "url": "/selagem-termica"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Shampoo Limpeza Profunda",
-              "url": "/shampoo-limpeza-profunda"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Alinhamento Capilar",
-              "url": "/alinhamento-capilar"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Redutor De Volume",
-              "url": "/redutor-de-volume"
-            }
-          ],
+          "url": "/progressivas-e-btx/progressivas",
+          "name": "Progressivas",
+          "children": [],
+          "image": []
+        },
+        {
           "image": [],
-          "additionalType": "Progressivas e Btx"
+          "children": [],
+          "url": "/progressivas-e-btx/botox"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/progressivas-e-btx/selagem-termica",
+          "name": "Selagem Térmica"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/progressivas-e-btx/shampoo-limpeza-profunda",
+          "name": "Shampoo Limpeza Profunda"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/progressivas-e-btx/alinhamento-capilar",
+          "name": "Alinhamento Capilar"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/progressivas-e-btx/redutor-de-volume",
+          "name": "Redutor de Volume"
         }
       ]
     },
@@ -72,61 +62,39 @@
       "children": [
         {
           "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [],
-              "name": "Coloração Permanente",
-              "url": "/coloracao-permanente"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Coloração Semi Permanente",
-              "url": "/coloracao-semi-permanente"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Emulsão Reveladora OX",
-              "url": "/emulsao-reveladora-ox"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Descolorantes",
-              "url": "/descolorantes"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Matizadores",
-              "url": "/matizadores"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Coloração Temporária",
-              "url": "/coloração-temporária"
-            }
-          ],
-          "name": "Troia Hair Colors",
-          "url": "/troia-hair-colors"
+          "children": [],
+          "name": "Coloração Permanente",
+          "url": "/troia-hair-colors/coloracao-permanente"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/troia-hair-colors/coloracao-semi-permanente",
+          "name": "Coloração Semi Permanente"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/troia-hair-colors/emulsao-reveladora-ox",
+          "name": "Emulsao Reveladora Ox"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/troia-hair-colors/descolorante",
+          "name": "Descolorante"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/troia-hair-colors/matizadores",
+          "name": "Matizadores"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/troia-hair-colors/coloracao-temporaria",
+          "name": "Coloração Temporária"
         }
       ]
     },
@@ -136,87 +104,33 @@
       "children": [
         {
           "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Bálsamo",
-              "url": "/bálsamo"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": [
-                    {
-                      "image": [],
-                      "children": [
-                        {
-                          "image": []
-                        }
-                      ],
-                      "name": "Bálsamo",
-                      "url": "/bálsamo"
-                    }
-                  ],
-                  "name": "Shampoo",
-                  "url": "/shampoo"
-                }
-              ],
-              "name": "Hidratação",
-              "url": "/hidratação"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Nutrição",
-              "url": "/nutrição"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": [
-                    {
-                      "image": [],
-                      "children": [
-                        {
-                          "image": [],
-                          "url": "/bálsamo",
-                          "name": "Bálsamo"
-                        }
-                      ],
-                      "url": "Shampoo "
-                    }
-                  ],
-                  "name": "Hidratação",
-                  "url": "/hidratação"
-                }
-              ],
-              "name": "Reconstrução",
-              "url": "/reconstrução"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Shampoo",
-              "url": "/shampoo"
-            }
-          ],
-          "name": "Cronotrat",
-          "url": "/cronotrat"
+          "children": [],
+          "name": "Bálsamo",
+          "url": "/cronograma-capilar/balsamo"
+        },
+        {
+          "image": [],
+          "children": [],
+          "name": "Hidratação",
+          "url": "/cronograma-capilar/hidratacao"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/cronograma-capilar/nutrição",
+          "name": "Nutrição"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/cronograma-capilar/reconstrução",
+          "name": "Reconstrução"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/cronograma-capilar/shampoo",
+          "name": "Shampoo"
         }
       ],
       "image": [
@@ -226,84 +140,38 @@
       ]
     },
     {
-      "url": "/shampoo",
-      "name": "Shampoo",
+      "url": "/shampoos",
+      "name": "Shampoos",
       "children": [
         {
           "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Linha Lavatório ",
-              "url": "/linha-lavatório"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Shampoo Limpeza Profunda",
-              "url": "/shampoo-limpeza-profunda"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": [
-                    {
-                      "image": [],
-                      "children": []
-                    }
-                  ],
-                  "name": "Shampoo Neutralizante",
-                  "url": "/shampoo-neutralizante"
-                }
-              ],
-              "name": "Shampoo Antirresíduo",
-              "url": "/shampoo-antirresíduo"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Manutenção",
-              "url": "/manutenção"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": [
-                    {
-                      "image": [],
-                      "children": []
-                    }
-                  ],
-                  "name": "Anti Caspa",
-                  "url": "/anti-caspa"
-                }
-              ],
-              "url": "/pós-química",
-              "name": "Pós Química"
-            }
-          ],
-          "name": "Shampoos",
-          "url": "/Shampoos"
+          "children": [],
+          "name": "Linha Lavatório",
+          "url": "/shampoos/linha-lavatorio"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/shampoos/shampoo-limpeza-profunda",
+          "name": "Shampoo Limpeza Profunda"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/shampoos/shampoo-antirresiduo",
+          "name": "Shampoo Antirresíduo"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/shampoos/manutensão",
+          "name": "Manutensão"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/shampoos/pos-quimica",
+          "name": "Pós Química"
         }
       ],
       "image": [
@@ -317,66 +185,37 @@
       "children": [
         {
           "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Cauterização Capilar",
-              "url": "/cauterização-capilar"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Crescimento",
-              "url": "/crescimento"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Detox Capilar",
-              "url": "/detox-capilar"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Kit Cacheada",
-              "url": "/kit-cacheada"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Nano Fixer",
-              "url": "/nano-fixer"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Pulverizadora Capilar K6x",
-              "url": "/pulverizadora-capilar-k6x"
-            }
-          ],
-          "name": "Tratamentos",
-          "url": "/tratamentos"
+          "children": [],
+          "name": "Cauterização Capilar",
+          "url": "/tratamentos/cauterizacao-capilar"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/tratamentos/crescimento",
+          "name": "Crescimento"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/tratamentos/detox-capilar"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/tratamentos/kit-cacheada",
+          "name": "Kit Cacheada"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/tratamentos/nano-fixer"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/tratamentos/pulverizadora-capilar-k6x",
+          "name": "Pulverizadora Capilar K6X"
         }
       ],
       "image": [
@@ -391,73 +230,33 @@
       "children": [
         {
           "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Gloss Spray - Alto Brilho Encantadora 6x1",
-              "url": "/gloss-spray-alto-brilho-encantadora-6x1"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": [
-                    {
-                      "image": [],
-                      "children": [
-                        {
-                          "image": []
-                        }
-                      ],
-                      "name": "Óleo De Coco",
-                      "url": "/óleo-de-coco"
-                    }
-                  ],
-                  "name": "Óleo De Argan",
-                  "url": "/óleo-de-argan"
-                }
-              ],
-              "name": "Leave-In",
-              "url": "/leave-in"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Óleo De Argan",
-              "url": "/óleo-de-argan"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Óleo De Coco",
-              "url": "/óleo-de-coco"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Vinagre De Maça",
-              "url": "/vinagre-de-maça"
-            }
-          ],
-          "name": "Finalizadores",
-          "url": "/finalizadores"
+          "children": [],
+          "name": "Gloss Spray Alto Brilho Encantadora 6x1",
+          "url": "/finalizadores/gloss-spray-alto-brilho-encantadora-6x1"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/finalizadores/leave-in",
+          "name": "Leave in"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/finalizadores/oleo-de-argan",
+          "name": "Óleo de Argan"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/finalizadores/oleo-de-coco",
+          "name": "Óleo de Coco"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/finalizadores/vinagre-de-maca",
+          "name": "Vinagre de Maçã"
         }
       ],
       "image": [
@@ -472,71 +271,38 @@
       "children": [
         {
           "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Alisamento Americano",
-              "url": "/alisamento-americano"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Balm Pós Barba",
-              "url": "/balm-pós-barba"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Cera Modeladora",
-              "url": "/cera-modeladora"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Loção Pós Barba",
-              "url": "/loção-pós-barba"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Óleo Para Barba",
-              "url": "/óleo-para-barba"
-            },
-            {
-              "image": [],
-              "children": [],
-              "name": "Shaving Barber",
-              "url": "/shaving-barber"
-            }
-          ],
-          "name": "Linha Masculina",
-          "url": "/shaving-barber"
+          "children": [],
+          "name": "Alisamento Americano",
+          "url": "/produtos-masculinos/alisamento-americano"
+        },
+        {
+          "image": [],
+          "children": [],
+          "name": "Balm Pós Barba",
+          "url": "/produtos-masculinos/balm-pos-barba"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/produtos-masculinos/cera-modeladora",
+          "name": "Cera Modeladora"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/produtos-masculinos/locao-pos-barba",
+          "name": "Loção Pós Barba"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/produtos-masculinos/oleo-para-barba"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/produtos-masculinos/shaving-barber",
+          "name": "Shaving Barber"
         }
       ],
       "image": [
@@ -551,54 +317,27 @@
       "children": [
         {
           "image": [],
-          "children": [
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Tróia Hair",
-              "url": "/tróia-hair"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Mofajang",
-              "url": "/mofajang"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Qatar Hair",
-              "url": "/qatar-hair"
-            },
-            {
-              "image": [],
-              "children": [
-                {
-                  "image": [],
-                  "children": []
-                }
-              ],
-              "name": "Raiz Line",
-              "url": "/raiz-line"
-            }
-          ],
-          "name": "Nossas Marcas:",
-          "url": "/nossas-marcas"
+          "children": [],
+          "name": "Tróia Hair",
+          "url": "/nossas-marcas/tróia-hair"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/nossas-marcas/mofajang",
+          "name": "Mofajang"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/nossas-marcas/qatar-hair",
+          "name": "Qatar Hair"
+        },
+        {
+          "image": [],
+          "children": [],
+          "url": "/nossas-marcas/raiz-line",
+          "name": "Raiz Line"
         }
       ],
       "image": [
