@@ -177,11 +177,6 @@ function ProductCard({
               class="font-bold text-[10px] text-neutral text-center h-12 pb-2"
               dangerouslySetInnerHTML={{ __html: name ?? "" }}
             />
-
-            {/* <div
-            class="truncate text-xs"
-            dangerouslySetInnerHTML={{ __html: description ?? "" }}
-          /> */}
           </div>
 
           {/* Price from/to */}

@@ -82,13 +82,13 @@ function Searchbar({
       <form
         id={id}
         action={action}
-        class="join lg:max-w-[434px] w-[350px] h-[18px] border-[0.5px] border-primary"
+        class="join lg:max-w-[434px] w-[350px] lg:h-[18px] h-[28px] border border-primary"
       >
         <input
           ref={searchInputRef}
           id="search-input"
           class="input  join-item flex-grow text-[10px] placeholder-primary text-primary  
-          w-[434px] h-[16px] min-h-0"
+          w-[434px] lg:h-[16px] h-[26px] min-h-0"
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;
@@ -112,7 +112,7 @@ function Searchbar({
 
         <Button
           type="submit"
-          class="join-item h-4 min-h-0 bg-base-100 border-none"
+          class="join-item h-4 min-h-0 bg-base-100 border-none lg:py-0 py-[6px]"
           aria-label="Search"
           for={id}
           tabIndex={-1}
@@ -130,14 +130,6 @@ function Searchbar({
           )}
         </Button>
 
-        {/* <Button
-          type="button"
-          class="join-item btn-ghost btn-square hidden sm:inline-flex"
-          onClick={() => displaySearchPopup.value = false}
-          ariaLabel={displaySearchPopup.value ? "open search" : "search closed"}
-        >
-          <Icon id="XMark" size={24} strokeWidth={2} />
-        </Button> */}
       </form>
 
       <div
@@ -161,27 +153,6 @@ function Searchbar({
               ))}
             </ul>
           </div>
-          {/* <div class="flex flex-col pt-6 md:pt-0 gap-6 overflow-x-hidden">
-            <span class="font-medium text-xl" role="heading" aria-level={3}>
-              Produtos sugeridos
-            </span>
-            <Slider class="carousel">
-              {products.map((product, index) => (
-                <Slider.Item
-                  index={index}
-                  class="carousel-item first:ml-4 last:mr-4 min-w-[200px] max-w-[200px]"
-                >
-                  <ProductCard
-                    product={product}
-                    platform={platform}
-                    index={index}
-                    itemListName="Suggeestions"
-                    whatsappNumber={whatsappNumber}
-                  />
-                </Slider.Item>
-              ))}
-            </Slider>
-          </div> */}
         </div>
       </div>
     </div>
