@@ -14,20 +14,20 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
       </a>
 
       {children && children.length > 0 && (
-        <div class="fixed hidden hover:flex mt-[360px] group-hover:flex bg-base-100 z-50 items-center gap-4 justify-end max-w-[1300px] text-primary p-5 ">
+        <div class="fixed hidden hover:flex mt-[320px] group-hover:flex bg-white z-50 justify-center items-center gap-4  max-w-[1300px] text-primary p-5 min-h-[295px]">
           {image?.url && (
             <Image
-              class="p-4"
+              class="object-cover p-4"
               src={image.url}
               alt={image.alternateName}
-              width={300}
-              height={332}
+              width={200}
+              height={200}
               loading="lazy"
             />
           )}
-          <ul class="flex flex-col items-start justify-center gap-2">
+          <ul class="flex flex-col items-start justify-center gap-1">
             {children.map((node) => (
-              <li class="py-1 pr-6">
+              <li class=" pr-6">
                 <a class="hover:underline" href={node.url}>
                   <span>{node.name}</span>
                 </a>

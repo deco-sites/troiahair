@@ -199,7 +199,8 @@
         {
           "image": [],
           "children": [],
-          "url": "/tratamentos/detox-capilar"
+          "url": "/tratamentos/detox-capilar",
+          "name": "Detox capilar"
         },
         {
           "image": [],
@@ -210,7 +211,8 @@
         {
           "image": [],
           "children": [],
-          "url": "/tratamentos/nano-fixer"
+          "url": "/tratamentos/nano-fixer",
+          "name": "Nano fixer"
         },
         {
           "image": [],
@@ -297,7 +299,8 @@
         {
           "image": [],
           "children": [],
-          "url": "/produtos-masculinos/oleo-para-barba"
+          "url": "/produtos-masculinos/oleo-para-barba",
+          "name": "Óleo para barba"
         },
         {
           "image": [],
