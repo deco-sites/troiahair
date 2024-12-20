@@ -385,7 +385,7 @@
     {
       "__resolveType": "site/sections/LongBanner.tsx",
       "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3fdef0a4-f301-4e33-8b20-7b84e92d4c7d/Prancheta-1banner-comprido2.png",
-      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3fdef0a4-f301-4e33-8b20-7b84e92d4c7d/Prancheta-1banner-comprido2.png"
+      "mobile": "https://data.decoassets.com/troiahair/e5ae6fd6-57f8-4f29-99a6-2865708c37dd/Prancheta-2TESTE2.png"
     },
     {
       "__resolveType": "site/sections/Images/BannerGrid.tsx",
@@ -476,7 +476,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/VideoHome.tsx",
-        "videoyt": "https://www.youtube.com/watch?v=Jh-EQkqQUpQ&t=13s",
+        "videoyt": "https://www.youtube.com/watch?v=xnmROx3siBE",
         "title": "Conheça mais da Troia",
         "subtile": "Uma empresa de Excelência e qualidade que exalta a beleza das mulheres",
         "imageYoutube": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/6a80ec74-0a0d-42f3-9fbd-e45a32db3cec/logoYT.png"
