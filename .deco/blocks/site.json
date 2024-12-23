@@ -1,13 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/a5d890ba-e5b8-471e-8b77-7412c1d4fa56",
+    "image": "https://data.decoassets.com/troiahair/092134a3-1623-47b8-bf07-b26920fa347d/Prancheta-1logo5.png",
     "title": "Troia Hair",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx ",
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx"
+    "titleTemplate": "%s | Cosmetics",
+    "descriptionTemplate": "%s",
+    "description": "Linha completa de Cosméticos para cuidados capilares, A mais de 7 anos no mercado entrega produtos com excelência e qualidade.",
+    "favicon": "https://data.decoassets.com/troiahair/092134a3-1623-47b8-bf07-b26920fa347d/Prancheta-1logo5.png"
   },
   "theme": {
     "__resolveType": "Troia hair"

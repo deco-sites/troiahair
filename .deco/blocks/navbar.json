@@ -14,7 +14,12 @@
         {
           "url": "/progressivas",
           "name": "Progressivas",
-          "children": [],
+          "children": [
+            {
+              "image": [],
+              "children": []
+            }
+          ],
           "image": []
         },
         {
