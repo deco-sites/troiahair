@@ -385,7 +385,7 @@
     {
       "__resolveType": "site/sections/LongBanner.tsx",
       "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3fdef0a4-f301-4e33-8b20-7b84e92d4c7d/Prancheta-1banner-comprido2.png",
-      "mobile": "https://data.decoassets.com/troiahair/e5ae6fd6-57f8-4f29-99a6-2865708c37dd/Prancheta-2TESTE2.png"
+      "mobile": "https://data.decoassets.com/troiahair/abfa69ba-3ae4-48cb-b1e8-c06080b3cb1d/Prancheta-23x.png"
     },
     {
       "__resolveType": "site/sections/Images/BannerGrid.tsx",
@@ -395,7 +395,7 @@
       },
       "borderRadius": {
         "mobile": "sm",
-        "desktop": "none"
+        "desktop": "sm"
       },
       "banners": []
     },
