@@ -23,7 +23,8 @@
         "__resolveType": "commerce/loaders/product/extensions/suggestions.ts",
         "searches": [],
         "products": [],
-        "extensions": []
+        "extensions": [],
+        "data": null
       },
       "__resolveType": "resolved"
     },

@@ -388,8 +388,8 @@
     },
     {
       "__resolveType": "site/sections/LongBanner.tsx",
-      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/3fdef0a4-f301-4e33-8b20-7b84e92d4c7d/Prancheta-1banner-comprido2.png",
-      "mobile": "https://data.decoassets.com/troiahair/1a838477-f58e-48c9-9c91-11e734f0d6fa/Prancheta-2PROPORCAO-CERTA.png"
+      "desktop": "https://data.decoassets.com/troiahair/ae736e8d-7f1b-47ee-a417-c82e16c86764/Prancheta-1horizontal-pc.png",
+      "mobile": "https://data.decoassets.com/troiahair/56ab17f3-d350-4327-8f37-33fb2dfd884b/Prancheta-1horizontal-mobile.png"
     },
     {
       "__resolveType": "site/sections/Images/BannerGrid.tsx",
