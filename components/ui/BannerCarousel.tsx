@@ -15,7 +15,7 @@ import { useId } from "../../sdk/useId.ts";
 export interface Banner {
   /** @description Imagem para desktop (largura: 1300px, altura: 360px)*/
   desktop: ImageWidget;
-  /** @description Imagem para mobile (largura: 430px, altura: 590px)*/
+  /** @description Imagem para mobile (largura: 430px, altura: 430px)*/
   mobile: ImageWidget;
   /** @description Descrição de acessibilidade e SEO */
   alt: string;
@@ -125,7 +125,7 @@ function BannerItem(
           fetchPriority={lcp ? "high" : "auto"}
           src={mobile}
           width={430}
-          height={590}
+          height={430}
         />
         <Source
           class="object-cover"

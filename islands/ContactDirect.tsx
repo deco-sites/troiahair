@@ -51,11 +51,6 @@ const ContactUs = () => {
       ) as HTMLInputElement;
       const nome = nomeInput.value;
 
-      const empresaInput = formRef.current.querySelector(
-        "#empresaInput",
-      ) as HTMLInputElement;
-      const empresa = empresaInput.value;
-
       const emailInput = formRef.current.querySelector(
         "#emailInput",
       ) as HTMLInputElement;
@@ -83,7 +78,6 @@ const ContactUs = () => {
           props: {
             nome,
             email,
-            empresa,
             telefone,
             assunto,
             mensagem,
@@ -118,14 +112,6 @@ const ContactUs = () => {
             type="text"
             id="nomeInput"
             onChange={handleInputChange}
-            class="md:w-[468px] w-[333px] h-5 border border-base-200 text-[12px] focus:border-primary pl-2"
-          />
-        </label>
-        <label for="empresaInput">
-          <p class="font-bold text-[10px] pt-[30px]">Empresa</p>
-          <input
-            type="text"
-            id="empresaInput"
             class="md:w-[468px] w-[333px] h-5 border border-base-200 text-[12px] focus:border-primary pl-2"
           />
         </label>

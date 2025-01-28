@@ -288,7 +288,7 @@
           "desktop": "none"
         },
         "itemsPerLine": {
-          "mobile": 2,
+          "mobile": 1,
           "desktop": 2
         },
         "__resolveType": "site/sections/Images/BannerGrid.tsx"
@@ -493,7 +493,7 @@
           "desktop": "none"
         },
         "itemsPerLine": {
-          "mobile": 2,
+          "mobile": 1,
           "desktop": 2
         },
         "__resolveType": "site/sections/Images/BannerGrid.tsx"
@@ -614,7 +614,7 @@
             "desktop": 3,
             "mobile": 1
           },
-          "showArrows": true
+          "showArrows": false
         },
         "testimonials": [
           {
