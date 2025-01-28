@@ -8,7 +8,7 @@
     },
     {
       "__resolveType": "site/sections/Images/Carousel.tsx",
-      "dots": true,
+      "dots": false,
       "arrows": true,
       "images": [
         {
@@ -39,7 +39,7 @@
         }
       ],
       "preload": true,
-      "interval": 3
+      "interval": 6
     },
     {
       "__resolveType": "site/sections/InformationBar.tsx",
