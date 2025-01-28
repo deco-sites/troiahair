@@ -31,16 +31,17 @@ function Newsletter({ content, layout = {} }: Props) {
 
   const validateForm = () => {
     const emailInput = formRef.current?.querySelector(
-      "#emailInput"
+      "#emailInput",
     ) as HTMLInputElement;
 
     const email = emailInput.value.trim();
 
     // Adicione mais validações conforme necessário
     const isEmailValid =
-      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/.test(
-        email
-      );
+      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/
+        .test(
+          email,
+        );
 
     setIsFormValid(isEmailValid);
   };
@@ -50,7 +51,7 @@ function Newsletter({ content, layout = {} }: Props) {
 
     if (formRef.current) {
       const emailInput = formRef.current.querySelector(
-        "#emailInput"
+        "#emailInput",
       ) as HTMLInputElement;
       const email = emailInput.value;
 
@@ -80,7 +81,7 @@ function Newsletter({ content, layout = {} }: Props) {
     <div
       class={clx(
         "flex flex-col",
-        tiled && "lg:flex-row lg:w-full lg:justify-between "
+        tiled && "lg:flex-row lg:w-full lg:justify-between ",
       )}
     >
       <div class="flex flex-col ">
@@ -108,7 +109,11 @@ function Newsletter({ content, layout = {} }: Props) {
                 placeholder={content?.form?.placeholder || "Digite seu email"}
               />
             </label>
-            <input type="submit" value="Enviar" class=" text-[10px] text-primary btn btn-accent h-6 min-h-0 px-3" />
+            <input
+              type="submit"
+              value="Enviar"
+              class=" text-[10px] text-primary btn btn-accent h-6 min-h-0 px-3"
+            />
           </div>
         </form>
         {content?.form?.helpText && (

@@ -44,7 +44,7 @@ function ProductGallery({
   offset,
   url,
   whatsappNumber,
-  imageNotFound
+  imageNotFound,
 }: Props) {
   const platform = usePlatform();
   const mobile = MOBILE_COLUMNS[layout?.columns?.mobile ?? 2];
@@ -60,14 +60,16 @@ function ProductGallery({
 
   return (
     <div class="w-full">
-      {/* {layout?.format == "Show More" && (
+      {
+        /* {layout?.format == "Show More" && (
         <Head>
           {pageInfo.nextPage && <link rel="next" href={pageInfo.nextPage} />}
           {pageInfo.previousPage && (
             <link rel="prev" href={pageInfo.previousPage} />
           )}
         </Head>
-      )} */}
+      )} */
+      }
       <div
         class={`grid ${mobile} justify-center items-center ${desktop} lg:gap-10 gap-3`}
       >
@@ -83,7 +85,8 @@ function ProductGallery({
           />
         ))}
       </div>
-      {/* {layout && layout?.format === "Show More" && (
+      {
+        /* {layout && layout?.format === "Show More" && (
         <>
           <ShowMore pageInfo={pageInfo}>
             {partialUrl && (
@@ -105,7 +108,8 @@ function ProductGallery({
             )}
           </ShowMore>
         </>
-      )} */}
+      )} */
+      }
     </div>
   );
 }

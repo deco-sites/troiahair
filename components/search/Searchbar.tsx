@@ -117,17 +117,17 @@ function Searchbar({
           for={id}
           tabIndex={-1}
         >
-          {loading.value ? (
-            <span class="loading loading-spinner loading-xs" />
-          ) : (
-            <Image
-              class="rounded-lg h-[18px] w-[18px] lg:h-[14px] lg:w-[14px]"
-              src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c0639430-1b5d-4abd-b233-ea19da14efe2/search-icon.png"
-              width={18}
-              height={18}
-              alt={""}
-            />
-          )}
+          {loading.value
+            ? <span class="loading loading-spinner loading-xs" />
+            : (
+              <Image
+                class="rounded-lg h-[18px] w-[18px] lg:h-[14px] lg:w-[14px]"
+                src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c0639430-1b5d-4abd-b233-ea19da14efe2/search-icon.png"
+                width={18}
+                height={18}
+                alt={""}
+              />
+            )}
         </Button>
       </form>
 

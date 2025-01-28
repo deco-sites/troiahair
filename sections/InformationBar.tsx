@@ -74,7 +74,7 @@ export interface Props {
 //       </div>
 //     </div>
 //   );
-  export default function InformationBar({ content }: Props) {
+export default function InformationBar({ content }: Props) {
   const slideContent = content?.map(
     ({ image, title, subtitle, repeat = 1 }) => {
       return (

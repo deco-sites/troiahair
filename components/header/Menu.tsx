@@ -13,9 +13,11 @@ function MenuItem({ item }: { item: SiteNavigationElement }) {
       <div class="collapse-content ">
         <ul>
           <li>
-            {/* <a class="underline text-sm" href={item.url}>
+            {
+              /* <a class="underline text-sm" href={item.url}>
               Ver os produtos
-            </a> */}
+            </a> */
+            }
           </li>
           {item.children?.map((node) => (
             <li class="pt-4">

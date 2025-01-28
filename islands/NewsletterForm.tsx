@@ -26,16 +26,17 @@ const NewsletterForm = () => {
 
   const validateForm = () => {
     const emailInput = formRef.current?.querySelector(
-      "#emailInput"
+      "#emailInput",
     ) as HTMLInputElement;
 
     const email = emailInput.value.trim();
 
     // Adicione mais validações conforme necessário
     const isEmailValid =
-      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/.test(
-        email
-      );
+      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/
+        .test(
+          email,
+        );
 
     setIsFormValid(isEmailValid);
   };
@@ -45,10 +46,9 @@ const NewsletterForm = () => {
 
     if (formRef.current) {
       const emailInput = formRef.current.querySelector(
-        "#emailInput"
+        "#emailInput",
       ) as HTMLInputElement;
       const email = emailInput.value;
-
 
       // Verifica se o formulário é válido antes de enviar
       if (isFormValid) {

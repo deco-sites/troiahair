@@ -26,42 +26,44 @@ export default function BrandBanners(
         mobile && "w-[360px] "
       }`}
     >
-      {bannersType === "Medio" ? (
-        banners.map((item) => (
+      {bannersType === "Medio"
+        ? (
+          banners.map((item) => (
+            <a
+              href={item.href}
+              class={`bg-accent rounded-xl md:w-[493px]  h-[324px] ${
+                item.href ? "cursor-pointer" : "cursor-default"
+              } ${mobile && "w-[170px]"}`}
+            >
+              <Image
+                class={`md:p-3 object-contain md:w-[493px]  h-[324px] ${
+                  mobile && " p-2"
+                }`}
+                alt={item.alt}
+                src={item.image}
+                width={493}
+                height={324}
+                fit="contain"
+              />
+            </a>
+          ))
+        )
+        : (
           <a
-            href={item.href}
-            class={`bg-accent rounded-xl md:w-[493px]  h-[324px] ${
-              item.href ? "cursor-pointer" : "cursor-default"
-            } ${mobile && "w-[170px]"}`}
+            href={banners[0].href}
+            class={`bg-accent rounded-xl  ${
+              banners[0].href ? "cursor-pointer" : "cursor-default"
+            }`}
           >
             <Image
-              class={`md:p-3 object-contain md:w-[493px]  h-[324px] ${
-                mobile && " p-2"
-              }`}
-              alt={item.alt}
-              src={item.image}
-              width={493}
+              class="p-3 object-cover"
+              alt={banners[0].alt}
+              src={banners[0].image}
+              width={1114}
               height={324}
-              fit="contain"
             />
           </a>
-        ))
-      ) : (
-        <a
-          href={banners[0].href}
-          class={`bg-accent rounded-xl  ${
-            banners[0].href ? "cursor-pointer" : "cursor-default"
-          }`}
-        >
-          <Image
-            class="p-3 object-cover"
-            alt={banners[0].alt}
-            src={banners[0].image}
-            width={1114}
-            height={324}
-          />
-        </a>
-      )}
+        )}
     </div>
   );
 }

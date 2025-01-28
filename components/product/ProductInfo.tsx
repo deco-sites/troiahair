@@ -67,12 +67,12 @@ function ProductInfo({ page, layout }: Props) {
     listPrice,
   });
 
-
   return (
     <div class="flex flex-col  max-w-[1300px] mt-10 lg:mt-8" id={id}>
       {/* Code and name */}
 
-      {/* <div class=" bg-primary h-3 mx-auto md:w-[1300px] w-screen pt-12 md:pt-0">
+      {
+        /* <div class=" bg-primary h-3 mx-auto md:w-[1300px] w-screen pt-12 md:pt-0">
         <span class="font-bold text-2xl uppercase text-accent text-center block py-8 mx-auto my-auto md:w-[1300px] w-screen mt-8 lg:mt-0">
           {layout?.name === "concat"
             ? `${isVariantOf?.name} ${name}`
@@ -80,7 +80,8 @@ function ProductInfo({ page, layout }: Props) {
             ? isVariantOf?.name
             : name}
         </span>
-      </div> */}
+      </div> */
+      }
 
       <div class="flex md:mx-3   flex-col lg:flex-row ">
         <ImageGallerySlider page={page} />
@@ -101,7 +102,8 @@ function ProductInfo({ page, layout }: Props) {
 
           {/* Avaliador */}
 
-          {/* <div class="flex gap-[15px] pt-3">
+          {
+            /* <div class="flex gap-[15px] pt-3">
             {Array.from({ length: 5 }).map((_, index) => (
               <Image
                 key={index}
@@ -111,7 +113,8 @@ function ProductInfo({ page, layout }: Props) {
                 height={18}
               />
             ))}
-          </div> */}
+          </div> */
+          }
 
           {/* Product Name */}
           <span class="font-bold text-xl uppercase text-neutral pt-2">
@@ -138,26 +141,30 @@ function ProductInfo({ page, layout }: Props) {
           </div>
 
           {/* Sku Selector */}
-          {/* <div class="mt-4 sm:mt-6">
+          {
+            /* <div class="mt-4 sm:mt-6">
             <ProductSelector product={product} />
-          </div> */}
+          </div> */
+          }
 
           {/* Add to Cart and Favorites button */}
           <div class="mt-4 sm:mt-10 flex flex-col gap-2 w-full h-[64px]">
-            {availability === "https://schema.org/InStock" ? (
-              <>
-                <AddToCartButtonVNDA
-                  eventParams={{ items: [eventItem] }}
-                  productID={productID}
-                  additionalProperty={additionalProperty}
-                  variantStyle="productPage"
-                  showCounter={true}
-                />
-              </>
-            ) : (
-              // <OutOfStock productID={productID} />
-              <p class="text-primary text-semibold">Produto Indisponível.</p>
-            )}
+            {availability === "https://schema.org/InStock"
+              ? (
+                <>
+                  <AddToCartButtonVNDA
+                    eventParams={{ items: [eventItem] }}
+                    productID={productID}
+                    additionalProperty={additionalProperty}
+                    variantStyle="productPage"
+                    showCounter={true}
+                  />
+                </>
+              )
+              : (
+                // <OutOfStock productID={productID} />
+                <p class="text-primary text-semibold">Produto Indisponível.</p>
+              )}
           </div>
           {/* Shipping Simulation */}
           <div class="mt-8">

@@ -93,10 +93,10 @@ function Result({
           {layout?.variant === "aside" &&
             filters.length > 0 &&
             (isFirstPage || !isPartial) && (
-              <aside class="hidden sm:block w-min min-w-[250px]">
-                <Filters filters={filters} />
-              </aside>
-            )}
+            <aside class="hidden sm:block w-min min-w-[250px]">
+              <Filters filters={filters} />
+            </aside>
+          )}
           <div class="lg:pl-8 mx-auto">
             <div class="mt-0 lg:mt-10 ">
               {title && (

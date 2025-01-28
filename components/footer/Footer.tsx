@@ -12,8 +12,6 @@ import { clx } from "../../sdk/clx.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import PoweredByDeco from "apps/website/components/PoweredByDeco.tsx";
 
-
-
 export type Item = {
   /**
    * @title Título
@@ -133,7 +131,7 @@ export interface Props {
   mobileApps?: MobileApps;
   //regionOptions?: RegionOptions;
   extraLinks?: Item[];
-  
+
   /** @description selos de confiança */
   sealImage?: {
     seal: ImageWidget;
@@ -230,59 +228,43 @@ function Footer({
   },
 }: Props) {
   const _logo = layout?.hide?.logo ? <></> : <Logo logo={logo} />;
-  const _newsletter = layout?.hide?.newsletter ? (
-    <></>
-  ) : (
+  const _newsletter = layout?.hide?.newsletter ? <></> : (
     <Newsletter
       content={newsletter}
       layout={{
-        tiled:
-          layout?.variation == "Variation 4" ||
+        tiled: layout?.variation == "Variation 4" ||
           layout?.variation == "Variation 5",
       }}
     />
   );
-  const _sectionLinks = layout?.hide?.sectionLinks ? (
-    <></>
-  ) : (
+  const _sectionLinks = layout?.hide?.sectionLinks ? <></> : (
     <FooterItems
       sections={sections}
-      justify={
-        layout?.variation == "Variation 2" || layout?.variation == "Variation 3"
-      }
+      justify={layout?.variation == "Variation 2" ||
+        layout?.variation == "Variation 3"}
     />
   );
-  const _social = layout?.hide?.socialLinks ? (
-    <></>
-  ) : (
-    <Social content={social} vertical={layout?.variation == "Variation 3"} />
-  );
-  const _payments = layout?.hide?.paymentMethods ? (
-    <></>
-  ) : (
-    <PaymentMethods content={payments} />
-  );
-  const _apps = layout?.hide?.mobileApps ? (
-    <></>
-  ) : (
-    <MobileApps content={mobileApps} />
-  );
+  const _social = layout?.hide?.socialLinks
+    ? <></>
+    : <Social content={social} vertical={layout?.variation == "Variation 3"} />;
+  const _payments = layout?.hide?.paymentMethods
+    ? <></>
+    : <PaymentMethods content={payments} />;
+  const _apps = layout?.hide?.mobileApps
+    ? <></>
+    : <MobileApps content={mobileApps} />;
   // const _region = layout?.hide?.regionOptions
   //   ? <></>
   //   : <RegionSelector content={regionOptions} />;
-  const _links = layout?.hide?.extraLinks ? (
-    <></>
-  ) : (
-    <ExtraLinks content={extraLinks} />
-  );
-
-
+  const _links = layout?.hide?.extraLinks
+    ? <></>
+    : <ExtraLinks content={extraLinks} />;
 
   return (
     <footer
       class={clx(
         "font-poppins lg:max-w-none w-screen mx-auto flex-col pt-[53px] pb-2 md:pb-10 flex justify-center items-center",
-        LAYOUT[layout?.backgroundColor ?? "Primary"]
+        LAYOUT[layout?.backgroundColor ?? "Primary"],
       )}
     >
       <div class="lg:w-[1153px] flex flex-col ">
@@ -417,8 +399,8 @@ function Footer({
             <div class="flex flex-col-reverse md:flex-row md:justify-between gap-10 md:items-center mt-[30px]">
               {/* <PoweredByDeco /> */}
               <p class="text-[9px] text-base-200">
-                © Copyright Tróia Hair -CNPJ: 13.422.865/0001-98 - 2024. Todos os
-                direitos reservados.
+                © Copyright Tróia Hair -CNPJ: 13.422.865/0001-98 - 2024. Todos
+                os direitos reservados.
               </p>
               <a href="https://tec3commerce.com.br/" target="blank">
                 <p class="text-[9px] text-base-200 pb-2">Desenvolvido por:</p>
@@ -438,11 +420,9 @@ function Footer({
           </div>
         )}
       </div>
-      {layout?.hide?.backToTheTop ? (
-        <></>
-      ) : (
-        <BackToTop content={backToTheTop?.text} />
-      )}
+      {layout?.hide?.backToTheTop
+        ? <></>
+        : <BackToTop content={backToTheTop?.text} />}
     </footer>
   );
 }

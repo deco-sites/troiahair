@@ -37,18 +37,20 @@ export default function FooterItems({
                   <ul class={`flex flex-col gap-3 flex-wrap ]`}>
                     {section.items?.map((item) => (
                       <li>
-                        {item.label === "Meu pedido" ? (
-                          <div class="block link link-hover text-[11px]">
-                            {platform === "vnda" && <CartLinkVDNA />}
-                          </div>
-                        ) : (
-                          <a
-                            href={item.href}
-                            class="block link link-hover text-[11px]"
-                          >
-                            {item.label}
-                          </a>
-                        )}
+                        {item.label === "Meu pedido"
+                          ? (
+                            <div class="block link link-hover text-[11px]">
+                              {platform === "vnda" && <CartLinkVDNA />}
+                            </div>
+                          )
+                          : (
+                            <a
+                              href={item.href}
+                              class="block link link-hover text-[11px]"
+                            >
+                              {item.label}
+                            </a>
+                          )}
                       </li>
                     ))}
                   </ul>

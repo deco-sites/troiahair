@@ -267,6 +267,34 @@
       "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "banners": [
+          {
+            "alt": "a",
+            "href": "a",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72"
+          },
+          {
+            "alt": "a",
+            "href": "a",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54"
+          }
+        ],
+        "borderRadius": {
+          "mobile": "3xl",
+          "desktop": "none"
+        },
+        "itemsPerLine": {
+          "mobile": 2,
+          "desktop": 2
+        },
+        "__resolveType": "site/sections/Images/BannerGrid.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Categories.tsx",
       "title": "Nossas Marcas",
       "layout": {
@@ -392,89 +420,235 @@
       "mobile": "https://data.decoassets.com/troiahair/56ab17f3-d350-4327-8f37-33fb2dfd884b/Prancheta-1horizontal-mobile.png"
     },
     {
-      "__resolveType": "site/sections/Images/BannerGrid.tsx",
-      "itemsPerLine": {
-        "mobile": 1,
-        "desktop": 2
-      },
-      "borderRadius": {
-        "mobile": "sm",
-        "desktop": "sm"
-      },
-      "banners": []
-    },
-    {
-      "__resolveType": "site/sections/Content/BlogPosts.tsx",
-      "title": "NOSSOS CLIENTES RECOMENDAM A TRÓIA HAIR",
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BEST SELLERS DO BRASIL!",
       "layout": {
         "showArrows": false,
         "numberOfSliders": {
-          "desktop": 3,
-          "mobile": 5
+          "desktop": 5
         }
       },
-      "posts": [
-        {
-          "alt": "Item of the Summer",
-          "date": "January 15, 2024",
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
-          "label": "Item of the Summer",
-          "author": "deco.cx",
-          "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 10
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
         },
-        {
-          "alt": "Item of the Summer",
-          "date": "January 15, 2024",
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/a3f329d8-795c-4c3b-8049-ede939d599ef",
-          "label": "Item of the Summer",
-          "author": "deco.cx",
-          "description": "Lorem ipsum dolor sit amet consectetur. Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      },
+      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+      "whatsappNumber": 5511970671380
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "banners": [
+          {
+            "alt": "a",
+            "href": "a",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72"
+          },
+          {
+            "alt": "a",
+            "href": "a",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54"
+          }
+        ],
+        "borderRadius": {
+          "mobile": "3xl",
+          "desktop": "none"
         },
-        {
-          "alt": "Item of the Summer",
-          "date": "January 15, 2024",
-          "href": "/",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/7e80b083-d1ff-480d-b3a3-b744b69402b1",
-          "label": "Item of the Summer",
-          "author": "deco.cx",
-          "description": "Lorem ipsum dolor sit amet consectetur.  Condimentum dolor ultrices commodo et. Blandit vel est sodales tincidunt aliquam tincidunt. "
+        "itemsPerLine": {
+          "mobile": 2,
+          "desktop": 2
+        },
+        "__resolveType": "site/sections/Images/BannerGrid.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BEST SELLERS DO BRASIL!",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "desktop": 5
         }
-      ],
-      "subtitle": "A opinião de quem usa Troia Hair é essencial para nós! Confira as avaliações de nossos clientes e compartilhe sua experiência. Sua voz nos ajuda a melhorar sempre!",
-      "testimonials": [
-        {
-          "content": {
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
-            "alt": "imagem",
-            "name": "Cliente Troia Hair",
-            "description": "Eu amei já é a segunda vez que compro e não me arrependo ótimo produto cabelo tá 100% lisinho feito em casa e está durando de 3 a 4 meses podem compra sem medo eu trabalhei em um salão de cabeleireiro e lá conhece esse produto agora não vivo mais sem ele :)",
-            "date": "Avaliado em 04 de Junho de 2024",
-            "position": "Avaliação da Progressiva Organic"
+      },
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 10
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
           }
         },
-        {
-          "content": {
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
-            "description": "Ótimo custo benefício, bem embalado, entrega super rápida,  Chegou no mesmo dia  Vale a pena! Não me arrependi  Não pesa no cabelo",
-            "alt": "imagem",
-            "date": "Avaliado em 16 de Outubro de 2024",
-            "name": "Cliente Troia Haiar",
-            "position": "Avaliação do Leave-in Plena"
-          }
-        },
-        {
-          "content": {
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
-            "description": "Adoro essa linha da Tróia hair, shampoo e máscara são perfeitos, adoro o cheiro muito gostoso, o ativador de cachos é muito bom deixa bem definido, só achei o co wash menos refrescante dessa vez que comprei é o único que eu não uso com tanta frequência mais meu marido usa.. ",
-            "alt": "imagem",
-            "name": "Cliente Troia Hair",
-            "position": "Avaliação do Kit Cacheada",
-            "date": "Avaliado em 11 de Janeiro de 2024"
-          }
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      },
+      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+      "whatsappNumber": 5511970671380
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "BEST SELLERS DO BRASIL!",
+      "layout": {
+        "showArrows": false,
+        "numberOfSliders": {
+          "desktop": 5
         }
-      ]
+      },
+      "products": {
+        "crossSelling": "similars",
+        "__resolveType": "vnda/loaders/productList.ts",
+        "sort": "newest",
+        "tags": [],
+        "typeTags": [],
+        "ids": [],
+        "count": 10
+      },
+      "cardLayout": {
+        "layout": {
+          "hide": {
+            "allPrices": false,
+            "favoriteIcon": true,
+            "installments": false,
+            "productDescription": true
+          },
+          "basics": {
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Left"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image",
+            "showCta": true,
+            "showCardShadow": false,
+            "showSkuSelector": false,
+            "showFavoriteIcon": false
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+      },
+      "description": "Os mais procurados pelos nossos clientes",
+      "rating": {
+        "maxRating": 5
+      },
+      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+      "whatsappNumber": 5511970671380
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/BlogPosts.tsx",
+        "title": "NOSSOS CLIENTES RECOMENDAM A TRÓIA HAIR",
+        "subtitle": "A opinião de quem usa Troia Hair é essencial para nós! Confira as avaliações de nossos clientes e compartilhe sua experiência. Sua voz nos ajuda a melhorar sempre!",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 3,
+            "mobile": 1
+          },
+          "showArrows": true
+        },
+        "testimonials": [
+          {
+            "content": {
+              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+              "alt": "recomendações",
+              "name": "Cliente Troia Hair",
+              "position": "Avaliação da Progressiva Organic",
+              "description": "Eu amei já é a segunda vez que compro e não me arrependo ótimo produto cabelo tá 100% lisinho feito em casa e está durando de 3 a 4 meses podem compra sem medo eu trabalhei em um salão de cabeleireiro e lá conhece esse produto agora não vivo mais sem ele :)",
+              "date": "Avaliado em 04 de Junho de 2024"
+            }
+          },
+          {
+            "content": {
+              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+              "alt": "recomendações",
+              "name": "Cliente Troia Hair",
+              "position": "Avaliação da Progressiva Organic",
+              "description": "Eu amei já é a segunda vez que compro e não me arrependo ótimo produto cabelo tá 100% lisinho feito em casa e está durando de 3 a 4 meses podem compra sem medo eu trabalhei em um salão de cabeleireiro e lá conhece esse produto agora não vivo mais sem ele :)",
+              "date": "Avaliado em 04 de Junho de 2024"
+            }
+          },
+          {
+            "content": {
+              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+              "alt": "recomendações",
+              "name": "Cliente Troia Hair",
+              "position": "Avaliação da Progressiva Organic",
+              "description": "Eu amei já é a segunda vez que compro e não me arrependo ótimo produto cabelo tá 100% lisinho feito em casa e está durando de 3 a 4 meses podem compra sem medo eu trabalhei em um salão de cabeleireiro e lá conhece esse produto agora não vivo mais sem ele :)",
+              "date": "Avaliado em 04 de Junho de 2024"
+            }
+          }
+        ]
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

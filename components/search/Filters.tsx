@@ -26,8 +26,9 @@ function ValueItem({ url, selected, label, quantity }: FilterToggleValue) {
 }
 
 function FilterValues({ key, values }: FilterToggle) {
-  const flexDirection =
-    key === "tamanho" || key === "cor" ? "flex-row" : "flex-col";
+  const flexDirection = key === "tamanho" || key === "cor"
+    ? "flex-row"
+    : "flex-col";
 
   return (
     <ul class={`flex flex-wrap gap-2 ${flexDirection}`}>
@@ -65,7 +66,6 @@ function FilterValues({ key, values }: FilterToggle) {
 }
 
 function Filters({ filters }: Props) {
-
   return (
     <div>
       <ul class="flex flex-col gap-6 p-4">
@@ -76,7 +76,7 @@ function Filters({ filters }: Props) {
                 <span class="text-lg font-semibold text-primary">Marcas</span>
                 <FilterValues {...filter} />
               </li>
-            )
+            ),
         )}
       </ul>
       <ul class="flex flex-col gap-6 p-4">
@@ -89,7 +89,7 @@ function Filters({ filters }: Props) {
                 </span>
                 <FilterValues {...filter} />
               </li>
-            )
+            ),
         )}
       </ul>
     </div>

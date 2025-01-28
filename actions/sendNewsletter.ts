@@ -1,22 +1,18 @@
 import { AppContext } from "../apps/site.ts";
 
 interface Props {
-
   email: string;
-
 }
 
 export default async function action(
   props: Props,
   _req: Request,
-  _ctx: AppContext
+  _ctx: AppContext,
 ) {
   const serviceId = "service_3171aym";
   const templateId = "template_qvx224r";
   const publicKey = "wXuElPf2NB7DdV69z";
   const privateKey = "Iw7uNYXwk5V91CxeYo9hy";
-
-
 
   const emailData = {
     service_id: serviceId,
@@ -37,7 +33,7 @@ export default async function action(
           "Content-Type": "application/json",
         },
         body: JSON.stringify(emailData),
-      }
+      },
     );
 
     if (!response.ok) {

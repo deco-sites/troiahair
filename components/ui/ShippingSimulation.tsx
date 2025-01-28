@@ -87,7 +87,6 @@ function ShippingContent({ simulation }: {
 }
 
 function ShippingSimulation({ skuId }: Props) {
- 
   const postalCode = useSignal("");
   const loading = useSignal(false);
   const simulateResult = useSignal<ShippingResult | string | null>(null);

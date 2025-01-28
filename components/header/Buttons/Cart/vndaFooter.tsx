@@ -1,12 +1,9 @@
-
 import Button from "../../../../components/ui/Button.tsx";
 
 import { useUI } from "../../../../sdk/useUI.ts";
 
-
 function CartLink() {
   const { displayCart } = useUI();
-
 
   const onClick = () => {
     displayCart.value = true;

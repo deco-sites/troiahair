@@ -31,11 +31,10 @@ const IframeLoader = ({
     // Extrair o ID do vídeo:
     const videoId = videoLink.split("v=")[1].split("&")[0];
 
-
     // Criar o link embeddable:
     if (videoId) {
       const embedLink = `https://www.youtube.com/embed/${videoId}`;
-     
+
       return embedLink;
     } else {
       return "Vídeo não encontrado"; // Ou retorne um erro se o ID não for encontrado

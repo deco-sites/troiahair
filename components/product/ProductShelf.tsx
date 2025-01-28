@@ -37,8 +37,7 @@ function ProductShelf({
   layout,
   whatsappNumber,
   imageNotFound,
-}:
-  Props) {
+}: Props) {
   const id = useId();
   const platform = usePlatform();
 
@@ -87,7 +86,6 @@ function ProductShelf({
                     whatsappNumber={whatsappNumber}
                     imageNotFound={imageNotFound}
                   />
-            
                 </div>
               </Slider.Item>
             ))}

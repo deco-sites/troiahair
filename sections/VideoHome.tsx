@@ -45,13 +45,15 @@ export default function Section({
     <div class="w-screen lg:pt-[30px] lg:mb-2 px-4 mb-10">
       <div class="lg:w-[1300px] md:mx-auto flex flex-col md:gap-5 items-center justify-center ">
         <div class="flex gap-3 ">
-          {imageYoutube && <Image
-            src={imageYoutube}
-            alt="logo youtube"
-            width={100}
-            height={100}
-            class="object-cover lg:w-[80px] lg:h-[80px] w-[50px] h-[50px]"
-          />}
+          {imageYoutube && (
+            <Image
+              src={imageYoutube}
+              alt="logo youtube"
+              width={100}
+              height={100}
+              class="object-cover lg:w-[80px] lg:h-[80px] w-[50px] h-[50px]"
+            />
+          )}
           <div class=" mx-auto md:mx-0 flex flex-col items-center md:items-start">
             <h2 class="text-2xl font-semibold text-primary md:pb-4 md:pt-3  pb-3 text-center">
               {title}
@@ -69,7 +71,8 @@ export default function Section({
             frameborder="0"
             loading="lazy"
             allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          ></iframe>
+          >
+          </iframe>
         </div>
       </div>
     </div>
