@@ -151,7 +151,7 @@ function Categories({
 
   return (
     <div class="w-screen lg:w-full flex flex-col items-center">
-      <div class="max-w-[1300px]">
+      <div class="max-w-[1300px] ">
         <h2 class="text-2xl text-primary text-center font-bold uppercase pt-[37px] pb-[25px]">
           {title}
         </h2>
@@ -179,8 +179,8 @@ function Categories({
             </>
           )}
 
-          <div class="col-span-1">
-            <Slider class="lg:w-[1171px] carousel carousel-center  col-span-full row-span-full gap-[61px] overflow-x-auto w-screen px-3 lg-px-0">
+          <div class="col-span-1 custom-scroll">
+            <Slider class="lg:w-[1171px] carousel carousel-center  col-span-full row-span-full gap-[61px] w-screen px-3 lg-px-0 ">
               {categories?.map((slide, index) => (
                 <Slider.Item index={index} class="carousel-item">
                   <SliderItem slide={slide} id={`${id}::${index}`} />
