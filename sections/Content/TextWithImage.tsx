@@ -49,7 +49,7 @@ export default function Services({
               PLACEMENT[service.placement]
             } text-left items-center justify-center`}
           >
-            <div class="bg-base-200 lg:w-[483px] lg:h-[383px] lg:mr-[20px] rounded-[50px] w-[324px] h-[295px] ">
+            <div class="bg-base-200 lg:w-[483px] lg:h-[383px] lg:mr-[20px] rounded-[5px] w-[324px] h-[295px] ">
               <Image
                 class="w-full h-full object-cover p-2"
                 src={service.image}
