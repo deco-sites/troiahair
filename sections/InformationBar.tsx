@@ -56,7 +56,7 @@ export default function InformationBar({ content }: Props) {
                     decoding="async"
                     loading="lazy"
                   />
-                  <div class="w-[250px]">
+                  <div class="w-[250px] lg:w-[200px]">
                     <h5 class="font-bold text-[10px] text-white">{title}</h5>
                     <p class="font-normal text-[10px] text-white">{subtitle}</p>
                   </div>

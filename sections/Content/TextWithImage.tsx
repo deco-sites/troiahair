@@ -37,7 +37,7 @@ export default function Services({
       {services?.map((service, index) => (
         <div class="lg:w-[1300px] ">
           <div class="flex flex-col justify-center items-center sm-gap-6 sm:w-screen lg:w-[1300px] mx-auto gap-[21px] bg-primary  h-[163px] ">
-            <p class="text-accent text-2xl  font-bold">{service.label}</p>
+            <p class="text-accent  pt-6 lg:pt-0 text-2xl  font-bold">{service.label}</p>
             {service.type && (
               <p class="text-accent text-sm  font-[500]">{service.type}</p>
             )}
@@ -47,7 +47,7 @@ export default function Services({
             key={index}
             class={`flex first:pt-0 py-[33px]  ${
               PLACEMENT[service.placement]
-            } text-left items-center justify-center`}
+            } text-left items-center justify-center `}
           >
             <div class="bg-base-200 lg:w-[483px] lg:h-[383px] lg:mr-[20px] rounded-[5px] w-[324px] h-[295px] ">
               <Image
@@ -60,12 +60,11 @@ export default function Services({
                 height={383}
               />
             </div>
-            <div class="lg:w-[661px] text-primary text-xs  m-7 lg:mx-0">
+            <div class="lg:w-[661px] text-primary text-xs   m-7 lg:mx-0">
               <p
                 class="text-primary text-xs"
                 dangerouslySetInnerHTML={{ __html: service.description || "" }}
-              >
-              </p>
+              ></p>
             </div>
           </div>
         </div>
