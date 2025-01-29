@@ -16,12 +16,13 @@ export interface Props {
   products: Product[] | null;
   title?: string;
   description?: string;
+/** @hide */
   layout?: {
     // numberOfSliders?: {
     //   mobile?: 1 | 2 | 3 | 4 | 5;
     //   desktop?: 1 | 2 | 3 | 4 | 5;
     // };
-    showArrows?: boolean;
+    showArrows?: false;
   };
   // rating?: ratingProps;
   whatsappNumber: number;
@@ -92,7 +93,7 @@ function ProductShelf({
           </div>
         </Slider>
 
-        {layout?.showArrows && (
+        {/* {layout?.showArrows && (
           <div class="flex justify-between ">
             <div class="relative block z-10">
               <Slider.PrevButton class="absolute w-12 h-12 flex justify-center items-center text-primary">
@@ -105,7 +106,7 @@ function ProductShelf({
               </Slider.NextButton>
             </div>
           </div>
-        )}
+        )} */}
         <Slider.JS rootId={id} />
         <SendEventOnView
           id={id}

@@ -185,7 +185,7 @@
           "mobile": 3,
           "desktop": 7
         },
-        "showArrows": true
+        "showArrows": false
       },
       "title": "Nossas Categorias"
     },
@@ -215,7 +215,7 @@
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
       "layout": {
-        "showArrows": true,
+        "showArrows": false,
         "numberOfSliders": {
           "desktop": 5
         }
@@ -298,7 +298,7 @@
       "__resolveType": "site/sections/Categories.tsx",
       "title": "Nossas Marcas",
       "layout": {
-        "showArrows": true,
+        "showArrows": false,
         "numberOfCategories": {
           "mobile": 3,
           "desktop": 7
