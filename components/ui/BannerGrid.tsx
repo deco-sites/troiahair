@@ -141,10 +141,10 @@ export default function BannnerGrid(props: Props) {
           >
             <Picture>
               <Source
-                media="max-width: 767px h-264"
+                media="max-width: 400px"
                 src={srcMobile}
-                width={383}
-                height={264}
+                width={400}
+                height={161}
               />
               <Source
                 media="(min-width: 768px)"
@@ -153,7 +153,7 @@ export default function BannnerGrid(props: Props) {
                 height={398}
               />
               <img
-                class=" object-cover max-w-[563px] max-h-[398px]"
+                class=" object-contain lg:max-w-[563px] w-full h-auto"
                 sizes="(max-width: 640px) 100vw, 30vw"
                 src={srcMobile}
                 alt={alt}
