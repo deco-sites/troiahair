@@ -24,7 +24,7 @@ export default function Slide({
             {Array(repeat)
               .fill(0)
               .map(() => (
-                <div class="flex justify-center items-center bg-primary gap-5 h-[56px]">
+                <div class="flex justify-center items-center bg-primary gap-5 h-[60px]">
                   <Image
                     width={41}
                     class=""
@@ -33,7 +33,7 @@ export default function Slide({
                     decoding="async"
                     loading="lazy"
                   />
-                  <div class="w-[200px] mr-20">
+                  <div class="w-[250px] mr-20">
                     <h5 class="font-bold text-[10px] text-white">{title}</h5>
                     <p class="font-normal text-[10px] text-white">{subtitle}</p>
                   </div>
@@ -45,7 +45,7 @@ export default function Slide({
     },
   );
   return (
-    <div class="bg-primary relative w-full overflow-hidden h-[56px]">
+    <div class="bg-primary relative w-full overflow-hidden h-[60px]">
       <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-11">
         {slideContent}
       </div>
