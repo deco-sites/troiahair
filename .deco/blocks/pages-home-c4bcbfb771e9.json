@@ -35,7 +35,8 @@
         },
         {
           "desktop": "https://data.decoassets.com/troiahair/712e57cc-9d1f-41a2-9594-761621387847/PLENA-DESKTOP.png",
-          "mobile": "https://data.decoassets.com/troiahair/c622dcd0-cb3a-49b6-b7ee-f9dd8d8704f1/PLENA-MOBILE.png"
+          "mobile": "https://data.decoassets.com/troiahair/c622dcd0-cb3a-49b6-b7ee-f9dd8d8704f1/PLENA-MOBILE.png",
+          "alt": "Plena Verão"
         }
       ],
       "preload": true,
@@ -229,7 +230,7 @@
         "typeTags": [],
         "ids": [],
         "wildcard": false,
-        "count": 7
+        "count": 10
       },
       "cardLayout": {
         "layout": {
@@ -273,14 +274,14 @@
           {
             "alt": "a",
             "href": "a",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72",
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/0ba803e2-d60e-4d7b-8bc3-659550d2ff72"
+            "srcMobile": "https://data.decoassets.com/troiahair/d12a4695-550e-455f-bdaa-e1c8e02a8d0f/MATIZADORES-MOBILE-MEIO.png",
+            "srcDesktop": "https://data.decoassets.com/troiahair/4af7b803-1f34-4712-b813-2231de3d2fb6/MATIZADORES-DESKTOP-MEIO.png"
           },
           {
             "alt": "a",
             "href": "a",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54",
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/7d8fdb6a-88ff-46f6-937f-b8424c9fdb54"
+            "srcMobile": "https://data.decoassets.com/troiahair/7a421890-3b6a-414b-8113-b29f9a2e7b66/OX-MOBILE-MEIO.png",
+            "srcDesktop": "https://data.decoassets.com/troiahair/feca2833-e430-4865-bb10-ee9ab6d9ee44/OX-DESKTOP-MEIO.png"
           }
         ],
         "borderRadius": {
