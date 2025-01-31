@@ -194,7 +194,7 @@
       "__resolveType": "site/sections/SquareBanners.tsx",
       "bannerList": [
         {
-          "href": "/",
+          "href": "https://www.troiahair.com.br/produto/ox-06-volumes-agua-oxigenada-emulsao-oxidante-90ml-troia-hair-640?skuId=tec3.128",
           "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/a27293fe-a448-4b25-8028-a837d13318c5/mini-banner-1999.jpg"
         },
         {
@@ -203,7 +203,7 @@
         },
         {
           "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/58c2b79c-3713-42b5-8377-1c1f542756fc/mini-banner-MOFA.jpg",
-          "href": "/"
+          "href": "https://www.troiahair.com.br/s?q=mofajang"
         },
         {
           "label": "New",
