@@ -186,7 +186,7 @@
           "mobile": 3,
           "desktop": 7
         },
-        "showArrows": false
+        "showArrows": true
       },
       "title": "Nossas Categorias"
     },
@@ -368,7 +368,7 @@
     },
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "BEST SELLERS DO BRASIL!",
+      "title": "OS MAIS VENDIDOS !",
       "layout": {
         "showArrows": false,
         "numberOfSliders": {
@@ -411,7 +411,7 @@
         },
         "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
       },
-      "description": "Os mais procurados pelos nossos clientes",
+      "description": "Os queridinhos dos nossos clientes",
       "rating": {
         "maxRating": 5
       },
@@ -425,7 +425,6 @@
     },
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "BEST SELLERS DO BRASIL!",
       "layout": {
         "showArrows": false,
         "numberOfSliders": {
@@ -468,12 +467,13 @@
         },
         "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
       },
-      "description": "Os mais procurados pelos nossos clientes",
       "rating": {
         "maxRating": 5
       },
       "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
-      "whatsappNumber": 5511970671380
+      "whatsappNumber": 5511970671380,
+      "title": "Cabelos Coloridos",
+      "description": "Seu cabelo com aquela cor que combina com você"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
