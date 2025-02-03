@@ -8,7 +8,8 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/BrandTopImage.tsx"
+        "__resolveType": "site/sections/BrandTopImage.tsx",
+        "image": "https://data.decoassets.com/troiahair/0ac55aca-c439-4e0b-aeab-1b4eeb144434/Prancheta-1REVENDEDOR.png"
       }
     },
     {
