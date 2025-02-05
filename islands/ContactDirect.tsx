@@ -142,7 +142,7 @@ const ContactUs = () => {
           />
         </label>
         <label for="pixInput">
-          <p class="font-bold text-[10px] pt-[30px]">Pix</p>
+          <p class="font-bold text-[10px] pt-[30px]">*Pix</p>
           <input
             type="text"
             id="pixInput"
