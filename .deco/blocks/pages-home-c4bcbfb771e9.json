@@ -9,7 +9,7 @@
     {
       "__resolveType": "site/sections/Images/Carousel.tsx",
       "dots": false,
-      "arrows": true,
+      "arrows": false,
       "images": [
         {
           "alt": "Black Friday",
@@ -43,7 +43,7 @@
         }
       ],
       "preload": true,
-      "interval": 6
+      "interval": 5
     },
     {
       "__resolveType": "site/sections/InformationBar.tsx",
@@ -385,7 +385,9 @@
         "crossSelling": "similars",
         "__resolveType": "vnda/loaders/productList.ts",
         "sort": "newest",
-        "tags": [],
+        "tags": [
+          "Hidratação"
+        ],
         "typeTags": [],
         "ids": [],
         "count": 10
@@ -441,7 +443,9 @@
         "crossSelling": "similars",
         "__resolveType": "vnda/loaders/productList.ts",
         "sort": "newest",
-        "tags": [],
+        "tags": [
+          "hidratação"
+        ],
         "typeTags": [],
         "ids": [],
         "count": 10
