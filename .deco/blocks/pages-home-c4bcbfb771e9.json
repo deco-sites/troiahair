@@ -36,7 +36,10 @@
         {
           "desktop": "https://data.decoassets.com/troiahair/9bd93b95-d6ec-42c3-8d92-9b46a3eef1ac/PLENA-DESKTOP-principal2.png",
           "mobile": "https://data.decoassets.com/troiahair/c7cec0a4-328c-4b0d-b125-22d7ddcc1d8c/PLENA-MOBILE-principal2.png",
-          "alt": "Plena Verão"
+          "alt": "Plena Verão",
+          "action": {
+            "href": "https://www.troiahair.com.br/produto/protetor-termico-leave-in-plena-verao-70g-troia-hair-523?skuId=PLENA70"
+          }
         }
       ],
       "preload": true,
