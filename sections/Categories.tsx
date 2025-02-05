@@ -166,7 +166,7 @@ function Categories({
         >
           {layout?.showArrows && (
             <>
-              <div class="hidden col-start-1 lg:flex justify-center">
+              <div class="col-start-1 lg:flex justify-center">
                 <Slider.PrevButton class="w-12 h-12 flex justify-center items-center">
                   <Icon
                     size={24}
@@ -180,7 +180,7 @@ function Categories({
           )}
 
           <div class="col-span-1 custom-scroll">
-            <Slider class="lg:w-[1171px] carousel carousel-center  col-span-full row-span-full gap-[61px] w-screen px-3 lg-px-0 ">
+            <Slider class="lg:w-[1171px] carousel carousel-center  col-span-full row-span-full gap-[61px] w-full px-3 lg-px-0 ">
               {categories?.map((slide, index) => (
                 <Slider.Item index={index} class="carousel-item">
                   <SliderItem slide={slide} id={`${id}::${index}`} />
@@ -192,7 +192,7 @@ function Categories({
 
           {layout?.showArrows && (
             <>
-              <div class="hidden col-start-3 lg:flex justify-center">
+              <div class="col-start-3 lg:flex justify-center">
                 <Slider.NextButton class="w-12 h-12 flex justify-center items-center text-primary">
                   <Icon size={24} id="ChevronRight" strokeWidth={3} />
                 </Slider.NextButton>
