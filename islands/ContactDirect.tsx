@@ -1,6 +1,6 @@
 import { useRef, useState } from "preact/hooks";
 import { invoke } from "../runtime.ts";
-import { Secret } from "apps/website/loaders/secret.ts";
+// import { Secret } from "apps/website/loaders/secret.ts";
 
 // interface EmailJSProps {
 //   serviceId: string;
@@ -15,31 +15,34 @@ const ContactUs = () => {
 
   const validateForm = () => {
     const nomeInput = formRef.current?.querySelector(
-      "#nomeInput",
+      "#nomeInput"
     ) as HTMLInputElement;
     const emailInput = formRef.current?.querySelector(
-      "#emailInput",
+      "#emailInput"
     ) as HTMLInputElement;
     const assuntoInput = formRef.current?.querySelector(
-      "#assuntoInput",
+      "#assuntoInput"
     ) as HTMLInputElement;
     const mensagemInput = formRef.current?.querySelector(
-      "#mensagemInput",
+      "#mensagemInput"
     ) as HTMLTextAreaElement;
+    const pixInput = formRef.current?.querySelector(
+      "#pixInput"
+    ) as HTMLInputElement;
 
     const nome = nomeInput.value.trim().length > 2;
     const email = emailInput.value.trim();
     const assunto = assuntoInput.value.trim().length > 2;
     const mensagem = mensagemInput.value?.trim().length > 3;
+    const pix = pixInput.value.trim().length > 2;
 
     // Adicione mais validações conforme necessário
     const isEmailValid =
-      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/
-        .test(
-          email,
-        );
+      /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/.test(
+        email
+      );
 
-    setIsFormValid(nome && assunto && isEmailValid && mensagem);
+    setIsFormValid(nome && assunto && isEmailValid && mensagem && pix);
   };
 
   const sendEmail = async (e: Event) => {
@@ -47,27 +50,32 @@ const ContactUs = () => {
 
     if (formRef.current) {
       const nomeInput = formRef.current.querySelector(
-        "#nomeInput",
+        "#nomeInput"
       ) as HTMLInputElement;
       const nome = nomeInput.value;
 
       const emailInput = formRef.current.querySelector(
-        "#emailInput",
+        "#emailInput"
       ) as HTMLInputElement;
       const email = emailInput.value;
 
       const telefoneInput = formRef.current.querySelector(
-        "#telefoneInput",
+        "#telefoneInput"
       ) as HTMLInputElement;
       const telefone = telefoneInput.value;
 
+      const pixInput = formRef.current.querySelector(
+        "#pixInput"
+      ) as HTMLInputElement;
+      const pix = pixInput.value;
+
       const assuntoInput = formRef.current.querySelector(
-        "#assuntoInput",
+        "#assuntoInput"
       ) as HTMLInputElement;
       const assunto = assuntoInput.value;
 
       const mensagemInput = formRef.current.querySelector(
-        "#mensagemInput",
+        "#mensagemInput"
       ) as HTMLTextAreaElement;
       const mensagem = mensagemInput.value?.trim() || "";
 
@@ -79,6 +87,7 @@ const ContactUs = () => {
             nome,
             email,
             telefone,
+            pix,
             assunto,
             mensagem,
           },
@@ -88,7 +97,7 @@ const ContactUs = () => {
       } else {
         // Exibe uma mensagem de erro ou alerta ao usuário
         console.error(
-          "Por favor, preencha todos os campos obrigatórios corretamente.",
+          "Por favor, preencha todos os campos obrigatórios corretamente."
         );
       }
     }
@@ -129,6 +138,14 @@ const ContactUs = () => {
           <input
             type="text"
             id="telefoneInput"
+            class="md:w-[468px] w-[333px] h-5 border border-base-200 text-[12px] focus:border-primary pl-2"
+          />
+        </label>
+        <label for="pixInput">
+          <p class="font-bold text-[10px] pt-[30px]">Pix</p>
+          <input
+            type="text"
+            id="pixInput"
             class="md:w-[468px] w-[333px] h-5 border border-base-200 text-[12px] focus:border-primary pl-2"
           />
         </label>
