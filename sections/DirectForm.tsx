@@ -14,7 +14,7 @@ interface Props {
   /** @title Titulo do download do App */
   titleDownloadApp: string;
   /** @title Mensagem dos botões de download do App */
-  downloadSubtitle: string;
+  downloadSubtitle?: string;
 }
 
 export default function DirectForm({
@@ -22,35 +22,41 @@ export default function DirectForm({
   alt,
   title,
   message,
-  titleDownloadApp,
-  downloadSubtitle,
+  titleDownloadApp= "Baixe o App",
+  downloadSubtitle= "Venha trabalhar com a gente!",
 }: Props) {
   return (
-    <div class="flex  md:w-[1200px] justify-between mx-auto md:mt-[66px] mt-[50px] mb-[49px] flex-col ">
-      <div class="flex mx-auto gap-10">
-        <a
-          href="https://play.google.com/store/apps/details?id=com.vnda.direct"
-          target="_blank"
-        >
-          <img
-            src="https://data.decoassets.com/troiahair/c0ece3fa-2df3-4306-9d5d-aca253cf0938/app-android.png"
-            alt="app-android"
-            class="w-32 h-auto "
-          />
-        </a>
-        <a
-          href="https://apps.apple.com/br/app/vnda-direct/id1557929203"
-          target="_blank"
-        >
-          <img
-            src="https://data.decoassets.com/troiahair/8e5a751a-3a9a-4281-8ec3-0c93ecd9fe8b/app-Apple.png"
-            alt="app-apple"
-            class="w-32 h-auto "
-          />
-        </a>
+    <div class="flex  md:w-[1200px] justify-between mx-auto mt-[20px] mb-[49px] flex-col ">
+      <div class="flex mx-auto gap-3 mb-[60px] flex-col justify-center items-center">
+        <h3 class="text-2xl font-semibold text-primary">{titleDownloadApp}</h3>
+        <p class="text-[14px]">{downloadSubtitle}</p>
+        <div class="flex mx-auto gap-10 mt-2">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.vnda.direct"
+            target="_blank"
+          >
+            <img
+              src="https://data.decoassets.com/troiahair/c0ece3fa-2df3-4306-9d5d-aca253cf0938/app-android.png"
+              alt="app-android"
+              class="w-32 h-auto "
+            />
+          </a>
+          <a
+            href="https://apps.apple.com/br/app/vnda-direct/id1557929203"
+            target="_blank"
+          >
+            <img
+              src="https://data.decoassets.com/troiahair/8e5a751a-3a9a-4281-8ec3-0c93ecd9fe8b/app-Apple.png"
+              alt="app-apple"
+              class="w-32 h-auto "
+            />
+          </a>
+        </div>
       </div>
       <div class="flex flex-col items-start md:mt-0 mt-[52px]  mx-auto">
-        <p class="md:text-base text-[11px]">Formulário de Contato</p>
+        <p class="md:text-lg text-[14px] font-semibold">
+          Formulário de Cadastro
+        </p>
 
         <p class="md:text-[12px] text-[9px] mt-[6px] ">
           Campos marcados com asterisco são de preenchimento obrigatório.
