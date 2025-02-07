@@ -48,10 +48,10 @@ function Menu({ items }: Props) {
         <li>
           <a
             class="flex items-center gap-4 px-4 py-2"
-            href="/wishlist"
+            href="https://www.troiahair.com.br/seja-um-revendedor"
           >
             <Icon id="Heart" size={24} strokeWidth={2} />
-            <span class="text-sm">Lista de desejos</span>
+            <span class="text-sm">Seja um revendedor</span>
           </a>
         </li>
         <li>
