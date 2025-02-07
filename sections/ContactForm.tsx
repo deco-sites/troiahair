@@ -1,6 +1,6 @@
 import { HTMLWidget } from "apps/admin/widgets.ts";
 import ContactUs from "../islands/ContactUs.tsx";
-import { Secret } from "apps/website/loaders/secret.ts";
+import type { ImageWidget } from "apps/admin/widgets.ts";
 
 // interface EmailJSProps {
 //   serviceId: string;
@@ -27,6 +27,10 @@ interface Props {
   maps: HTMLWidget;
   // sendEmailProps: EmailJSProps;
   //key: Secret;
+  modalImg: ImageWidget;
+  alt: string;
+  titleModal: string;
+  message: string;
 }
 
 export default function ContactForm({
@@ -44,16 +48,18 @@ export default function ContactForm({
   textBox5,
   titleGoogleMaps,
   maps,
+  modalImg,
+  alt,
+  titleModal,
+  message,
 }: Props) {
   return (
     <div class="md:max-w-[1300px] flex flex-col items-center mx-auto text-primary">
       <div class=" bg-accent md:h-[186px] h-[157px] w-full flex flex-col items-center justify-center">
         <h3 class="uppercase font-bold md:text-2xl text-base">{title}</h3>
         <div className="relative h-[1px] bg-primary rounded-full  md:w-[538px] mt-[29px] w-[342px]">
-          <div className="absolute top-0 -translate-y-1/2  left-0 w-2 h-2 rounded-full bg-primary">
-          </div>
-          <div className="absolute top-0 -translate-y-1/2  right-0 w-2 h-2 rounded-full bg-primary">
-          </div>
+          <div className="absolute top-0 -translate-y-1/2  left-0 w-2 h-2 rounded-full bg-primary"></div>
+          <div className="absolute top-0 -translate-y-1/2  right-0 w-2 h-2 rounded-full bg-primary"></div>
         </div>
         <p class="md:text-[12px] text-[8px] pt-4">{subtitle}</p>
       </div>
@@ -67,7 +73,12 @@ export default function ContactForm({
           <p class="md:text-[12px] text-[9px] mt-[6px] ">
             Campos marcados com asterisco são de preenchimento obrigatório.
           </p>
-          <ContactUs />
+          <ContactUs
+            modalImg={modalImg}
+            alt={alt}
+            title={titleModal}
+            message={message}
+          />
         </div>
 
         <div class="flex flex-col items-center md:w-[567px] w-screen">

@@ -20,7 +20,11 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/DirectForm.tsx"
+        "__resolveType": "site/sections/DirectForm.tsx",
+        "modalImg": "https://data.decoassets.com/troiahair/9d8c33f7-2059-4c15-9f1d-9b6e21829e37/COLORS-DESKTOP-MEIO.png",
+        "alt": "modal",
+        "title": "Obrigada pelo cadastro!",
+        "message": "Aguarde que nossos agentes irão finalizar o seu cadastro, sua redefinição de senha chegará no seu e-mail!"
       }
     },
     {

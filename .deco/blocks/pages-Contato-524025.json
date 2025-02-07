@@ -30,7 +30,11 @@
           "encrypted": "80fb836138a4bfd2f05dda1215aac6303eaa4a2fe70bd9752a74458be8db60d3",
           "name": "emailJS"
         }
-      }
+      },
+      "modalImg": "https://data.decoassets.com/troiahair/9d8c33f7-2059-4c15-9f1d-9b6e21829e37/COLORS-DESKTOP-MEIO.png",
+      "alt": "form send",
+      "titleModal": "Muito Obrigada!",
+      "message": "Em breve entraremos em contato!"
     },
     {
       "__resolveType": "Footer - 05"
