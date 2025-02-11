@@ -22,8 +22,8 @@ export default function DirectForm({
   alt,
   title,
   message,
-  titleDownloadApp= "Baixe o App",
-  downloadSubtitle= "Venha trabalhar com a gente!",
+  titleDownloadApp = "Baixe o App",
+  downloadSubtitle = "Venha trabalhar com a gente!",
 }: Props) {
   return (
     <div class="flex  md:w-[1200px] justify-between mx-auto mt-[20px] mb-[49px] flex-col ">

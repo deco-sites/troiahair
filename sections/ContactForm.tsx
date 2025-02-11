@@ -58,8 +58,10 @@ export default function ContactForm({
       <div class=" bg-accent md:h-[186px] h-[157px] w-full flex flex-col items-center justify-center">
         <h3 class="uppercase font-bold md:text-2xl text-base">{title}</h3>
         <div className="relative h-[1px] bg-primary rounded-full  md:w-[538px] mt-[29px] w-[342px]">
-          <div className="absolute top-0 -translate-y-1/2  left-0 w-2 h-2 rounded-full bg-primary"></div>
-          <div className="absolute top-0 -translate-y-1/2  right-0 w-2 h-2 rounded-full bg-primary"></div>
+          <div className="absolute top-0 -translate-y-1/2  left-0 w-2 h-2 rounded-full bg-primary">
+          </div>
+          <div className="absolute top-0 -translate-y-1/2  right-0 w-2 h-2 rounded-full bg-primary">
+          </div>
         </div>
         <p class="md:text-[12px] text-[8px] pt-4">{subtitle}</p>
       </div>

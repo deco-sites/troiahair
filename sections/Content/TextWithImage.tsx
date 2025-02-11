@@ -37,7 +37,9 @@ export default function Services({
       {services?.map((service, index) => (
         <div class="lg:w-[1300px] ">
           <div class="flex flex-col justify-center items-center sm-gap-6 sm:w-screen lg:w-[1300px] mx-auto gap-[21px] bg-primary  h-[163px] ">
-            <p class="text-accent  pt-6 lg:pt-0 text-2xl  font-bold">{service.label}</p>
+            <p class="text-accent  pt-6 lg:pt-0 text-2xl  font-bold">
+              {service.label}
+            </p>
             {service.type && (
               <p class="text-accent text-sm  font-[500]">{service.type}</p>
             )}
@@ -64,7 +66,8 @@ export default function Services({
               <p
                 class="text-primary text-xs"
                 dangerouslySetInnerHTML={{ __html: service.description || "" }}
-              ></p>
+              >
+              </p>
             </div>
           </div>
         </div>

@@ -558,7 +558,7 @@
     },
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "BEST SELLERS DO BRASIL!",
+      "title": "Troia Colors",
       "layout": {
         "showArrows": false,
         "numberOfSliders": {
@@ -570,7 +570,7 @@
         "__resolveType": "vnda/loaders/productList.ts",
         "sort": "newest",
         "tags": [
-          null
+          "coloracao"
         ],
         "typeTags": [],
         "ids": [],
@@ -603,7 +603,7 @@
         },
         "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
       },
-      "description": "Os mais procurados pelos nossos clientes",
+      "description": "Colorações intensas",
       "rating": {
         "maxRating": 5
       },
