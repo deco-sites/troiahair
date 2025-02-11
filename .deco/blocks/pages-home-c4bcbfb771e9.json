@@ -403,17 +403,6 @@
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/01449260-964e-49e5-976b-9cf6acf822b4/Design-sem-nome-(3).png",
-          "alt": "logo de 4 men elfa",
-          "href": "/marcas/elfa-4-men"
-        },
-        {
-          "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
-            "categorieName": "categorie01",
-            "alt": "teste",
-            "href": "/"
-          },
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/a2e79f7c-69f3-4d72-a6ff-8c97190f63a0/Design-sem-nome-(2).png",
           "alt": "Logo de lisorganic",
           "href": "/marcas/lisorganic"
