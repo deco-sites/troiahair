@@ -95,17 +95,17 @@ const DEFAULT_PROPS: Props = {
       alt: "a",
       href: "a",
       srcMobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/82727553-f670-4e7c-b9c2-9452aed1955f",
+        "https://decoims.com/troiahair/aeb81535-944b-442f-af01-c9e902306a60/f2033f011d1e64c6.jpg",
       srcDesktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/7b3a9d75-57a5-43cf-a3c5-f689a997f24e",
+        "https://decoims.com/troiahair/0b549907-fc30-4bb2-97a2-c35f23e0cae2/1c059717e8f34f42.jpg",
     },
     {
       alt: "a",
       href: "a",
       srcMobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/c5c6bdf6-5555-488c-8b14-719e4158dea6",
+        "https://decoims.com/troiahair/7c2ada4a-99e8-4d48-9217-7fe5a5727710/eff3c3bfc5ada040.jpg",
       srcDesktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3e2b7824-d75c-4704-8d32-621bfc9b20cf",
+        "https://decoims.com/troiahair/3466f165-8481-4cdd-ab7b-b270c41d77e2/6a52ba3304762f4a.jpg",
     },
   ],
   borderRadius: {

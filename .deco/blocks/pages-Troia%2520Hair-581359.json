@@ -19,7 +19,7 @@
             "bannersType": "Grande",
             "banners": [
               {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
+                "image": "https://decoims.com/troiahair/3bdce6f3-5669-4e21-bbe4-4fc4d2ea60d7/65ae56cb707ac520.png",
                 "alt": "teste"
               }
             ]
@@ -41,7 +41,7 @@
               "title": "Lorem ipsum",
               "description": "lorem ipsum emet",
               "whatsappNumber": 3,
-              "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
+              "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg"
             }
           },
           {
@@ -68,7 +68,7 @@
               "title": "Lorem ipsum",
               "description": "lorem ipsum emet",
               "whatsappNumber": 3,
-              "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
+              "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg"
             }
           },
           {
@@ -77,7 +77,7 @@
             "bannersType": "Grande",
             "banners": [
               {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/41cc28bf-70a4-4557-a883-cdb4949b1d35",
+                "image": "https://decoims.com/troiahair/3bdce6f3-5669-4e21-bbe4-4fc4d2ea60d7/65ae56cb707ac520.png",
                 "alt": "teste"
               }
             ]
@@ -106,7 +106,7 @@
           },
           {
             "__resolveType": "site/sections/BrandTopImage.tsx",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/93159794-1ffe-4d62-819d-c62c74278331",
+            "image": "https://decoims.com/troiahair/48db4b6f-a95a-44e3-a816-f23509989156/8a7f51fbf0c1bbc0.png",
             "alt": "teste"
           },
           {
@@ -127,13 +127,13 @@
                   "showArrows": true
                 },
                 "title": "Marca: Loren ipsum",
-                "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+                "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
               "title": "Tróia Hair",
               "whatsappNumber": 0,
-              "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+              "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
@@ -144,7 +144,7 @@
                 "ids": [],
                 "count": 10
               },
-              "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
+              "brandBanner": "https://decoims.com/troiahair/fadbec9e-0775-4bf4-8992-f662a461dc57/46e2ee23044a425c.png",
               "description": "Troia Hair é uma marca que se destaca no mercado de cuidados capilares por oferecer produtos de alta performance, desenvolvidos para transformar e revitalizar os cabelos. Combinando inovação tecnológica e ingredientes de qualidade, Troia Hair proporciona soluções completas para hidratação, nutrição, reparação e estilização dos fios."
             }
           },
@@ -166,13 +166,13 @@
                   "showArrows": true
                 },
                 "title": "Marca: Loren ipsum",
-                "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+                "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
               "title": "Lançamentos",
               "whatsappNumber": 0,
-              "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+              "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
@@ -183,7 +183,7 @@
                 "ids": [],
                 "count": 10
               },
-              "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
+              "brandBanner": "https://decoims.com/troiahair/fadbec9e-0775-4bf4-8992-f662a461dc57/46e2ee23044a425c.png",
               "description": "Veja todos os lançamentos da marca"
             }
           },
@@ -205,13 +205,13 @@
                   "showArrows": true
                 },
                 "title": "Marca: Loren ipsum",
-                "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+                "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
                 "whatsappNumber": 0
               },
               "alt": "Banner categoria",
               "title": "Mais vendidos",
               "whatsappNumber": 0,
-              "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+              "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
               "products": {
                 "__resolveType": "vnda/loaders/productList.ts",
                 "sort": "newest",
@@ -222,7 +222,7 @@
                 "ids": [],
                 "count": 10
               },
-              "brandBanner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/79c2ee4c-405a-4a38-8280-0d7a74c629f3/categorieBanner.png",
+              "brandBanner": "https://decoims.com/troiahair/fadbec9e-0775-4bf4-8992-f662a461dc57/46e2ee23044a425c.png",
               "description": "Veja os mais vendidos da marca"
             }
           },

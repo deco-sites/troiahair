@@ -38,7 +38,7 @@ const DEFAULT_PROPS: Props = {
       subtitleNews: "XXXXXXXXXXXXXXX",
       image: {
         src:
-          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/63ac083e-899f-4874-bd10-5eee034dd255",
+          "https://decoims.com/troiahair/96e582ea-f4b7-4706-9793-c9e1c1a6875f/b46bbc5b6a70b14b.png",
         alt: "",
       },
       video: "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
@@ -50,7 +50,7 @@ const DEFAULT_PROPS: Props = {
       subtitleNews: "XXXXXXXXXXXXXXX",
       image: {
         src:
-          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/63ac083e-899f-4874-bd10-5eee034dd255",
+          "https://decoims.com/troiahair/96e582ea-f4b7-4706-9793-c9e1c1a6875f/b46bbc5b6a70b14b.png",
         alt: "",
       },
       video: "https://www.youtube.com/watch?v=mi-4LRHh8rQ",
@@ -62,7 +62,7 @@ const DEFAULT_PROPS: Props = {
       subtitleNews: "XXXXXXXXXXXXXXX",
       image: {
         src:
-          "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/63ac083e-899f-4874-bd10-5eee034dd255",
+          "https://decoims.com/troiahair/96e582ea-f4b7-4706-9793-c9e1c1a6875f/b46bbc5b6a70b14b.png",
         alt: "",
       },
       video: "https://www.youtube.com/watch?v=mi-4LRHh8rQ",

@@ -120,7 +120,7 @@ function ShippingSimulation({ skuId }: Props) {
             class="  object-cover w-[34px] h-[34px]"
             width={34}
             height={34}
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/94e4ca94-224f-4f7e-962f-a97d6ef16c00"
+            src="https://decoims.com/troiahair/146955bc-feeb-4209-a212-819db60a9e7b/e9ccf6f824d519d3.svg"
             alt="icone de um caminhão de entrega"
           />
           <span class="font-semibold text-primary text-xs uppercase">

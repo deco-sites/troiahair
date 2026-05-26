@@ -408,7 +408,7 @@ function Footer({
                   loading="lazy"
                   width="77"
                   height="24"
-                  src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/a2ca2da9-c6b7-430a-9948-b80b58a5a1a5"
+                  src="https://decoims.com/troiahair/d8b68e40-24a9-4848-b085-d06832c75c44/4c73980a95adfe29.svg"
                   alt="tec3 logo"
                 />
               </a>

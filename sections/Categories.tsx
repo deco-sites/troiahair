@@ -50,63 +50,63 @@ function Categories({
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },
     {
       categorieName: "Product",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+        "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
       alt: "Avatar",
       href: "/",
     },

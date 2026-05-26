@@ -90,11 +90,11 @@ export const layoutClasses = {
 
 export const imgPh = {
   "sq":
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/ff6bb37e-0eab-40e1-a454-86856efc278e",
+    "https://decoims.com/troiahair/4f056b04-bba9-4a2e-bd37-77eba716da48/331b997080873d67.png",
   "rct-sm":
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/b0f8ca2d-9c83-48f7-88de-1a6e6d1e9eb7",
+    "https://decoims.com/troiahair/98aba0f1-61fe-4aee-977f-d92b7d7613f0/956fd212ebb6246d.png",
   "rct-lg":
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1818/6fe9404a-f69c-472a-b521-78f6c1f87326",
+    "https://decoims.com/troiahair/fdddfa99-bd62-4efb-a14a-41d26ee0b2c3/de2e97d647a7a1af.png",
 };
 
 export const colorClasses = {

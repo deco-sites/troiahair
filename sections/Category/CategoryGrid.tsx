@@ -37,28 +37,28 @@ const DEFAULT_LIST = [
   {
     href: "/category",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
+      "https://decoims.com/troiahair/1e366dd2-8665-4ef4-bbfd-b7f0317cf1fb/582958b887e90f47.png",
     label: "category",
     buttonText: "Explore collection",
   },
   {
     href: "/category",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
+      "https://decoims.com/troiahair/1e366dd2-8665-4ef4-bbfd-b7f0317cf1fb/582958b887e90f47.png",
     label: "category",
     buttonText: "Explore collection",
   },
   {
     href: "/category",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
+      "https://decoims.com/troiahair/1e366dd2-8665-4ef4-bbfd-b7f0317cf1fb/582958b887e90f47.png",
     label: "category",
     buttonText: "Explore collection",
   },
   {
     href: "/category",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
+      "https://decoims.com/troiahair/1e366dd2-8665-4ef4-bbfd-b7f0317cf1fb/582958b887e90f47.png",
     label: "category",
     buttonText: "Explore collection",
   },

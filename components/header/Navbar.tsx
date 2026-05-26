@@ -72,7 +72,7 @@ function Navbar({
             <div class="font-normal btn btn-accent btn-outline border border-primary rounded-full p-0 m-0 w-[43px] h-[43px] min-h-0">
               <Image
                 class="rounded-lg"
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/fb00010a-a586-4ede-ba77-653171becd82"
+                src="https://decoims.com/troiahair/2815ad82-634d-4f25-80cc-1b9af610d744/c6788611f4f00f53.svg"
                 width={28}
                 height={38}
                 alt={"Account icon"}
@@ -173,7 +173,7 @@ function Navbar({
               <div class="font-normal btn btn-accent btn-outline border border-primary rounded-full p-0 m-0 w-[43px] h-[43px] min-h-0">
                 <Image
                   class="rounded-lg"
-                  src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/fb00010a-a586-4ede-ba77-653171becd82"
+                  src="https://decoims.com/troiahair/2815ad82-634d-4f25-80cc-1b9af610d744/c6788611f4f00f53.svg"
                   width={28}
                   height={38}
                   alt={""}

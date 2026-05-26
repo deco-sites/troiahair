@@ -26,9 +26,9 @@ interface Props {
 
 export default function LongBanner({
   mobile =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af",
+    "https://decoims.com/troiahair/d2466a2b-fa4e-4a8e-a65d-d7da1d2e8b84/7ee0ee2e45e2e5d4.png",
   desktop =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96",
+    "https://decoims.com/troiahair/2bf2be31-e283-4d45-895f-6767887920df/2cf8c9a31c6df315.png",
   alt = "a",
   title = "",
   subtitle = "",
