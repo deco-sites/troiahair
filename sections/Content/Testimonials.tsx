@@ -37,7 +37,7 @@ const DEFAULT_PROPS: Props = {
       "Fashion Store is my go-to online destination for all things stylish. Their vast collection of trendy clothes and accessories never disappoints. The quality is exceptional, and the prices are affordable. The website is easy to navigate, and their customer service team is friendly and responsive. I always feel like a fashionista when I shop here!",
     "image": {
       "src":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/e0fcbcae-0a21-4269-9605-7ef8708e58ad",
+        "https://decoims.com/troiahair/b83a16fa-986e-4323-b5e2-7e782cecddbf/32f7e4272afd5fe3.svg",
       "alt": "Testimonal",
     },
     "user": {
@@ -51,7 +51,7 @@ const DEFAULT_PROPS: Props = {
       "I can't praise Fashion Store enough! Their commitment to staying ahead of the fashion curve is evident in their diverse and up-to-date inventory. Whether I need a casual outfit or a glamorous dress, they have it all. The shopping experience is seamless, and my orders always arrive promptly. Fashion Store is a true fashion lover's paradise!",
     "image": {
       "src":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/e0fcbcae-0a21-4269-9605-7ef8708e58ad",
+        "https://decoims.com/troiahair/b83a16fa-986e-4323-b5e2-7e782cecddbf/32f7e4272afd5fe3.svg",
       "alt": "Testimonal",
     },
     "user": {
@@ -65,7 +65,7 @@ const DEFAULT_PROPS: Props = {
       "Fashion Store has transformed my wardrobe. Their curated collection of clothing and accessories has helped me discover my personal style. The quality of their products is outstanding, and the prices are unbeatable. The website is visually appealing and easy to navigate. Fashion Store is my trusted companion for staying fashionable and feeling confident!",
     "image": {
       "src":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/e0fcbcae-0a21-4269-9605-7ef8708e58ad",
+        "https://decoims.com/troiahair/b83a16fa-986e-4323-b5e2-7e782cecddbf/32f7e4272afd5fe3.svg",
       "alt": "Testimonal",
     },
     "user": {

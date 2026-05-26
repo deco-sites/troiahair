@@ -30,8 +30,8 @@
             "subTitle": "Visit our site and start building now:",
             "href": "#"
           },
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/cca52152-1a81-4553-aa31-e5e4d5716fc3/grande.webp",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/cdcca459-63e7-42b6-b35c-e273b14570e1/frete-caroussel-mobile.png"
+          "desktop": "https://decoims.com/troiahair/57793cd1-e64b-4a54-89d0-571cc7e5272f/2450aabed70dd433.webp",
+          "mobile": "https://decoims.com/troiahair/b10e7237-87ae-4a3d-a337-e54cd8a28a8a/f17c176eefcedbe1.png"
         },
         {
           "desktop": "https://data.decoassets.com/troiahair/9bd93b95-d6ec-42c3-8d92-9b46a3eef1ac/PLENA-DESKTOP-principal2.png",
@@ -49,22 +49,22 @@
       "__resolveType": "site/sections/InformationBar.tsx",
       "informationBar": [
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "icon": "https://decoims.com/troiahair/26cc35ac-041e-4aa0-9bef-dc33061f40bb/dbf9c88f7d63fe39.png",
           "title": "Frete Grátis",
           "subtitle": "Em compras acima de R$200,00"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "icon": "https://decoims.com/troiahair/26cc35ac-041e-4aa0-9bef-dc33061f40bb/dbf9c88f7d63fe39.png",
           "title": "Frete Grátis",
           "subtitle": "Em compras acima de R$200,00"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "icon": "https://decoims.com/troiahair/26cc35ac-041e-4aa0-9bef-dc33061f40bb/dbf9c88f7d63fe39.png",
           "title": "Frete Grátis",
           "subtitle": "Em compras acima de R$200,00"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/83e70d67-5beb-43fd-b41e-79d55c24efc7",
+          "icon": "https://decoims.com/troiahair/26cc35ac-041e-4aa0-9bef-dc33061f40bb/dbf9c88f7d63fe39.png",
           "title": "Frete Grátis",
           "subtitle": "Em compras acima de R$200,00"
         }
@@ -101,12 +101,12 @@
       "categories": [
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/e5b24108-c0b1-48f9-8969-8ca0b74106e0/BTXPROGR.webp",
+          "image": "https://decoims.com/troiahair/870c2c51-5c93-4e8c-8819-386564f728dd/2004bc37e6e65ee0.webp",
           "categorieName": "Progressivas e Btx",
           "alt": "a",
           "href": "/progressiva"
@@ -115,70 +115,70 @@
           "categorieName": "Hidratação",
           "href": "/hidratacao",
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/b8c41537-91c8-4878-8a67-033ab14e32d1/HIDRETEITION.webp",
+          "image": "https://decoims.com/troiahair/41d9ca03-710d-4e03-81d2-217b43a4ee64/806ca4502f612a86.webp",
           "alt": "a"
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/7b8935bf-638c-4d6b-938d-625af22c3dc6/PISTOLA-NANO.webp",
+          "image": "https://decoims.com/troiahair/57b0a8d9-29bd-4c02-9921-6381524c857e/740fd751a0745ea8.webp",
           "categorieName": "Tratamentos",
           "alt": "a",
           "href": "/tratamento"
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/952779f8-17c7-465a-b870-3b20cf4d0c47/DETX.webp",
+          "image": "https://decoims.com/troiahair/48b048ef-88c9-4839-93cd-3937bffe3717/eb20dfa7b415ee63.webp",
           "categorieName": "Kits Poderosos",
           "alt": "a",
           "href": "/kits"
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c8db0b78-8e38-4f24-8f79-1ce4d6fefdbb/COLOOOO.webp",
+          "image": "https://decoims.com/troiahair/6cdb94d0-646d-462a-b8b6-d3c8da7c62ed/06cf4a419bcb943f.webp",
           "categorieName": "Troia Colors",
           "alt": "a",
           "href": "/coloracao-pigmentante-troia-colors"
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/db4b41b9-ed0a-4613-9211-d0307ff30867/GELLLS.webp",
+          "image": "https://decoims.com/troiahair/13e6c851-b319-411f-b9a9-82c670241bb9/6053440f3994b073.webp",
           "categorieName": "Ceras e Géis",
           "alt": "a",
           "href": "/ceras-e-geis"
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/db4b41b9-ed0a-4613-9211-d0307ff30867/GELLLS.webp",
+          "image": "https://decoims.com/troiahair/13e6c851-b319-411f-b9a9-82c670241bb9/6053440f3994b073.webp",
           "categorieName": "Linha Masculina",
           "alt": "a",
           "href": "/produto-masculino"
@@ -198,19 +198,19 @@
       "bannerList": [
         {
           "href": "https://www.troiahair.com.br/produto/ox-06-volumes-agua-oxigenada-emulsao-oxidante-90ml-troia-hair-640?skuId=tec3.128",
-          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/a27293fe-a448-4b25-8028-a837d13318c5/mini-banner-1999.jpg"
+          "banner": "https://decoims.com/troiahair/c1b6a5bd-ac5c-4c5b-86c1-49e89ed31c22/f140f2604611c94e.jpg"
         },
         {
           "href": "/",
-          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/2988acb7-779b-4427-a670-130fac138d48/50DESCONTO.jpg"
+          "banner": "https://decoims.com/troiahair/86e3ac8b-2b0b-4e8d-940b-013e9a92d3d3/7272b38a506ebbb3.jpg"
         },
         {
-          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/58c2b79c-3713-42b5-8377-1c1f542756fc/mini-banner-MOFA.jpg",
+          "banner": "https://decoims.com/troiahair/4fefeac9-fac8-4129-886e-379fde8f07af/e1600cad0e384893.jpg",
           "href": "https://www.troiahair.com.br/s?q=mofajang"
         },
         {
           "label": "New",
-          "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/4d4f4a06-4268-40c5-8d15-ded1a8c5ad7b/pistola-k6.jpg",
+          "banner": "https://decoims.com/troiahair/f43444d8-6cf8-4005-89ea-c653d0c2ef69/24f126bb5ff66406.jpg",
           "href": "/"
         }
       ],
@@ -268,7 +268,7 @@
         "maxRating": 5
       },
       "whatsappNumber": 5511982332048,
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
+      "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -350,7 +350,7 @@
         "maxRating": 5
       },
       "whatsappNumber": 5511970671376,
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg"
+      "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg"
     },
     {
       "__resolveType": "site/sections/Categories.tsx",
@@ -365,7 +365,7 @@
       "categories": [
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
@@ -376,29 +376,29 @@
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
           "alt": "Logo da marca Raiz Line Profissional",
           "href": "/marcas/raiz-line",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/761aa118-9509-45f3-a54e-e03a9f8c61d8/RaizLine-LogoNovo1.png"
+          "image": "https://decoims.com/troiahair/24540805-9a55-4989-83b3-774ec36b4e48/1b87e784f7127cf3.png"
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
           },
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/d93c228b-c60e-4867-a775-dbde6a975c85/troia-hair-logopb.svg",
+          "image": "https://decoims.com/troiahair/cf9a3252-a138-4df8-b1bc-473a492e94f3/0ec8f44047d5bb20.svg",
           "alt": "Logo troia hair",
           "href": "/marcas/troia-hair"
         },
         {
           "content": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/4f1e6f28-09e1-4fff-b33a-56495902beec",
+            "image": "https://decoims.com/troiahair/7b7e6e1f-0696-4c26-9010-c3ebb087d717/aac43ce833bea47e.png",
             "categorieName": "categorie01",
             "alt": "teste",
             "href": "/"
@@ -466,7 +466,7 @@
       "rating": {
         "maxRating": 5
       },
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+      "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
       "whatsappNumber": 5511982332048
     },
     {
@@ -523,7 +523,7 @@
       "rating": {
         "maxRating": 5
       },
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+      "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
       "whatsappNumber": 5511982332048,
       "title": "Cabelos Coloridos",
       "description": "Seu cabelo com aquela cor que combina com você"
@@ -607,7 +607,7 @@
       "rating": {
         "maxRating": 5
       },
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+      "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
       "whatsappNumber": 5511982332048
     },
     {
@@ -661,7 +661,7 @@
       "rating": {
         "maxRating": 5
       },
-      "imageNotFound": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/17957bb5-9937-4e0f-8c98-46904859d62f/maxresdefault.jpg",
+      "imageNotFound": "https://decoims.com/troiahair/9a4a1325-5bed-42b9-be5a-ab0b7591dfda/5f697bbea73056de.jpg",
       "whatsappNumber": 5511982332048
     },
     {
@@ -680,7 +680,7 @@
         "testimonials": [
           {
             "content": {
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+              "avatar": "https://decoims.com/troiahair/8985a296-ef9b-49aa-9c1a-42bace009ab7/ae177113273a5b32.png",
               "alt": "recomendações",
               "name": "Cliente Troia Hair",
               "position": "Avaliação da Progressiva Organic",
@@ -690,7 +690,7 @@
           },
           {
             "content": {
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+              "avatar": "https://decoims.com/troiahair/8985a296-ef9b-49aa-9c1a-42bace009ab7/ae177113273a5b32.png",
               "alt": "recomendações",
               "name": "Cliente Troia Hair",
               "position": "Avaliação da Progressiva Organic",
@@ -700,7 +700,7 @@
           },
           {
             "content": {
-              "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/ec007756-0282-47ae-98cb-3506f64837f5/Prancheta-1star.png",
+              "avatar": "https://decoims.com/troiahair/8985a296-ef9b-49aa-9c1a-42bace009ab7/ae177113273a5b32.png",
               "alt": "recomendações",
               "name": "Cliente Troia Hair",
               "position": "Avaliação da Progressiva Organic",
@@ -718,7 +718,7 @@
         "videoyt": "https://www.youtube.com/watch?v=xnmROx3siBE",
         "title": "Conheça mais da Troia",
         "subtile": "Uma empresa de Excelência e qualidade que exalta a beleza das mulheres",
-        "imageYoutube": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/6a80ec74-0a0d-42f3-9fbd-e45a32db3cec/logoYT.png"
+        "imageYoutube": "https://decoims.com/troiahair/116c6ec3-2971-45f3-9951-92be8ba9b2e5/3cb90191beb4a8f1.png"
       }
     },
     {

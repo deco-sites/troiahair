@@ -80,9 +80,9 @@ const DEFAULT_PROPS: Props = {
   "banners": [
     {
       "srcMobile":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/b531631b-8523-4feb-ac37-5112873abad2",
+        "https://decoims.com/troiahair/c16b0824-44a8-4007-9a50-a3cc6b078dbb/b00140565292e994.jpg",
       "srcDesktop":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/b531631b-8523-4feb-ac37-5112873abad2",
+        "https://decoims.com/troiahair/c16b0824-44a8-4007-9a50-a3cc6b078dbb/b00140565292e994.jpg",
       "alt": "Fashion",
       "href": "/",
     },
@@ -90,23 +90,23 @@ const DEFAULT_PROPS: Props = {
       "alt": "Fashion",
       "href": "/",
       "srcMobile":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1125d938-89ff-4aae-a354-63d4241394a6",
+        "https://decoims.com/troiahair/434146ef-c30e-4e89-b2f8-473bd6c15f3a/5a74f902da0bc031.jpg",
       "srcDesktop":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1125d938-89ff-4aae-a354-63d4241394a6",
+        "https://decoims.com/troiahair/434146ef-c30e-4e89-b2f8-473bd6c15f3a/5a74f902da0bc031.jpg",
     },
     {
       "srcMobile":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/dd1e2acb-ff80-49f9-8f56-1deac3b7a42d",
+        "https://decoims.com/troiahair/970b3be2-54fe-44d7-817a-1ef188950831/22f0a68a97a32230.jpg",
       "srcDesktop":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/dd1e2acb-ff80-49f9-8f56-1deac3b7a42d",
+        "https://decoims.com/troiahair/970b3be2-54fe-44d7-817a-1ef188950831/22f0a68a97a32230.jpg",
       "href": "/",
       "alt": "Fashion",
     },
     {
       "srcMobile":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/0b85ba2d-48b1-4f5b-b619-7f4a7f50b455",
+        "https://decoims.com/troiahair/d257d350-ba15-4950-9e8e-6b204331804d/aa22385caef90351.jpg",
       "srcDesktop":
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/0b85ba2d-48b1-4f5b-b619-7f4a7f50b455",
+        "https://decoims.com/troiahair/d257d350-ba15-4950-9e8e-6b204331804d/aa22385caef90351.jpg",
       "alt": "Fashion",
       "href": "/",
     },

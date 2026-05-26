@@ -21,12 +21,12 @@ const IMAGES = [
   {
     altText: "deco",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/fe7cd8ba-c954-45d6-9282-ee7d8ca8e3c7",
+      "https://decoims.com/troiahair/af6cca92-1d76-48f2-8f4a-71a72bce45e3/ed85e01cae30b934.svg",
   },
   {
     altText: "deco",
     image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/637e8601-6b86-4979-aa97-68013a2a60fd",
+      "https://decoims.com/troiahair/a0866822-7c92-4e3d-b1dc-727c77452f9c/7b89d6ef10a9ba1e.svg",
   },
 ];
 

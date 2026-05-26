@@ -124,7 +124,7 @@ function Header({ alerts, interval, searchbar, linksTopBar = [
         href: "/",
     },
 ], discountButton = {
-    image: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/737c6d84-d81f-4d10-8d4a-ac4dde84e2b0",
+    image: "https://decoims.com/troiahair/177b597e-667f-4308-a9be-42c622056fb1/13bc79d74280c187.svg",
     text: "Promoções Imperdíveis",
     href: "/",
 }, navItems = [
@@ -149,7 +149,7 @@ function Header({ alerts, interval, searchbar, linksTopBar = [
         url: "/",
     },
 ], logo = {
-    src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/986b61d4-3847-4867-93c8-b550cb459cc7",
+    src: "https://decoims.com/troiahair/44e26961-dc5e-4c8f-b61a-1f000e542afc/197e4233bad41948.png",
     width: 100,
     height: 16,
     alt: "Logo",
@@ -169,13 +169,13 @@ function Header({ alerts, interval, searchbar, linksTopBar = [
       </header>
       <div>
         {tiktokUrl && (<a href={tiktokUrl} target="_blank" class="fixed bottom-[148px] right-3 lg:right-6 z-40">
-            <Image src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/f75f0327-a78a-4aef-a764-49ca631f3225/tiktok-logo.png" alt="whatsapp icon" width={58} height={58} loading="lazy"/>
+            <Image src="https://decoims.com/troiahair/723d92b9-e896-4627-aed0-663d653bdff5/daf75b1440d7e371.png" alt="whatsapp icon" width={58} height={58} loading="lazy"/>
           </a>)}
         {instagramUrl && (<a href={instagramUrl} target="_blank" class="fixed bottom-[82px] right-3 lg:right-6 z-40">
-            <Image src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/1e7c55bc-c494-4194-b402-0538bbe32aab/instagram-logo.png" alt="whatsapp icon" width={58} height={58} loading="lazy"/>
+            <Image src="https://decoims.com/troiahair/39b2b537-fc75-4386-8a2f-0190513ca503/cb88ddac54abd71f.png" alt="whatsapp icon" width={58} height={58} loading="lazy"/>
           </a>)}
         <a href={`https://api.whatsapp.com/send?phone=${whatsappNumber}`} target="_blank" class="fixed bottom-4 right-3 lg:right-6 z-40">
-          <Image src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1e07fe4f-c0f8-48d5-a1e1-977df17a6f0e" alt="whatsapp icon" width={60} height={60} loading="lazy"/>
+          <Image src="https://decoims.com/troiahair/6579fe52-14f8-449c-be19-6d0d56ef115d/af71eedece20da58.png" alt="whatsapp icon" width={60} height={60} loading="lazy"/>
         </a>
       </div>
     </>);

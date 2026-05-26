@@ -68,9 +68,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/troiahair/6517770b-5ff3-4cf3-82c2-845f0430771d/6356544eabd1367d.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/troiahair/186e429b-b291-432e-89ad-84adef372cb4/2301980ebc20d1fc.png",
     },
     {
       alt: "/feminino",
@@ -81,9 +81,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/troiahair/6517770b-5ff3-4cf3-82c2-845f0430771d/6356544eabd1367d.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/troiahair/186e429b-b291-432e-89ad-84adef372cb4/2301980ebc20d1fc.png",
     },
     {
       alt: "/feminino",
@@ -94,9 +94,9 @@ const DEFAULT_PROPS = {
         href: "/",
       },
       mobile:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
+        "https://decoims.com/troiahair/6517770b-5ff3-4cf3-82c2-845f0430771d/6356544eabd1367d.png",
       desktop:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5",
+        "https://decoims.com/troiahair/186e429b-b291-432e-89ad-84adef372cb4/2301980ebc20d1fc.png",
     },
   ],
   preload: true,

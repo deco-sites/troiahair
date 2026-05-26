@@ -25,7 +25,7 @@ export default function Whatsapp({
         class="fixed bottom-6 right-6 z-40"
       >
         <Image
-          src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/1e07fe4f-c0f8-48d5-a1e1-977df17a6f0e"
+          src="https://decoims.com/troiahair/6579fe52-14f8-449c-be19-6d0d56ef115d/af71eedece20da58.png"
           alt="whatsapp icon"
           width={60}
           height={60}

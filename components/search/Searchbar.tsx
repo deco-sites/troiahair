@@ -78,7 +78,7 @@ function Searchbar({ placeholder = "What are you looking for?", action = "/s", n
         <Button type="submit" class="join-item h-4 min-h-0 bg-base-100 border-none lg:py-0 py-[6px]" aria-label="Search" for={id} tabIndex={-1}>
           {loading.value
             ? <span class="loading loading-spinner loading-xs"/>
-            : (<Image class="rounded-lg h-[18px] w-[18px] lg:h-[14px] lg:w-[14px]" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c0639430-1b5d-4abd-b233-ea19da14efe2/search-icon.png" width={18} height={18} alt={""}/>)}
+            : (<Image class="rounded-lg h-[18px] w-[18px] lg:h-[14px] lg:w-[14px]" src="https://decoims.com/troiahair/c34643a4-9cac-4467-a194-f480a1cfc8ba/1f4d577d707b9231.png" width={18} height={18} alt={""}/>)}
         </Button>
       </form>
 
@@ -91,7 +91,7 @@ function Searchbar({ placeholder = "What are you looking for?", action = "/s", n
             <ul id="search-suggestion" class="flex flex-col gap-6">
               {searches.map(({ term }) => (<li>
                   <a href={`/s?q=${term}`} class="flex gap-4 items-center">
-                    <Image class="rounded-lg" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/troiahair/c0639430-1b5d-4abd-b233-ea19da14efe2/search-icon.png" width={18} height={18} alt={""}/>
+                    <Image class="rounded-lg" src="https://decoims.com/troiahair/c34643a4-9cac-4467-a194-f480a1cfc8ba/1f4d577d707b9231.png" width={18} height={18} alt={""}/>
                     <span dangerouslySetInnerHTML={{ __html: term }}/>
                   </a>
                 </li>))}

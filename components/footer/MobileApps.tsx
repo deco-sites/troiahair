@@ -15,7 +15,7 @@ export default function MobileApps(
                 loading="lazy"
                 width="100"
                 height="30"
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/d2ac9bb9-db63-4cad-a374-b3b9a2017335"
+                src="https://decoims.com/troiahair/53540b3e-bba9-40f0-9beb-f41a9d16dfe5/9a46f2c99e20a534.png"
                 alt="Download on the App Store"
               />
             </a>
@@ -30,7 +30,7 @@ export default function MobileApps(
                 loading="lazy"
                 width="100"
                 height="30"
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/bd2bcc17-be34-4b25-a1cc-71a3fb5db668"
+                src="https://decoims.com/troiahair/aa598f1e-b4f9-4637-97af-03d0b520bf44/d674728eea9d6d95.png"
                 alt="Get it on Google Play"
               />
             </a>

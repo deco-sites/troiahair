@@ -108,7 +108,7 @@ function ProductInfo({ page, layout }: Props) {
               <Image
                 key={index}
                 alt="icone de estrela para avaliar o produto"
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/691a294e-1d0b-4195-b3b9-21a46c9b3214"
+                src="https://decoims.com/troiahair/25ee6909-644a-440d-b09f-3d4f25733380/1a088f3fb4e38b9b.svg"
                 width={18}
                 height={18}
               />

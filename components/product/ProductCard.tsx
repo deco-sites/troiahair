@@ -101,7 +101,7 @@ function ProductCard({
             >
               <Image
                 alt="icone de whatsapp"
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/588fa64d-c23a-43a5-a77e-c4be6d748e74"
+                src="https://decoims.com/troiahair/4e9d47c5-187b-4878-9a15-85934670eed4/88d57970a3a35326.svg"
                 width={20}
                 height={20}
                 class="hover:scale-125"

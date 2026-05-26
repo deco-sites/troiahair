@@ -93,7 +93,7 @@ function CartItem(
           })}
         >
           <Image
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10800/de60b5ed-5e62-4ab6-bd44-369b483f382b"
+            src="https://decoims.com/troiahair/576baca1-d899-4802-98a7-8d97438e477c/1b0b7bc6c0a2f3a3.svg"
             width={16}
             height={24}
             class="h-full object-contain "
